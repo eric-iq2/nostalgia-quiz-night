@@ -1,0 +1,732 @@
+/**
+ * Quiz Night Browser-Based Slideshow
+ * Main application logic
+ */
+
+// ===== Application State =====
+const state = {
+    config: null,
+    slides: [],
+    currentSlideIndex: 0,
+    currentQuestionTimer: null,
+    countdownVideoElement: null,
+    isCountdownPlaying: false,
+    hasUserInteracted: false,
+    controlBarTimeout: null
+};
+
+// ===== DOM Elements =====
+const elements = {
+    slideRoot: null,
+    countdownOverlay: null,
+    countdownVideo: null,
+    controlBar: null,
+    prevBtn: null,
+    nextBtn: null,
+    fullscreenBtn: null,
+    slideCounter: null,
+    errorDisplay: null
+};
+
+// ===== Initialization =====
+document.addEventListener('DOMContentLoaded', async () => {
+    // Cache DOM elements
+    elements.slideRoot = document.getElementById('slide-root');
+    elements.countdownOverlay = document.getElementById('countdown-overlay');
+    elements.countdownVideo = document.getElementById('countdown-video');
+    elements.controlBar = document.getElementById('control-bar');
+    elements.prevBtn = document.getElementById('prev-btn');
+    elements.nextBtn = document.getElementById('next-btn');
+    elements.fullscreenBtn = document.getElementById('fullscreen-btn');
+    elements.slideCounter = document.getElementById('slide-counter');
+    elements.errorDisplay = document.getElementById('error-display');
+
+    // Set up event listeners
+    setupEventListeners();
+
+    // Load configuration
+    await loadConfig();
+
+    // Render first slide
+    if (state.slides.length > 0) {
+        renderCurrentSlide();
+    }
+});
+
+// ===== Configuration Loading =====
+async function loadConfig() {
+    try {
+        // Try to load quiz-config.json first
+        let response = await fetch('quiz-config.json');
+
+        if (!response.ok) {
+            console.warn('quiz-config.json not found, falling back to example');
+            response = await fetch('quiz-config.example.json');
+        }
+
+        if (!response.ok) {
+            throw new Error('Could not load quiz configuration file');
+        }
+
+        state.config = await response.json();
+        state.slides = state.config.slides || [];
+
+        // Apply theme settings
+        applyTheme();
+
+        console.log(`Loaded ${state.slides.length} slides`);
+    } catch (error) {
+        showError(`Failed to load quiz configuration: ${error.message}`);
+        console.error('Config loading error:', error);
+    }
+}
+
+// ===== Theme Application =====
+function applyTheme() {
+    if (!state.config || !state.config.settings || !state.config.settings.theme) {
+        return;
+    }
+
+    const theme = state.config.settings.theme;
+    const root = document.documentElement;
+
+    if (theme.backgroundColor) {
+        document.body.style.backgroundColor = theme.backgroundColor;
+    }
+    if (theme.textColor) {
+        document.body.style.color = theme.textColor;
+    }
+    if (theme.accentColor) {
+        root.style.setProperty('--accent-color', theme.accentColor);
+    }
+    if (theme.fontFamily) {
+        document.body.style.fontFamily = theme.fontFamily;
+    }
+}
+
+// ===== Event Listeners Setup =====
+function setupEventListeners() {
+    // Keyboard controls
+    document.addEventListener('keydown', handleKeyPress);
+
+    // Control bar buttons
+    elements.prevBtn.addEventListener('click', goToPreviousSlide);
+    elements.nextBtn.addEventListener('click', goToNextSlide);
+    elements.fullscreenBtn.addEventListener('click', toggleFullscreen);
+
+    // Mouse movement for control bar
+    document.addEventListener('mousemove', showControlBar);
+
+    // Track user interaction for autoplay compliance
+    document.addEventListener('click', () => { state.hasUserInteracted = true; });
+    document.addEventListener('keydown', () => { state.hasUserInteracted = true; });
+
+    // Fullscreen change events
+    document.addEventListener('fullscreenchange', updateFullscreenButton);
+}
+
+// ===== Keyboard Handler =====
+function handleKeyPress(event) {
+    switch (event.key) {
+        case 'ArrowRight':
+        case ' ':
+            event.preventDefault();
+            goToNextSlide();
+            break;
+        case 'ArrowLeft':
+            event.preventDefault();
+            goToPreviousSlide();
+            break;
+        case 'f':
+        case 'F':
+            event.preventDefault();
+            toggleFullscreen();
+            break;
+        case 's':
+        case 'S':
+            event.preventDefault();
+            skipToCountdown();
+            break;
+        case 'r':
+        case 'R':
+            event.preventDefault();
+            restartQuestionTimer();
+            break;
+    }
+}
+
+// ===== Navigation Functions =====
+function goToNextSlide() {
+    if (state.currentSlideIndex < state.slides.length - 1) {
+        state.currentSlideIndex++;
+        renderCurrentSlide();
+    }
+}
+
+function goToPreviousSlide() {
+    if (state.currentSlideIndex > 0) {
+        state.currentSlideIndex--;
+        renderCurrentSlide();
+    }
+}
+
+function skipToCountdown() {
+    const currentSlide = state.slides[state.currentSlideIndex];
+    if (isQuestionSlide(currentSlide)) {
+        clearQuestionTimer();
+        startCountdownVideoThenAdvance();
+    }
+}
+
+function restartQuestionTimer() {
+    const currentSlide = state.slides[state.currentSlideIndex];
+    if (isQuestionSlide(currentSlide) && !state.isCountdownPlaying) {
+        clearQuestionTimer();
+        startQuestionTimer(currentSlide);
+    }
+}
+
+// ===== Slide Rendering =====
+function renderCurrentSlide() {
+    // Clear any existing timers and countdown
+    clearQuestionTimer();
+    hideCountdownVideo();
+
+    // Update slide counter
+    updateSlideCounter();
+
+    const slide = state.slides[state.currentSlideIndex];
+
+    if (!slide) {
+        showError('No slide to render');
+        return;
+    }
+
+    // Clear existing content
+    elements.slideRoot.innerHTML = '';
+
+    // Render based on slide type
+    switch (slide.type) {
+        case 'welcome':
+            renderWelcome(slide);
+            break;
+        case 'round-intro':
+            renderRoundIntro(slide);
+            break;
+        case 'question-mcq':
+            renderQuestionMcq(slide);
+            break;
+        case 'question-free-text':
+            renderQuestionFreeText(slide);
+            break;
+        case 'question-video':
+            renderQuestionVideo(slide);
+            break;
+        case 'question-audio':
+            renderQuestionAudio(slide);
+            break;
+        case 'answer':
+            renderAnswer(slide);
+            break;
+        case 'leaderboard':
+            renderLeaderboard(slide);
+            break;
+        case 'info':
+            renderInfo(slide);
+            break;
+        case 'thank-you':
+            renderThankYou(slide);
+            break;
+        default:
+            showError(`Unknown slide type: ${slide.type}`);
+    }
+}
+
+// ===== Slide Type Renderers =====
+
+function renderWelcome(slide) {
+    const container = createSlideContainer('welcome-slide');
+
+    if (slide.logoImage) {
+        const logo = createImage(slide.logoImage, 'logo-image');
+        container.appendChild(logo);
+    }
+
+    if (slide.title) {
+        const title = createElement('h1', 'slide-title', slide.title);
+        container.appendChild(title);
+    }
+
+    if (slide.subtitle) {
+        const subtitle = createElement('p', 'slide-subtitle', slide.subtitle);
+        container.appendChild(subtitle);
+    }
+
+    elements.slideRoot.appendChild(container);
+}
+
+function renderRoundIntro(slide) {
+    const container = createSlideContainer('round-intro-slide');
+
+    if (slide.title) {
+        const title = createElement('h1', 'slide-title', slide.title);
+        container.appendChild(title);
+    }
+
+    if (slide.subtitle) {
+        const subtitle = createElement('p', 'slide-subtitle', slide.subtitle);
+        container.appendChild(subtitle);
+    }
+
+    elements.slideRoot.appendChild(container);
+}
+
+function renderQuestionMcq(slide) {
+    const container = createSlideContainer('question-slide question-mcq');
+
+    // Question header (e.g., "Question 1")
+    const header = createElement('div', 'question-header',
+        `Question ${slide.questionNumber || ''}`);
+    container.appendChild(header);
+
+    // Question text
+    const questionText = createElement('div', 'question-text', slide.questionText);
+    container.appendChild(questionText);
+
+    // Optional image
+    if (slide.image) {
+        const img = createImage(slide.image, 'question-image');
+        container.appendChild(img);
+    }
+
+    // MCQ options
+    const optionsContainer = createElement('div', 'mcq-options');
+    const labels = ['A', 'B', 'C', 'D'];
+
+    slide.options.forEach((option, index) => {
+        const optionDiv = createElement('div', 'mcq-option');
+        const label = createElement('span', 'mcq-option-label', labels[index]);
+        const text = createElement('span', 'mcq-option-text', option);
+        optionDiv.appendChild(label);
+        optionDiv.appendChild(text);
+        optionsContainer.appendChild(optionDiv);
+    });
+
+    container.appendChild(optionsContainer);
+    elements.slideRoot.appendChild(container);
+
+    // Start question timer
+    startQuestionTimer(slide);
+}
+
+function renderQuestionFreeText(slide) {
+    const container = createSlideContainer('question-slide question-free-text');
+
+    const header = createElement('div', 'question-header',
+        `Question ${slide.questionNumber || ''}`);
+    container.appendChild(header);
+
+    const questionText = createElement('div', 'question-text', slide.questionText);
+    container.appendChild(questionText);
+
+    if (slide.image) {
+        const img = createImage(slide.image, 'question-image');
+        container.appendChild(img);
+    }
+
+    elements.slideRoot.appendChild(container);
+
+    // Start question timer
+    startQuestionTimer(slide);
+}
+
+function renderQuestionVideo(slide) {
+    const container = createSlideContainer('question-slide question-video');
+
+    const header = createElement('div', 'question-header',
+        `Question ${slide.questionNumber || ''}`);
+    container.appendChild(header);
+
+    const questionText = createElement('div', 'question-text', slide.questionText);
+    container.appendChild(questionText);
+
+    // Video element
+    const video = document.createElement('video');
+    video.className = 'question-video';
+    video.controls = true;
+    video.src = slide.videoSrc;
+
+    if (slide.loop) {
+        video.loop = true;
+    }
+
+    video.addEventListener('error', () => {
+        const warning = createElement('div', 'media-warning',
+            `Could not load video: ${slide.videoSrc}`);
+        container.appendChild(warning);
+    });
+
+    // Autoplay if allowed and user has interacted
+    if (slide.autoplay && state.hasUserInteracted) {
+        video.play().catch(err => {
+            console.warn('Autoplay failed:', err);
+        });
+    }
+
+    container.appendChild(video);
+    elements.slideRoot.appendChild(container);
+
+    // Start question timer
+    startQuestionTimer(slide);
+}
+
+function renderQuestionAudio(slide) {
+    const container = createSlideContainer('question-slide question-audio');
+
+    const header = createElement('div', 'question-header',
+        `Question ${slide.questionNumber || ''}`);
+    container.appendChild(header);
+
+    const questionText = createElement('div', 'question-text', slide.questionText);
+    container.appendChild(questionText);
+
+    // Audio player container
+    const audioContainer = createElement('div', 'audio-player');
+    const audio = document.createElement('audio');
+    audio.controls = true;
+    audio.src = slide.audioSrc;
+
+    audio.addEventListener('error', () => {
+        const warning = createElement('div', 'media-warning',
+            `Could not load audio: ${slide.audioSrc}`);
+        audioContainer.appendChild(warning);
+    });
+
+    // Autoplay if allowed and user has interacted
+    if (slide.autoplay && state.hasUserInteracted) {
+        audio.play().catch(err => {
+            console.warn('Autoplay failed:', err);
+        });
+    }
+
+    audioContainer.appendChild(audio);
+    container.appendChild(audioContainer);
+    elements.slideRoot.appendChild(container);
+
+    // Start question timer
+    startQuestionTimer(slide);
+}
+
+function renderAnswer(slide) {
+    const container = createSlideContainer('answer-slide');
+
+    // Find the referenced question slide
+    const questionSlide = state.slides.find(s => s.id === slide.questionRefId);
+
+    if (!questionSlide) {
+        const warning = createElement('div', 'media-warning',
+            `Warning: Could not find question with ID: ${slide.questionRefId}`);
+        container.appendChild(warning);
+        elements.slideRoot.appendChild(container);
+        return;
+    }
+
+    // Show answer title
+    if (slide.title) {
+        const title = createElement('h2', 'slide-title', slide.title);
+        container.appendChild(title);
+    }
+
+    // Show original question text
+    const questionText = createElement('div', 'question-text', questionSlide.questionText);
+    container.appendChild(questionText);
+
+    // For MCQ, show options with correct one highlighted
+    if (questionSlide.type === 'question-mcq') {
+        const optionsContainer = createElement('div', 'mcq-options');
+        const labels = ['A', 'B', 'C', 'D'];
+
+        questionSlide.options.forEach((option, index) => {
+            const optionDiv = createElement('div', 'mcq-option');
+            if (index === questionSlide.correctOptionIndex) {
+                optionDiv.classList.add('correct');
+            }
+            const label = createElement('span', 'mcq-option-label', labels[index]);
+            const text = createElement('span', 'mcq-option-text', option);
+            optionDiv.appendChild(label);
+            optionDiv.appendChild(text);
+            optionsContainer.appendChild(optionDiv);
+        });
+
+        container.appendChild(optionsContainer);
+    } else {
+        // For free-text/video/audio questions, show correct answer text
+        if (questionSlide.correctAnswerText) {
+            const answerText = createElement('div', 'answer-text', questionSlide.correctAnswerText);
+            container.appendChild(answerText);
+        }
+    }
+
+    // Show extra text if provided
+    if (slide.extraText) {
+        const extraText = createElement('div', 'answer-extra-text', slide.extraText);
+        container.appendChild(extraText);
+    }
+
+    elements.slideRoot.appendChild(container);
+}
+
+function renderLeaderboard(slide) {
+    const container = createSlideContainer('leaderboard-container');
+
+    if (slide.title) {
+        const title = createElement('h1', 'leaderboard-title', slide.title);
+        container.appendChild(title);
+    }
+
+    // Sort teams by score descending
+    const sortedTeams = [...slide.teams].sort((a, b) => b.score - a.score);
+
+    // Create table
+    const table = document.createElement('table');
+    table.className = 'leaderboard-table';
+
+    // Table header
+    const thead = document.createElement('thead');
+    thead.innerHTML = `
+        <tr>
+            <th>Rank</th>
+            <th>Team</th>
+            <th>Score</th>
+        </tr>
+    `;
+    table.appendChild(thead);
+
+    // Table body
+    const tbody = document.createElement('tbody');
+    sortedTeams.forEach((team, index) => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td class="leaderboard-rank">${index + 1}</td>
+            <td class="leaderboard-name">${team.name}</td>
+            <td class="leaderboard-score">${team.score}</td>
+        `;
+        tbody.appendChild(row);
+    });
+    table.appendChild(tbody);
+
+    container.appendChild(table);
+    elements.slideRoot.appendChild(container);
+}
+
+function renderInfo(slide) {
+    const container = createSlideContainer('info-slide');
+
+    if (slide.title) {
+        const title = createElement('h1', 'slide-title', slide.title);
+        container.appendChild(title);
+    }
+
+    if (slide.subtitle) {
+        const subtitle = createElement('p', 'slide-subtitle', slide.subtitle);
+        container.appendChild(subtitle);
+    }
+
+    if (slide.image) {
+        const img = createImage(slide.image, 'slide-image');
+        container.appendChild(img);
+    }
+
+    elements.slideRoot.appendChild(container);
+}
+
+function renderThankYou(slide) {
+    const container = createSlideContainer('thank-you-slide');
+
+    if (slide.title) {
+        const title = createElement('h1', 'slide-title', slide.title);
+        container.appendChild(title);
+    }
+
+    if (slide.subtitle) {
+        const subtitle = createElement('p', 'slide-subtitle', slide.subtitle);
+        container.appendChild(subtitle);
+    }
+
+    elements.slideRoot.appendChild(container);
+}
+
+// ===== Question Timer Logic =====
+
+function startQuestionTimer(slide) {
+    // Determine timer duration
+    const duration = slide.timerSeconds ||
+                    (state.config.settings && state.config.settings.defaultQuestionDurationSec) ||
+                    30;
+
+    // Create timer display
+    const timerDisplay = createElement('div', 'question-timer', duration.toString());
+    elements.slideRoot.appendChild(timerDisplay);
+
+    let remainingTime = duration;
+
+    // Update timer every second
+    const intervalId = setInterval(() => {
+        remainingTime--;
+        timerDisplay.textContent = remainingTime;
+
+        if (remainingTime <= 0) {
+            clearInterval(intervalId);
+        }
+    }, 1000);
+
+    // Set timeout for full duration
+    state.currentQuestionTimer = setTimeout(() => {
+        clearInterval(intervalId);
+        startCountdownVideoThenAdvance();
+    }, duration * 1000);
+}
+
+function clearQuestionTimer() {
+    if (state.currentQuestionTimer) {
+        clearTimeout(state.currentQuestionTimer);
+        state.currentQuestionTimer = null;
+    }
+}
+
+// ===== Countdown Video Logic =====
+
+function startCountdownVideoThenAdvance() {
+    if (!state.config || !state.config.settings || !state.config.settings.countdownVideo) {
+        console.warn('No countdown video configured, advancing immediately');
+        goToNextSlide();
+        return;
+    }
+
+    state.isCountdownPlaying = true;
+
+    // Set video source
+    elements.countdownVideo.src = state.config.settings.countdownVideo;
+
+    // Show overlay
+    elements.countdownOverlay.classList.remove('hidden');
+
+    // Handle video end
+    elements.countdownVideo.onended = () => {
+        hideCountdownVideo();
+        goToNextSlide();
+    };
+
+    // Handle video error
+    elements.countdownVideo.onerror = () => {
+        console.error('Countdown video failed to load');
+        hideCountdownVideo();
+        goToNextSlide();
+    };
+
+    // Play video
+    elements.countdownVideo.play().catch(err => {
+        console.error('Failed to play countdown video:', err);
+        hideCountdownVideo();
+        goToNextSlide();
+    });
+}
+
+function hideCountdownVideo() {
+    state.isCountdownPlaying = false;
+    elements.countdownOverlay.classList.add('hidden');
+    elements.countdownVideo.pause();
+    elements.countdownVideo.src = '';
+}
+
+// ===== Fullscreen Controls =====
+
+function toggleFullscreen() {
+    if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(err => {
+            console.error('Error entering fullscreen:', err);
+        });
+    } else {
+        document.exitFullscreen();
+    }
+}
+
+function updateFullscreenButton() {
+    if (document.fullscreenElement) {
+        elements.fullscreenBtn.textContent = '⤢ Exit Fullscreen';
+    } else {
+        elements.fullscreenBtn.textContent = '⤢ Fullscreen';
+    }
+}
+
+// ===== Control Bar Visibility =====
+
+function showControlBar() {
+    elements.controlBar.classList.add('visible');
+
+    // Clear existing timeout
+    if (state.controlBarTimeout) {
+        clearTimeout(state.controlBarTimeout);
+    }
+
+    // Hide after 3 seconds of no movement
+    state.controlBarTimeout = setTimeout(() => {
+        elements.controlBar.classList.remove('visible');
+    }, 3000);
+}
+
+// ===== UI Updates =====
+
+function updateSlideCounter() {
+    const current = state.currentSlideIndex + 1;
+    const total = state.slides.length;
+    elements.slideCounter.textContent = `Slide ${current} / ${total}`;
+}
+
+// ===== Utility Functions =====
+
+function isQuestionSlide(slide) {
+    return slide && (
+        slide.type === 'question-mcq' ||
+        slide.type === 'question-free-text' ||
+        slide.type === 'question-video' ||
+        slide.type === 'question-audio'
+    );
+}
+
+function createSlideContainer(className) {
+    const container = document.createElement('div');
+    container.className = `slide ${className}`;
+    return container;
+}
+
+function createElement(tag, className, textContent = '') {
+    const element = document.createElement(tag);
+    element.className = className;
+    if (textContent) {
+        element.textContent = textContent;
+    }
+    return element;
+}
+
+function createImage(src, className) {
+    const img = document.createElement('img');
+    img.className = className;
+    img.src = src;
+    img.addEventListener('error', () => {
+        img.style.display = 'none';
+        const warning = createElement('div', 'media-warning',
+            `Could not load image: ${src}`);
+        img.parentElement.appendChild(warning);
+    });
+    return img;
+}
+
+function showError(message) {
+    elements.errorDisplay.textContent = message;
+    elements.errorDisplay.classList.remove('hidden');
+}
+
+function hideError() {
+    elements.errorDisplay.classList.add('hidden');
+}

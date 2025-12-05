@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Night</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main slide container -->
+    <div id="slide-root"></div>
+
+    <!-- Global countdown video overlay (hidden by default) -->
+    <div id="countdown-overlay" class="countdown-overlay hidden">
+        <video id="countdown-video" preload="auto"></video>
+    </div>
+
+    <!-- Control bar (appears on mouse movement) -->
+    <div id="control-bar" class="control-bar">
+        <button id="prev-btn" class="control-btn">← Prev</button>
+        <span id="slide-counter" class="slide-counter">Slide 1 / 1</span>
+        <button id="next-btn" class="control-btn">Next →</button>
+        <button id="fullscreen-btn" class="control-btn fullscreen-btn">⤢ Fullscreen</button>
+    </div>
+
+    <!-- Error display area -->
+    <div id="error-display" class="error-display hidden"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
