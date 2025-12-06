@@ -1,0 +1,1495 @@
+{
+  "metadata": {
+    "title": "3rd Quiz Night",
+    "venue": "Antonakis Music Hall",
+    "total_slides": 97,
+    "total_questions": 34,
+    "total_rounds": 3
+  },
+  "slides": [
+    {
+      "index": 1,
+      "id": "C5C18FE4-5FF1-41E0-83D2-168AC1826937",
+      "type": "welcome",
+      "round": null,
+      "round_num": 0,
+      "texts": [
+        "3rd Quiz Night",
+        "Antonakis Music Hall",
+        "THANK YOU ALL",
+        "FOR COMING"
+      ]
+    },
+    {
+      "index": 2,
+      "id": "8282EF0B-DE07-4443-815D-E1826EA7CE54",
+      "type": "welcome",
+      "round": null,
+      "round_num": 0,
+      "texts": [
+        "3rd Quiz Night",
+        "Antonakis Music Hall",
+        "Starts at 9:00pm",
+        "Have a seat & choose your team name!"
+      ]
+    },
+    {
+      "index": 3,
+      "id": "7A3BF640-FB89-479E-A11B-465731156137",
+      "type": "welcome",
+      "round": null,
+      "round_num": 0,
+      "texts": [
+        "3rd Quiz Night",
+        "Antonakis Music Hall"
+      ]
+    },
+    {
+      "index": 4,
+      "id": "4862B96C-7D4B-41BE-B2FB-E4CF839D8F5E",
+      "type": "blank",
+      "round": null,
+      "round_num": 0
+    },
+    {
+      "index": 5,
+      "id": "B75066AE-257E-4DE8-B5B3-EC0E7534C0AC",
+      "type": "blank",
+      "round": null,
+      "round_num": 0
+    },
+    {
+      "index": 6,
+      "id": "9371CCA1-B45B-4155-AF29-ECE9214C898A",
+      "type": "round-intro",
+      "round": "Round 1",
+      "round_num": 1,
+      "texts": [
+        "(multiple choice round)",
+        "Round 1",
+        "Remember to write the rounds",
+        "& team name each time"
+      ]
+    },
+    {
+      "index": 7,
+      "id": "695B6E1C-E562-4491-9038-F52196C89A27",
+      "type": "question-number",
+      "round": "Round 1",
+      "round_num": 1,
+      "number": 1
+    },
+    {
+      "index": 8,
+      "id": "C6D484DE-470B-4C69-9B57-82DF71D3D05B",
+      "type": "question-mcq",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "Which 90s movie featured Whitney Houston's hit song 'I Will Always Love You'?",
+      "options": [
+        "The Princess Diaries",
+        "The Bodyguard",
+        "The Preacher's Wife"
+      ]
+    },
+    {
+      "index": 9,
+      "id": "E92604AE-A0B9-42FA-92F8-0715C9FF7770",
+      "type": "question-number",
+      "round": "Round 1",
+      "round_num": 1,
+      "number": 2
+    },
+    {
+      "index": 10,
+      "id": "F564000B-9874-45C6-8949-56D7A3DA65B5",
+      "type": "question-mcq",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "Who wrote the 1971 classic 'Ain\u2019t No Sunshine,' one of the most covered songs of all time?",
+      "options": [
+        "Al Green",
+        "Marvin Gaye",
+        "Bill Withers"
+      ]
+    },
+    {
+      "index": 11,
+      "id": "BA54B9B9-AB19-427F-892B-01C13DA57FE4",
+      "type": "answer",
+      "round": "Round 1",
+      "round_num": 1,
+      "answer": [
+        "Round 1",
+        "3"
+      ]
+    },
+    {
+      "index": 12,
+      "id": "5260DB96-E61C-4329-B7BA-6834059858D0",
+      "type": "question-mcq",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "Which 2004 comedy stars Lindsay Lohan as a high school student navigating friends and social politics?",
+      "options": [
+        "Freaky Friday",
+        "The Parent Trap",
+        "Easy A"
+      ]
+    },
+    {
+      "index": 13,
+      "id": "EA83D906-AA3A-425B-AEEB-F365C06EDA18",
+      "type": "question-number",
+      "round": "Round 1",
+      "round_num": 1,
+      "number": 4
+    },
+    {
+      "index": 14,
+      "id": "15AFF83F-1E03-4237-9264-065240230C8B",
+      "type": "question-mcq",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "What iconic music festival took place in August 1969 on a dairy farm in New York?",
+      "options": [
+        "Woodstock",
+        "Monterey Pop Festival",
+        "Isle of Wight Festival"
+      ]
+    },
+    {
+      "index": 15,
+      "id": "9751084F-1999-4876-91ED-526EF290AA45",
+      "type": "question-number",
+      "round": "Round 1",
+      "round_num": 1,
+      "number": 5
+    },
+    {
+      "index": 16,
+      "id": "62760B7D-C66F-44CA-86D2-BBE8AC6949B4",
+      "type": "question-mcq",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "Which act represented Cyprus at Eurovision in 1983 with the song \\\"H Agapi Akoma Zei\\\"?",
+      "options": [
+        "Christie Stassinopoulou",
+        "Anna Vissi",
+        "Stavros & Konstantina"
+      ]
+    },
+    {
+      "index": 17,
+      "id": "2FED9972-A668-40C9-85D5-08BA5FA911BE",
+      "type": "answer",
+      "round": "Round 1",
+      "round_num": 1,
+      "answer": [
+        "Round 1",
+        "6"
+      ]
+    },
+    {
+      "index": 18,
+      "id": "ABAB6575-7F8D-4315-AC3C-F363E439CCC9",
+      "type": "question-mcq",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "Which of the following musicians did NOT appear on Miles Davis' legendary 1959 jazz album 'Kind of Blue'?",
+      "options": [
+        "Bill Evans",
+        "John Coltrane",
+        "Cannonball Adderley"
+      ]
+    },
+    {
+      "index": 19,
+      "id": "CDEA83F7-5CAA-4E4F-91D5-14777EC4CF0F",
+      "type": "question-number",
+      "round": "Round 1",
+      "round_num": 1,
+      "number": 7
+    },
+    {
+      "index": 20,
+      "id": "6E7CEBBB-A34F-45CA-BD66-2EB0A168FFEA",
+      "type": "question-mcq",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "On Michael Jackson's legendary 'Beat It' song, which guitarist delivered its iconic solo?",
+      "options": [
+        "Brian May",
+        "Slash",
+        "Eddie Van Halen"
+      ]
+    },
+    {
+      "index": 21,
+      "id": "7A3FFC41-8EE5-46DE-BCC7-15A718A8DCAC",
+      "type": "question-number",
+      "round": "Round 1",
+      "round_num": 1,
+      "number": 8
+    },
+    {
+      "index": 22,
+      "id": "5E2BA793-00AA-4540-AEA6-37142B0727CC",
+      "type": "question-mcq",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "Where was the famous toy company LEGO founded?",
+      "options": [
+        "Sweden",
+        "Denmark",
+        "Finland"
+      ]
+    },
+    {
+      "index": 23,
+      "id": "93750466-667A-4E85-B939-92551344A9C7",
+      "type": "answer",
+      "round": "Round 1",
+      "round_num": 1,
+      "answer": [
+        "Round 1",
+        "9"
+      ]
+    },
+    {
+      "index": 24,
+      "id": "DF934428-BE9B-4886-8A13-0A88E1914259",
+      "type": "question-mcq",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "Which Beatles song features the lyric:",
+      "options": [
+        "Please Please Me",
+        "Martha My Dear",
+        "Oh Darling"
+      ]
+    },
+    {
+      "index": 25,
+      "id": "EC533374-4D3C-4735-8324-707CD5842200",
+      "type": "question-number",
+      "round": "Round 1",
+      "round_num": 1,
+      "number": 10
+    },
+    {
+      "index": 26,
+      "id": "5E003176-5BAA-4778-A0F0-6D14869C2611",
+      "type": "question-mcq",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "What was the name of the first widely-used web browser released in 1993?",
+      "options": [
+        "Mosaic",
+        "Netscape Navigator",
+        "Internet Explorer"
+      ]
+    },
+    {
+      "index": 27,
+      "id": "1A53E17D-5835-424F-B11A-AD97BD6F2584",
+      "type": "answer",
+      "round": "Round 1",
+      "round_num": 1,
+      "answer": [
+        "Bonus Time",
+        "Round 1"
+      ]
+    },
+    {
+      "index": 28,
+      "id": "01AD7BFB-C733-43EE-AEF2-CBD9B70859D3",
+      "type": "question-free-text",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "He turned to me as if to say,\\u2028Hurry boy he\u2019s waiting there for you",
+      "instruction": "He turned to me as if to say,\\u2028Hurry boy he\u2019s waiting there for you | Write the song name\\u2028and artist from the lyrics | 1 point each!"
+    },
+    {
+      "index": 29,
+      "id": "415380D6-015A-4570-A3DA-E329CADA867A",
+      "type": "answer",
+      "round": "Round 1",
+      "round_num": 1,
+      "answer": [
+        "Round 1",
+        "LAST BONUS"
+      ]
+    },
+    {
+      "index": 30,
+      "id": "1571EBBD-E90F-45F0-9E8A-5B119A3DAB65",
+      "type": "question-free-text",
+      "round": "Round 1",
+      "round_num": 1,
+      "question": "Before Greek star Sakis Rouvas became a famous singer, which track & field sport did he excel at, even joining the Hellenic national team?",
+      "instruction": "2 points! | Before Greek star Sakis Rouvas became a famous singer, which track & field sport did he excel at, even joining the Hellenic national team? | Write the answer!"
+    },
+    {
+      "index": 31,
+      "id": "10AEDBE0-D72B-41C7-BA40-234028806B5F",
+      "type": "answer",
+      "round": "Round 1",
+      "round_num": 1,
+      "answer": [
+        "End of Round 1"
+      ]
+    },
+    {
+      "index": 32,
+      "id": "C37FBB3C-C453-4FA3-91F6-FBEDBD33E5E7",
+      "type": "info",
+      "round": "Round 1",
+      "round_num": 1,
+      "texts": [
+        "Which 90s movie featured Whitney Houston's hit song 'I Will Always Love You'?\\tThe Princess Diaries\\tThe Bodyguard\\tThe Preacher's Wife\\tCity Of Angels",
+        "Who wrote the 1971 classic 'Ain\u2019t No Sunshine,' one of the most covered songs of all time?\\u2028Al Green\\tMarvin Gaye\\t Bill Withers \\tStevie Wonder",
+        "Which 2004 comedy stars Lindsay Lohan as a high school student navigating friends and social politics?\\t\\u2028Freaky Friday\\t           The Parent Trap\\t  Easy A\\t                  Mean Girls",
+        "What iconic music festival took place in August 1969 on a dairy farm in New York?\\t\\u2028Woodstock\\tMonterey Pop Festival\\tIsle of Wight Festival\\t\\u2028Altamont Speedway Free Festival",
+        "Which act represented Cyprus at Eurovision in 1983 with the song \\\"H Agapi Akoma Zei\\\"?\\t\\u2028Christie Stassinopoulou        Anna Vissi\\t      Stavros & Konstantina   \\u2028Despina Olympiou"
+      ]
+    },
+    {
+      "index": 33,
+      "id": "26E32930-2AD4-44DC-8A21-039A5CF2486A",
+      "type": "info",
+      "round": "Round 1",
+      "round_num": 1,
+      "texts": [
+        "Which of the following musicians did NOT appear on Miles Davis's legendary 1959 jazz album 'Kind of Blue'? \\t\\u2028Bill Evans \\t John Coltrane \\t      Cannonball Adderley \\tSonny Rollins",
+        "On Michael Jackson's legendary 'Beat It' song, which guitarist delivered its iconic solo? \\t\\u2028Brian May \\t    Slash\\t         Eddie Van Halen\\t             Stevie Ray Vaughan",
+        "Where was the famous toy company LEGO founded?\\t\\u2028Sweden\\tDenmark\\tFinland\\t                   Norway",
+        "Which Beatles song features the lyric: \\\"Sont les mots qui vont tres bien ensemble\\\"\\tPlease Please Me\\tMartha My Dear\\tOh Darling\\tMichelle",
+        "What was the name of the first widely-used web browser released in 1993?\\t\\u2028Mosaic\\tNetscape Navigator\\tInternet Explorer\\t   Opera"
+      ]
+    },
+    {
+      "index": 34,
+      "id": "72CCD511-1B95-4458-A5D7-CC6F2912E3BA",
+      "type": "info",
+      "round": "Round 1",
+      "round_num": 1,
+      "texts": [
+        "PENIS DOWN"
+      ]
+    },
+    {
+      "index": 35,
+      "id": "64836A6C-3DAF-4B82-B860-41EAF9A36730",
+      "type": "info",
+      "round": "Round 1",
+      "round_num": 1,
+      "texts": [
+        "Answers",
+        "of Round 1"
+      ]
+    },
+    {
+      "index": 36,
+      "id": "84CBA39B-AF82-48AD-AA49-3CB87E609CC7",
+      "type": "answer-reveal",
+      "round": "Round 1",
+      "round_num": 1,
+      "texts": [
+        "Which 90s movie featured Whitney Houston's hit song 'I Will Always Love You'? The Bodyguard",
+        "Who wrote the 1971 classic 'Ain\u2019t No Sunshine,' one of the most covered songs of all time? Bill Withers",
+        "Which 2004 comedy stars Lindsay Lohan as a high school student navigating friends and social politics? Mean Girls",
+        "What iconic music festival took place in August 1969 on a dairy farm in New York? Woodstock",
+        "Which act represented Cyprus at Eurovision in 1983 with the song \\\"H Agapi Akoma Zei\\\"? Stavros & Konstantina",
+        "Answers",
+        "Round 1"
+      ]
+    },
+    {
+      "index": 37,
+      "id": "1DD1A40F-BE99-4C6D-ABCA-C84967268B65",
+      "type": "answer-reveal",
+      "round": "Round 1",
+      "round_num": 1,
+      "texts": [
+        "Answers",
+        "Which of the following musicians did NOT appear on Miles Davis's legendary 1959 jazz album 'Kind of Blue'? Sonny Rollins",
+        "On Michael Jackson's legendary 'Beat It' song, which guitarist delivered its iconic solo? Eddie Van Halen",
+        "Where was the famous toy company LEGO founded? Denmark",
+        "Which Beatles song features the lyric: \\\"Sont les mots qui vont tres bien ensemble\\\" Michelle",
+        "What was the name of the first widely-used web browser released in 1993? Mosaic",
+        "Round 1"
+      ]
+    },
+    {
+      "index": 38,
+      "id": "6BAD69EB-6383-4E34-A842-740E9CBB4EC3",
+      "type": "info",
+      "round": "Round 1",
+      "round_num": 1,
+      "texts": [
+        "Answers",
+        "He turned to me as if to say, Hurry, boy, it's waiting there for you\\u2028Toto by Africa",
+        "Before Greek star Sakis Rouvas became a famous singer, which track & field sport did he excel at, even joining the Hellenic national team?\\u2028Pole-Vault",
+        "Bonus Round 1"
+      ]
+    },
+    {
+      "index": 39,
+      "id": "6F75BC05-EF9D-4723-955A-71DE856AAB86",
+      "type": "round-intro",
+      "round": "Round 2",
+      "round_num": 2,
+      "texts": [
+        "(multiple choice round)",
+        "Round 2",
+        "Remember to write the rounds",
+        "& team name each time"
+      ]
+    },
+    {
+      "index": 40,
+      "id": "217ECD5B-149D-4505-BF85-B1B3EEA8FCB8",
+      "type": "info",
+      "round": "Round 2",
+      "round_num": 2,
+      "texts": [
+        "Round 2",
+        "1"
+      ]
+    },
+    {
+      "index": 41,
+      "id": "695310BF-F306-41DA-A812-631A2B8D6E95",
+      "type": "question-mcq",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "\\\"We don't wake up for less than $10,000 a day\\\". Which supermodel famously said this in a 1990 interview?",
+      "options": [
+        "Naomi Campbell",
+        "Cindy Crawford",
+        "Claudia Schiffer"
+      ]
+    },
+    {
+      "index": 42,
+      "id": "4D1391FD-D58B-4317-A781-AB4CD39C7D0B",
+      "type": "question-number",
+      "round": "Round 2",
+      "round_num": 2,
+      "number": 2
+    },
+    {
+      "index": 43,
+      "id": "377B838C-3B31-42B6-A71B-8BE28CED3B52",
+      "type": "question-mcq",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "Which 1950s film holds the record for the most Oscars (11) until it was tied decades later by Titanic (1997)?",
+      "options": [
+        "On The Waterfront",
+        "Ben-Hur",
+        "From Here to Eternity"
+      ]
+    },
+    {
+      "index": 44,
+      "id": "A87D28B4-5AAD-41E5-8D18-B2137705A0B3",
+      "type": "answer",
+      "round": "Round 2",
+      "round_num": 2,
+      "answer": [
+        "Round 2",
+        "3"
+      ]
+    },
+    {
+      "index": 45,
+      "id": "069F0E44-4B5F-48CA-8BE3-AFFFD2B78E51",
+      "type": "question-mcq",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "Which rock band performed the 1982 hit 'Here I Go Again'?",
+      "options": [
+        "Scorpions",
+        "Def Leppard",
+        "Whitesnake"
+      ]
+    },
+    {
+      "index": 46,
+      "id": "916E9316-5789-4F41-9B57-0FBECE4CCD11",
+      "type": "answer",
+      "round": "Round 2",
+      "round_num": 2,
+      "answer": [
+        "Round 2",
+        "4"
+      ]
+    },
+    {
+      "index": 47,
+      "id": "A26DDBB7-E899-497C-A965-9BC1A8425C73",
+      "type": "question-mcq",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "The 1979 novel \\\"Hitchhiker's Guide to the Galaxy\\\" says \\\"the answer to the ultimate question of life, the universe and everything\\\" is what number?",
+      "options": [
+        "42",
+        "101"
+      ]
+    },
+    {
+      "index": 48,
+      "id": "B49487F4-4F5B-4C9B-AC12-D528AB2FF189",
+      "type": "question-number",
+      "round": "Round 2",
+      "round_num": 2,
+      "number": 5
+    },
+    {
+      "index": 49,
+      "id": "5585A6FF-2094-4388-A398-695CAF977562",
+      "type": "question-mcq",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "Which actor delivered the line \\\"What we've got here is failure to communicate\\\" in the 1967 film 'Cool Hand Luke'?",
+      "options": [
+        "James Dean",
+        "Paul Newman",
+        "Steve McQueen"
+      ]
+    },
+    {
+      "index": 50,
+      "id": "B7BFB406-202E-4D5F-862F-04993D39CE6B",
+      "type": "question-number",
+      "round": "Round 2",
+      "round_num": 2,
+      "number": 6
+    },
+    {
+      "index": 51,
+      "id": "3FF23FC6-A23E-4F50-97DE-23D031323F3F",
+      "type": "question-mcq",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "Who is the highest-selling female musician/artist of all time in Greece, according to album sales?",
+      "options": [
+        "Marinella",
+        "Anna Vissi",
+        "Haris Alexiou"
+      ]
+    },
+    {
+      "index": 52,
+      "id": "CBB62142-9E7F-4978-BE41-1D580F619F7B",
+      "type": "question-number",
+      "round": "Round 2",
+      "round_num": 2,
+      "number": 7
+    },
+    {
+      "index": 53,
+      "id": "F7BC5CBD-0078-4ACD-9CC4-813C8CE620DF",
+      "type": "question-mcq",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "What was the name of Coldplay's debut album released in the year 2000?",
+      "options": [
+        "Rush Of Blood To The Head",
+        "Yellow",
+        "Parachutes"
+      ]
+    },
+    {
+      "index": 54,
+      "id": "CF2C384F-7AB6-423B-B201-38336CEB69BA",
+      "type": "answer",
+      "round": "Round 2",
+      "round_num": 2,
+      "answer": [
+        "Round 2",
+        "8"
+      ]
+    },
+    {
+      "index": 55,
+      "id": "2BADE883-0C6E-40F4-A584-0D36B18AC4ED",
+      "type": "question-mcq",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "Which 1950s jazz musician was known as \\\"The Bird\\\" and helped develop bebop?",
+      "options": [
+        "Charlie Parker",
+        "Louis Armstrong",
+        "Thelonious Monk"
+      ]
+    },
+    {
+      "index": 56,
+      "id": "3D35AAC7-03F5-4AD7-8731-41626E5F98D5",
+      "type": "question-number",
+      "round": "Round 2",
+      "round_num": 2,
+      "number": 9
+    },
+    {
+      "index": 57,
+      "id": "207054DB-2A1D-400B-8B68-04085BA16E5B",
+      "type": "question-mcq",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "Which of the following games was included as a pack-in title with the original Nintendo Game Boy when released in 1989?",
+      "options": [
+        "Yakuman",
+        "Super Mario Land",
+        "Tetris"
+      ]
+    },
+    {
+      "index": 58,
+      "id": "848DD87B-2B07-4D79-B9DD-B4FF558BB13A",
+      "type": "answer",
+      "round": "Round 2",
+      "round_num": 2,
+      "answer": [
+        "Round 2",
+        "10"
+      ]
+    },
+    {
+      "index": 59,
+      "id": "AAF7CCBA-D6B0-4289-B5C1-D4CA1448A0E1",
+      "type": "question-mcq",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "Which boy band's 1996 hit single was \\\"Quit Playing Games With My Heart\\\"?",
+      "options": [
+        "Take That",
+        "NSYNC",
+        "Westlife"
+      ]
+    },
+    {
+      "index": 60,
+      "id": "C4F26283-5B9E-49D0-BE3F-A446B7DC1018",
+      "type": "answer",
+      "round": "Round 2",
+      "round_num": 2,
+      "answer": [
+        "Bonus Time",
+        "Round 2"
+      ]
+    },
+    {
+      "index": 61,
+      "id": "0B2B3FA0-8DFE-42C7-9DCE-489A4FF5B45A",
+      "type": "question-free-text",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "Write the song name\\u2028and artist from the lyrics",
+      "instruction": "Write the song name\\u2028and artist from the lyrics | 1 point each! | Life is old there, older than the trees, Younger than the mountains, growin' like a breeze"
+    },
+    {
+      "index": 62,
+      "id": "2EF31B17-E9D2-4FB1-AEB8-B8D10745282F",
+      "type": "answer",
+      "round": "Round 2",
+      "round_num": 2,
+      "answer": [
+        "LAST BONUS",
+        "Round 2"
+      ]
+    },
+    {
+      "index": 63,
+      "id": "C5F11964-0BAB-4CD6-83D5-A1F67AA4CDEB",
+      "type": "question-free-text",
+      "round": "Round 2",
+      "round_num": 2,
+      "question": "In which city was Greek pop star Anna Vissi born and raised?",
+      "instruction": "Write the answer! | 2 points! | In which city was Greek pop star Anna Vissi born and raised?"
+    },
+    {
+      "index": 64,
+      "id": "D1BD2569-5A00-4D0F-AFDE-7110F39AF760",
+      "type": "answer",
+      "round": "Round 2",
+      "round_num": 2,
+      "answer": [
+        "End of Round 2"
+      ]
+    },
+    {
+      "index": 65,
+      "id": "6E254189-4447-4654-8BB3-24C0F4B218E5",
+      "type": "answer-reveal",
+      "round": "Round 2",
+      "round_num": 2,
+      "texts": [
+        "\\\"We don't wake up for less than $10,000 a day\\\". Which supermodel famously said this in a 1990 interview? \\u2028Naomi Campbell\\tCindy Crawford\\t    Claudia Schiffer     Linda Evangelista",
+        "Which 1950s film holds the record for the most Oscars (11) until it was tied decades later by Titanic (1997)?\\u2028On The Waterfront\\tBen-Hur    From Here to Eternity\\t    Some Like It Hot",
+        "Which rock band performed the 1982 hit 'Here I Go Again'?\\u2028Scorpions\\t  Def Leppard\\t  Whitesnake\\t  Kiss",
+        "The 1979 novel \\\"Hitchhiker's Guide to the Galaxy\\\" says \\\"the answer to the ultimate question of life, the universe and everything\\\" is what number? \\u202842\\t    7\\t101\\t10",
+        "Which actor delivered the line \\\"What we've got here is failure to communicate\\\" in the 1967 film 'Cool Hand Luke'?\\u2028James Dean          Paul Newman    \\tSteve McQueen\\t        Charlton Heston"
+      ]
+    },
+    {
+      "index": 66,
+      "id": "EE40C912-CB04-448F-8C16-8EA065FA48D8",
+      "type": "info",
+      "round": "Round 2",
+      "round_num": 2,
+      "texts": [
+        "Who is the highest-selling female musician/artist of all time in Greece, according to album sales? \\u2028Marinella\\t     Anna Vissi\\t    Haris Alexiou\\t       Alkistis Protopsalti",
+        "What was the name of Coldplay's debut album released in the year 2000?\\u2028Rush Of Blood To The Head\\tYellow\\tParachutes\\tX&Y",
+        "Which 1950s jazz musician was known as \\\"The Bird\\\" and helped develop bebop? \\u2028Charlie Parker.      Louis Armstrong\\t     Thelonious Monk\\tDizzy Gillespie",
+        "Which of the following games was included as a pack-in title with the original Nintendo Game Boy when released in 1989? \\u2028Yakuman\\t    Super Mario Land\\t    Tetris\\t          Donkey Kong",
+        "Which boy band's 1996 hit single was \\\"Quit Playing Games With My Heart\\\"? \\u2028Take That\\t    NSYNC\\tWestlife\\tBackstreet Boys"
+      ]
+    },
+    {
+      "index": 67,
+      "id": "DEE22D6C-19A9-4A65-A1FE-C4EE78005BAA",
+      "type": "info",
+      "round": "Round 2",
+      "round_num": 2,
+      "texts": [
+        "PENIS DOWN"
+      ]
+    },
+    {
+      "index": 68,
+      "id": "5DD9D073-DC4C-47A3-8CBF-0502E8428458",
+      "type": "info",
+      "round": "Round 2",
+      "round_num": 2,
+      "texts": [
+        "Answers",
+        "of Round 2"
+      ]
+    },
+    {
+      "index": 69,
+      "id": "F8C904A5-07D0-490B-ACD1-06288B748114",
+      "type": "answer-reveal",
+      "round": "Round 2",
+      "round_num": 2,
+      "texts": [
+        "Round 2",
+        "Answers",
+        "\\\"We don't wake up for less than $10,000 a day\\\". Which supermodel famously said this in a 1990 interview? Linda Evangelista",
+        "Which 1950s film holds the record for the most Oscars (11) until it was tied decades later by Titanic (1997)? Ben-Hur",
+        "Which rock band performed the 1982 hit 'Here I Go Again'? \\u2028Whitesnake",
+        "The 1979 novel \\\"Hitchhiker's Guide to the Galaxy\\\" says \\\"the answer to the ultimate question of life, the universe and everything\\\" is what number?\\u202842",
+        "Which actor delivered the line \\\"What we've got here is failure to communicate\\\" in the 1967 film 'Cool Hand Luke'? Paul Newman"
+      ]
+    },
+    {
+      "index": 70,
+      "id": "61AE352D-C4AB-4818-950E-22EE52E958DD",
+      "type": "answer-reveal",
+      "round": "Round 2",
+      "round_num": 2,
+      "texts": [
+        "Who is the highest-selling female musician/artist of all time in Greece, according to album sales? Haris Alexiou",
+        "What was the name of Coldplay's debut album released in the year 2000? Parachutes",
+        "Which 1950s jazz musician was known as \\\"The Bird\\\" and helped develop bebop? Charlie Parker",
+        "Which of the following games was included as a pack-in title with the original Nintendo Game Boy when released in 1989? Tetris",
+        "Which boy band's 1996 hit single was \\\"Quit Playing Games With My Heart\\\"? Backstreet Boys",
+        "Round 2",
+        "Answers"
+      ]
+    },
+    {
+      "index": 71,
+      "id": "BB3EEAEE-4F92-4E8E-858A-1EB60FDB063A",
+      "type": "info",
+      "round": "Round 2",
+      "round_num": 2,
+      "texts": [
+        "Answers",
+        "Bonus Round 2",
+        "Life is old there, older than the trees, Younger than the mountains, growin' like a breeze\\u2028Country Road by John Denver",
+        "In which city was Greek pop star Anna Vissi born and raised?\\u2028Larnaca"
+      ]
+    },
+    {
+      "index": 72,
+      "id": "9B892341-7737-4E49-BF8A-1E7E42569FE7",
+      "type": "round-intro",
+      "round": "Round 3",
+      "round_num": 3,
+      "texts": [
+        "Round 3",
+        "Remember to write the rounds",
+        "& team name each time",
+        "(audio round)"
+      ]
+    },
+    {
+      "index": 73,
+      "id": "C60990A3-7EC1-413D-87DD-7805F1C5294E",
+      "type": "question-number",
+      "round": "Round 3",
+      "round_num": 3,
+      "number": 1
+    },
+    {
+      "index": 74,
+      "id": "E01942F6-76AE-4D40-AADA-265B9528ABE8",
+      "type": "question-free-text",
+      "round": "Round 3",
+      "round_num": 3,
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "index": 75,
+      "id": "660EEFD7-239C-43A3-BA46-517D89C7F2B7",
+      "type": "question-number",
+      "round": "Round 3",
+      "round_num": 3,
+      "number": 2
+    },
+    {
+      "index": 76,
+      "id": "6409CD55-B32B-423E-AB39-94BCC93D562C",
+      "type": "question-free-text",
+      "round": "Round 3",
+      "round_num": 3,
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "index": 77,
+      "id": "AD0A97BC-1C08-4AC6-8686-40BF080EADA5",
+      "type": "question-number",
+      "round": "Round 3",
+      "round_num": 3,
+      "number": 3
+    },
+    {
+      "index": 78,
+      "id": "58208204-6594-47DB-A26C-30887BD393CC",
+      "type": "question-free-text",
+      "round": "Round 3",
+      "round_num": 3,
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "index": 79,
+      "id": "FE9893E4-1786-44A7-9C79-28492D60106B",
+      "type": "question-number",
+      "round": "Round 3",
+      "round_num": 3,
+      "number": 4
+    },
+    {
+      "index": 80,
+      "id": "CC1459C0-F216-4ACC-9FF1-72DDE16EF327",
+      "type": "question-free-text",
+      "round": "Round 3",
+      "round_num": 3,
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "index": 81,
+      "id": "2126530C-8C42-4A28-8F95-6D491267DE8B",
+      "type": "answer",
+      "round": "Round 3",
+      "round_num": 3,
+      "answer": [
+        "Round 3",
+        "5"
+      ]
+    },
+    {
+      "index": 82,
+      "id": "5B231AE0-2B16-4B6C-AB46-6BEC5471A7CA",
+      "type": "question-free-text",
+      "round": "Round 3",
+      "round_num": 3,
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "index": 83,
+      "id": "53C922E1-29D5-47AC-8CF8-8FB7FA217BCD",
+      "type": "answer",
+      "round": "Round 3",
+      "round_num": 3,
+      "answer": [
+        "Round 3",
+        "6"
+      ]
+    },
+    {
+      "index": 84,
+      "id": "EB9E8B0C-EF1C-443C-812F-25FCD78C4B93",
+      "type": "question-free-text",
+      "round": "Round 3",
+      "round_num": 3,
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "index": 85,
+      "id": "34FFE65B-039E-4130-A74E-2D58738F8725",
+      "type": "question-number",
+      "round": "Round 3",
+      "round_num": 3,
+      "number": 7
+    },
+    {
+      "index": 86,
+      "id": "4BD9C4ED-F1A5-4CCA-928E-77000FCB7A08",
+      "type": "question-free-text",
+      "round": "Round 3",
+      "round_num": 3,
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "index": 87,
+      "id": "B8675DD6-63C1-4AA9-A33D-746AD4B67E46",
+      "type": "answer",
+      "round": "Round 3",
+      "round_num": 3,
+      "answer": [
+        "Round 3",
+        "8"
+      ]
+    },
+    {
+      "index": 88,
+      "id": "CFF010F5-8553-4E39-9FD4-D4DBD8C133F3",
+      "type": "question-free-text",
+      "round": "Round 3",
+      "round_num": 3,
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "index": 89,
+      "id": "F75DE0E3-8A01-4D77-B2C5-341A0CF37A0C",
+      "type": "question-number",
+      "round": "Round 3",
+      "round_num": 3,
+      "number": 9
+    },
+    {
+      "index": 90,
+      "id": "A001F411-CBC1-419E-898D-3ED31D7FDFED",
+      "type": "question-free-text",
+      "round": "Round 3",
+      "round_num": 3,
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Write the song name\\u2028or the film/TV show, it was associated with | Listen carefully!"
+    },
+    {
+      "index": 91,
+      "id": "566D85F0-17B3-4B00-9BCB-BC079FA604BC",
+      "type": "question-number",
+      "round": "Round 3",
+      "round_num": 3,
+      "number": 10
+    },
+    {
+      "index": 92,
+      "id": "8B66A025-1863-4FE3-84C8-1B6443398856",
+      "type": "question-free-text",
+      "round": "Round 3",
+      "round_num": 3,
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Write the song name\\u2028or the film/TV show, it was associated with | Listen carefully!"
+    },
+    {
+      "index": 93,
+      "id": "77677470-BC12-4836-8695-ECD769A53618",
+      "type": "answer",
+      "round": "Round 3",
+      "round_num": 3,
+      "answer": [
+        "End of Round 3"
+      ]
+    },
+    {
+      "index": 94,
+      "id": "C521091D-CA2C-4271-9DE1-35DA1F291202",
+      "type": "info",
+      "round": "Round 3",
+      "round_num": 3,
+      "texts": [
+        "Answers",
+        "of Round 3"
+      ]
+    },
+    {
+      "index": 95,
+      "id": "49253A18-ECF3-48DE-BCCE-AB9CA5FAEDD3",
+      "type": "break",
+      "round": "Round 3",
+      "round_num": 3,
+      "texts": [
+        "Answers",
+        "Song Name\\t/ Also Accepted",
+        "Breaking Bad Soundtrack (Dave Porter)",
+        "Underworld - Born Slippy (Trainspotting Soundtrack)",
+        "Simple Minds - Don't You Forget About Me (Breakfast Club Soundtrack)",
+        "Metallica - Sad But True",
+        "The Love Boat - TV Theme",
+        "Round 3"
+      ]
+    },
+    {
+      "index": 96,
+      "id": "60D945F5-4668-415E-B08E-8017E7E1AD62",
+      "type": "info",
+      "round": "Round 3",
+      "round_num": 3,
+      "texts": [
+        "The Bold and The Beautiful - TV Theme",
+        "Zamfir - The Lonely Shepherd (Kill Bill Soundtrack)",
+        "Istories Tou Xorkou (Cyprus TV Show)",
+        "The Beatles - She's Leaving Home",
+        "Young and The Restless (90s Tv Show Theme)",
+        "Round 3",
+        "Song Name\\t/ Also Accepted",
+        "Answers"
+      ]
+    },
+    {
+      "index": 97,
+      "id": "5AFEDDEA-B51A-4B45-BE5A-F9B5BE30C1CA",
+      "type": "break",
+      "round": "Round 3",
+      "round_num": 3,
+      "texts": [
+        "BREAK TIME"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "question_num": 1,
+      "slide_index": 8,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-mcq",
+      "question": "Which 90s movie featured Whitney Houston's hit song 'I Will Always Love You'?",
+      "options": [
+        "The Princess Diaries",
+        "The Bodyguard",
+        "The Preacher's Wife"
+      ]
+    },
+    {
+      "question_num": 2,
+      "slide_index": 10,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-mcq",
+      "question": "Who wrote the 1971 classic 'Ain\u2019t No Sunshine,' one of the most covered songs of all time?",
+      "options": [
+        "Al Green",
+        "Marvin Gaye",
+        "Bill Withers"
+      ]
+    },
+    {
+      "question_num": 3,
+      "slide_index": 12,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-mcq",
+      "question": "Which 2004 comedy stars Lindsay Lohan as a high school student navigating friends and social politics?",
+      "options": [
+        "Freaky Friday",
+        "The Parent Trap",
+        "Easy A"
+      ]
+    },
+    {
+      "question_num": 4,
+      "slide_index": 14,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-mcq",
+      "question": "What iconic music festival took place in August 1969 on a dairy farm in New York?",
+      "options": [
+        "Woodstock",
+        "Monterey Pop Festival",
+        "Isle of Wight Festival"
+      ]
+    },
+    {
+      "question_num": 5,
+      "slide_index": 16,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-mcq",
+      "question": "Which act represented Cyprus at Eurovision in 1983 with the song \\\"H Agapi Akoma Zei\\\"?",
+      "options": [
+        "Christie Stassinopoulou",
+        "Anna Vissi",
+        "Stavros & Konstantina"
+      ]
+    },
+    {
+      "question_num": 6,
+      "slide_index": 18,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-mcq",
+      "question": "Which of the following musicians did NOT appear on Miles Davis' legendary 1959 jazz album 'Kind of Blue'?",
+      "options": [
+        "Bill Evans",
+        "John Coltrane",
+        "Cannonball Adderley"
+      ]
+    },
+    {
+      "question_num": 7,
+      "slide_index": 20,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-mcq",
+      "question": "On Michael Jackson's legendary 'Beat It' song, which guitarist delivered its iconic solo?",
+      "options": [
+        "Brian May",
+        "Slash",
+        "Eddie Van Halen"
+      ]
+    },
+    {
+      "question_num": 8,
+      "slide_index": 22,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-mcq",
+      "question": "Where was the famous toy company LEGO founded?",
+      "options": [
+        "Sweden",
+        "Denmark",
+        "Finland"
+      ]
+    },
+    {
+      "question_num": 9,
+      "slide_index": 24,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-mcq",
+      "question": "Which Beatles song features the lyric:",
+      "options": [
+        "Please Please Me",
+        "Martha My Dear",
+        "Oh Darling"
+      ]
+    },
+    {
+      "question_num": 10,
+      "slide_index": 26,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-mcq",
+      "question": "What was the name of the first widely-used web browser released in 1993?",
+      "options": [
+        "Mosaic",
+        "Netscape Navigator",
+        "Internet Explorer"
+      ]
+    },
+    {
+      "question_num": 11,
+      "slide_index": 28,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-free-text",
+      "question": "He turned to me as if to say,\\u2028Hurry boy he\u2019s waiting there for you",
+      "instruction": "He turned to me as if to say,\\u2028Hurry boy he\u2019s waiting there for you | Write the song name\\u2028and artist from the lyrics | 1 point each!"
+    },
+    {
+      "question_num": 12,
+      "slide_index": 30,
+      "round": "Round 1",
+      "round_num": 1,
+      "type": "question-free-text",
+      "question": "Before Greek star Sakis Rouvas became a famous singer, which track & field sport did he excel at, even joining the Hellenic national team?",
+      "instruction": "2 points! | Before Greek star Sakis Rouvas became a famous singer, which track & field sport did he excel at, even joining the Hellenic national team? | Write the answer!"
+    },
+    {
+      "question_num": 13,
+      "slide_index": 41,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-mcq",
+      "question": "\\\"We don't wake up for less than $10,000 a day\\\". Which supermodel famously said this in a 1990 interview?",
+      "options": [
+        "Naomi Campbell",
+        "Cindy Crawford",
+        "Claudia Schiffer"
+      ]
+    },
+    {
+      "question_num": 14,
+      "slide_index": 43,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-mcq",
+      "question": "Which 1950s film holds the record for the most Oscars (11) until it was tied decades later by Titanic (1997)?",
+      "options": [
+        "On The Waterfront",
+        "Ben-Hur",
+        "From Here to Eternity"
+      ]
+    },
+    {
+      "question_num": 15,
+      "slide_index": 45,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-mcq",
+      "question": "Which rock band performed the 1982 hit 'Here I Go Again'?",
+      "options": [
+        "Scorpions",
+        "Def Leppard",
+        "Whitesnake"
+      ]
+    },
+    {
+      "question_num": 16,
+      "slide_index": 47,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-mcq",
+      "question": "The 1979 novel \\\"Hitchhiker's Guide to the Galaxy\\\" says \\\"the answer to the ultimate question of life, the universe and everything\\\" is what number?",
+      "options": [
+        "42",
+        "101"
+      ]
+    },
+    {
+      "question_num": 17,
+      "slide_index": 49,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-mcq",
+      "question": "Which actor delivered the line \\\"What we've got here is failure to communicate\\\" in the 1967 film 'Cool Hand Luke'?",
+      "options": [
+        "James Dean",
+        "Paul Newman",
+        "Steve McQueen"
+      ]
+    },
+    {
+      "question_num": 18,
+      "slide_index": 51,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-mcq",
+      "question": "Who is the highest-selling female musician/artist of all time in Greece, according to album sales?",
+      "options": [
+        "Marinella",
+        "Anna Vissi",
+        "Haris Alexiou"
+      ]
+    },
+    {
+      "question_num": 19,
+      "slide_index": 53,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-mcq",
+      "question": "What was the name of Coldplay's debut album released in the year 2000?",
+      "options": [
+        "Rush Of Blood To The Head",
+        "Yellow",
+        "Parachutes"
+      ]
+    },
+    {
+      "question_num": 20,
+      "slide_index": 55,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-mcq",
+      "question": "Which 1950s jazz musician was known as \\\"The Bird\\\" and helped develop bebop?",
+      "options": [
+        "Charlie Parker",
+        "Louis Armstrong",
+        "Thelonious Monk"
+      ]
+    },
+    {
+      "question_num": 21,
+      "slide_index": 57,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-mcq",
+      "question": "Which of the following games was included as a pack-in title with the original Nintendo Game Boy when released in 1989?",
+      "options": [
+        "Yakuman",
+        "Super Mario Land",
+        "Tetris"
+      ]
+    },
+    {
+      "question_num": 22,
+      "slide_index": 59,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-mcq",
+      "question": "Which boy band's 1996 hit single was \\\"Quit Playing Games With My Heart\\\"?",
+      "options": [
+        "Take That",
+        "NSYNC",
+        "Westlife"
+      ]
+    },
+    {
+      "question_num": 23,
+      "slide_index": 61,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-free-text",
+      "question": "Write the song name\\u2028and artist from the lyrics",
+      "instruction": "Write the song name\\u2028and artist from the lyrics | 1 point each! | Life is old there, older than the trees, Younger than the mountains, growin' like a breeze"
+    },
+    {
+      "question_num": 24,
+      "slide_index": 63,
+      "round": "Round 2",
+      "round_num": 2,
+      "type": "question-free-text",
+      "question": "In which city was Greek pop star Anna Vissi born and raised?",
+      "instruction": "Write the answer! | 2 points! | In which city was Greek pop star Anna Vissi born and raised?"
+    },
+    {
+      "question_num": 25,
+      "slide_index": 74,
+      "round": "Round 3",
+      "round_num": 3,
+      "type": "question-free-text",
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "question_num": 26,
+      "slide_index": 76,
+      "round": "Round 3",
+      "round_num": 3,
+      "type": "question-free-text",
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "question_num": 27,
+      "slide_index": 78,
+      "round": "Round 3",
+      "round_num": 3,
+      "type": "question-free-text",
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "question_num": 28,
+      "slide_index": 80,
+      "round": "Round 3",
+      "round_num": 3,
+      "type": "question-free-text",
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "question_num": 29,
+      "slide_index": 82,
+      "round": "Round 3",
+      "round_num": 3,
+      "type": "question-free-text",
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "question_num": 30,
+      "slide_index": 84,
+      "round": "Round 3",
+      "round_num": 3,
+      "type": "question-free-text",
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "question_num": 31,
+      "slide_index": 86,
+      "round": "Round 3",
+      "round_num": 3,
+      "type": "question-free-text",
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "question_num": 32,
+      "slide_index": 88,
+      "round": "Round 3",
+      "round_num": 3,
+      "type": "question-free-text",
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Listen carefully! | Write the song name\\u2028or the film/TV show, it was associated with"
+    },
+    {
+      "question_num": 33,
+      "slide_index": 90,
+      "round": "Round 3",
+      "round_num": 3,
+      "type": "question-free-text",
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Write the song name\\u2028or the film/TV show, it was associated with | Listen carefully!"
+    },
+    {
+      "question_num": 34,
+      "slide_index": 92,
+      "round": "Round 3",
+      "round_num": 3,
+      "type": "question-free-text",
+      "question": "Write the song name\\u2028or the film/TV show, it was associated with",
+      "instruction": "Write the song name\\u2028or the film/TV show, it was associated with | Listen carefully!"
+    }
+  ],
+  "rounds": [
+    {
+      "round_num": 1,
+      "slide_index": 6,
+      "texts": [
+        "(multiple choice round)",
+        "Round 1",
+        "Remember to write the rounds",
+        "& team name each time"
+      ]
+    },
+    {
+      "round_num": 2,
+      "slide_index": 39,
+      "texts": [
+        "(multiple choice round)",
+        "Round 2",
+        "Remember to write the rounds",
+        "& team name each time"
+      ]
+    },
+    {
+      "round_num": 3,
+      "slide_index": 72,
+      "texts": [
+        "Round 3",
+        "Remember to write the rounds",
+        "& team name each time",
+        "(audio round)"
+      ]
+    }
+  ]
+}

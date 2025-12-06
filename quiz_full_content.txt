@@ -1,0 +1,388 @@
+====================================================================================================
+COMPLETE QUIZ CONTENT EXTRACTION
+3rd Nostalgia Quiz Night - Antonakis Music Hall
+====================================================================================================
+
+Total Questions: 34
+Total Rounds: 3
+
+
+====================================================================================================
+ROUND 1
+====================================================================================================
+Total: 12 questions (10 Multiple Choice, 2 Free Text)
+
+----------------------------------------------------------------------------------------------------
+Q1 (Slide 8)
+
+Question: Which 90s movie featured Whitney Houston's hit song 'I Will Always Love You'?
+
+Options:
+  A. The Princess Diaries
+  B. The Bodyguard
+  C. The Preacher's Wife
+
+ANSWER: The Bodyguard
+
+----------------------------------------------------------------------------------------------------
+Q2 (Slide 10)
+
+Question: Who wrote the 1971 classic 'Ain’t No Sunshine,' one of the most covered songs of all time?
+
+Options:
+  A. Al Green
+  B. Marvin Gaye
+  C. Bill Withers
+
+ANSWER: Bill Withers
+
+----------------------------------------------------------------------------------------------------
+Q3 (Slide 12)
+
+Question: Which 2004 comedy stars Lindsay Lohan as a high school student navigating friends and social politics?
+
+Options:
+  A. Freaky Friday
+  B. The Parent Trap
+  C. Easy A
+
+ANSWER: Mean Girls
+
+----------------------------------------------------------------------------------------------------
+Q4 (Slide 14)
+
+Question: What iconic music festival took place in August 1969 on a dairy farm in New York?
+
+Options:
+  A. Woodstock
+  B. Monterey Pop Festival
+  C. Isle of Wight Festival
+
+ANSWER: Woodstock
+
+----------------------------------------------------------------------------------------------------
+Q5 (Slide 16)
+
+Question: Which act represented Cyprus at Eurovision in 1983 with the song \"H Agapi Akoma Zei\"?
+
+Options:
+  A. Christie Stassinopoulou
+  B. Anna Vissi
+  C. Stavros & Konstantina
+
+ANSWER: Stavros & Konstantina
+
+----------------------------------------------------------------------------------------------------
+Q6 (Slide 18)
+
+Question: Which of the following musicians did NOT appear on Miles Davis' legendary 1959 jazz album 'Kind of Blue'?
+
+Options:
+  A. Bill Evans
+  B. John Coltrane
+  C. Cannonball Adderley
+
+ANSWER: Sonny Rollins
+
+----------------------------------------------------------------------------------------------------
+Q7 (Slide 20)
+
+Question: On Michael Jackson's legendary 'Beat It' song, which guitarist delivered its iconic solo?
+
+Options:
+  A. Brian May
+  B. Slash
+  C. Eddie Van Halen
+
+ANSWER: Eddie Van Halen
+
+----------------------------------------------------------------------------------------------------
+Q8 (Slide 22)
+
+Question: Where was the famous toy company LEGO founded?
+
+Options:
+  A. Sweden
+  B. Denmark
+  C. Finland
+
+ANSWER: Denmark
+
+----------------------------------------------------------------------------------------------------
+Q9 (Slide 24)
+
+Question: Which Beatles song features the lyric:
+
+Options:
+  A. Please Please Me
+  B. Martha My Dear
+  C. Oh Darling
+
+----------------------------------------------------------------------------------------------------
+Q10 (Slide 26)
+
+Question: What was the name of the first widely-used web browser released in 1993?
+
+Options:
+  A. Mosaic
+  B. Netscape Navigator
+  C. Internet Explorer
+
+ANSWER: Mosaic
+
+----------------------------------------------------------------------------------------------------
+Q11 (Slide 28)
+
+Question: He turned to me as if to say,\u2028Hurry boy he’s waiting there for you
+
+Instructions: He turned to me as if to say,\u2028Hurry boy he’s waiting there for you
+  Write the song name\u2028and artist from the lyrics
+  1 point each!
+
+----------------------------------------------------------------------------------------------------
+Q12 (Slide 30)
+
+Question: Before Greek star Sakis Rouvas became a famous singer, which track & field sport did he excel at, even joining the Hellenic national team?
+
+Instructions: 2 points!
+  Before Greek star Sakis Rouvas became a famous singer, which track & field sport did he excel at, even joining the Hellenic national team?
+  Write the answer!
+
+
+====================================================================================================
+ROUND 2
+====================================================================================================
+Total: 12 questions (10 Multiple Choice, 2 Free Text)
+
+----------------------------------------------------------------------------------------------------
+Q13 (Slide 41)
+
+Question: \"We don't wake up for less than $10,000 a day\". Which supermodel famously said this in a 1990 interview?
+
+Options:
+  A. Naomi Campbell
+  B. Cindy Crawford
+  C. Claudia Schiffer
+
+ANSWER: Linda Evangelista
+
+----------------------------------------------------------------------------------------------------
+Q14 (Slide 43)
+
+Question: Which 1950s film holds the record for the most Oscars (11) until it was tied decades later by Titanic (1997)?
+
+Options:
+  A. On The Waterfront
+  B. Ben-Hur
+  C. From Here to Eternity
+
+ANSWER: Ben-Hur
+
+----------------------------------------------------------------------------------------------------
+Q15 (Slide 45)
+
+Question: Which rock band performed the 1982 hit 'Here I Go Again'?
+
+Options:
+  A. Scorpions
+  B. Def Leppard
+  C. Whitesnake
+
+ANSWER: \u2028Whitesnake
+
+----------------------------------------------------------------------------------------------------
+Q16 (Slide 47)
+
+Question: The 1979 novel \"Hitchhiker's Guide to the Galaxy\" says \"the answer to the ultimate question of life, the universe and everything\" is what number?
+
+Options:
+  A. 42
+  B. 101
+
+ANSWER: \u202842
+
+----------------------------------------------------------------------------------------------------
+Q17 (Slide 49)
+
+Question: Which actor delivered the line \"What we've got here is failure to communicate\" in the 1967 film 'Cool Hand Luke'?
+
+Options:
+  A. James Dean
+  B. Paul Newman
+  C. Steve McQueen
+
+ANSWER: Paul Newman
+
+----------------------------------------------------------------------------------------------------
+Q18 (Slide 51)
+
+Question: Who is the highest-selling female musician/artist of all time in Greece, according to album sales?
+
+Options:
+  A. Marinella
+  B. Anna Vissi
+  C. Haris Alexiou
+
+ANSWER: Haris Alexiou
+
+----------------------------------------------------------------------------------------------------
+Q19 (Slide 53)
+
+Question: What was the name of Coldplay's debut album released in the year 2000?
+
+Options:
+  A. Rush Of Blood To The Head
+  B. Yellow
+  C. Parachutes
+
+ANSWER: Parachutes
+
+----------------------------------------------------------------------------------------------------
+Q20 (Slide 55)
+
+Question: Which 1950s jazz musician was known as \"The Bird\" and helped develop bebop?
+
+Options:
+  A. Charlie Parker
+  B. Louis Armstrong
+  C. Thelonious Monk
+
+ANSWER: Charlie Parker
+
+----------------------------------------------------------------------------------------------------
+Q21 (Slide 57)
+
+Question: Which of the following games was included as a pack-in title with the original Nintendo Game Boy when released in 1989?
+
+Options:
+  A. Yakuman
+  B. Super Mario Land
+  C. Tetris
+
+ANSWER: Tetris
+
+----------------------------------------------------------------------------------------------------
+Q22 (Slide 59)
+
+Question: Which boy band's 1996 hit single was \"Quit Playing Games With My Heart\"?
+
+Options:
+  A. Take That
+  B. NSYNC
+  C. Westlife
+
+ANSWER: Backstreet Boys
+
+----------------------------------------------------------------------------------------------------
+Q23 (Slide 61)
+
+Question: Write the song name\u2028and artist from the lyrics
+
+Instructions: Write the song name\u2028and artist from the lyrics
+  1 point each!
+  Life is old there, older than the trees, Younger than the mountains, growin' like a breeze
+
+----------------------------------------------------------------------------------------------------
+Q24 (Slide 63)
+
+Question: In which city was Greek pop star Anna Vissi born and raised?
+
+Instructions: Write the answer!
+  2 points!
+  In which city was Greek pop star Anna Vissi born and raised?
+
+
+====================================================================================================
+ROUND 3
+====================================================================================================
+Total: 10 questions (0 Multiple Choice, 10 Free Text)
+
+----------------------------------------------------------------------------------------------------
+Q25 (Slide 74)
+
+Question: Write the song name\u2028or the film/TV show, it was associated with
+
+Instructions: Listen carefully!
+  Write the song name\u2028or the film/TV show, it was associated with
+
+----------------------------------------------------------------------------------------------------
+Q26 (Slide 76)
+
+Question: Write the song name\u2028or the film/TV show, it was associated with
+
+Instructions: Listen carefully!
+  Write the song name\u2028or the film/TV show, it was associated with
+
+----------------------------------------------------------------------------------------------------
+Q27 (Slide 78)
+
+Question: Write the song name\u2028or the film/TV show, it was associated with
+
+Instructions: Listen carefully!
+  Write the song name\u2028or the film/TV show, it was associated with
+
+----------------------------------------------------------------------------------------------------
+Q28 (Slide 80)
+
+Question: Write the song name\u2028or the film/TV show, it was associated with
+
+Instructions: Listen carefully!
+  Write the song name\u2028or the film/TV show, it was associated with
+
+----------------------------------------------------------------------------------------------------
+Q29 (Slide 82)
+
+Question: Write the song name\u2028or the film/TV show, it was associated with
+
+Instructions: Listen carefully!
+  Write the song name\u2028or the film/TV show, it was associated with
+
+----------------------------------------------------------------------------------------------------
+Q30 (Slide 84)
+
+Question: Write the song name\u2028or the film/TV show, it was associated with
+
+Instructions: Listen carefully!
+  Write the song name\u2028or the film/TV show, it was associated with
+
+----------------------------------------------------------------------------------------------------
+Q31 (Slide 86)
+
+Question: Write the song name\u2028or the film/TV show, it was associated with
+
+Instructions: Listen carefully!
+  Write the song name\u2028or the film/TV show, it was associated with
+
+----------------------------------------------------------------------------------------------------
+Q32 (Slide 88)
+
+Question: Write the song name\u2028or the film/TV show, it was associated with
+
+Instructions: Listen carefully!
+  Write the song name\u2028or the film/TV show, it was associated with
+
+----------------------------------------------------------------------------------------------------
+Q33 (Slide 90)
+
+Question: Write the song name\u2028or the film/TV show, it was associated with
+
+Instructions: Write the song name\u2028or the film/TV show, it was associated with
+  Listen carefully!
+
+----------------------------------------------------------------------------------------------------
+Q34 (Slide 92)
+
+Question: Write the song name\u2028or the film/TV show, it was associated with
+
+Instructions: Write the song name\u2028or the film/TV show, it was associated with
+  Listen carefully!
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+Round 1: 12 questions (10 MCQ + 2 Free Text)
+Round 2: 12 questions (10 MCQ + 2 Free Text)
+Round 3: 10 questions (10 Free Text)
+Total: 34 questions
