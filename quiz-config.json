@@ -3,7 +3,7 @@
     "title": "Quiz Night #4",
     "venue": "Antonakis Music Hall",
     "defaultQuestionDurationSec": 35,
-    "countdownAudio": "media/The Countdown Clock.mp3",
+    "countdownAudio": "media/countdown.mp3",
     "theme": {
       "backgroundColor": "#1a1a2e",
       "textColor": "#ffffff",

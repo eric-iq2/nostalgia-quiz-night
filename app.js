@@ -587,7 +587,7 @@ function startQuestionTimer(slide) {
     // Create countdown audio element
     const countdownAudio = new Audio();
     const audioSrc = (state.config.settings && state.config.settings.countdownAudio)
-        || 'media/The Countdown Clock.mp3';
+        || 'media/countdown.mp3';
     countdownAudio.src = audioSrc;
     countdownAudio.loop = true;
     countdownAudio.volume = 0.5;
