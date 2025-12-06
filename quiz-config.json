@@ -23,20 +23,43 @@
       "id": "welcome-2",
       "type": "info",
       "title": "Welcome!",
-      "subtitle": "Get ready for an amazing night of trivia",
-      "image": "media/logo.png"
+      "subtitle": "Have a seat, order some drinks and think of a team name!"
     },
     {
-      "id": "prizes-1",
+      "id": "prize-6",
       "type": "info",
-      "title": "Tonight's Prizes",
-      "image": "media/prizes-1.png"
+      "title": "Prize #6",
+      "htmlContent": "<div class='prize-single'><h2>50% off Today's<br />Table Bill</h2><p class='prize-subtext'>at <em>Antonakis Music Hall</em></p></div>"
     },
     {
-      "id": "prizes-2",
+      "id": "prize-5",
       "type": "info",
-      "title": "More Prizes",
-      "image": "media/prizes-2.png"
+      "title": "Prize #5",
+      "htmlContent": "<div class='prize-single'><h2>Free Movie Tickets</h2><p class='prize-subtext'>to <em>Pantheon Cinema</em></p></div>"
+    },
+    {
+      "id": "prize-4",
+      "type": "info",
+      "title": "Prize #4",
+      "htmlContent": "<div class='prize-single'><h2>Packs of 4 <br />Multi-Flavoured Kombuchas</h2><div class='prize-value'>(worth €14 each)</div><p class='prize-subtext'>by <em>Mikro Kombucha</em></p><div class='prize-list prize-list-small'>Lemon, Ginger, Turmeric<br>Three Hops Blend<br>Grapefruit<br>Lavender Hibiscus Honey</div></div>"
+    },
+    {
+      "id": "prize-3",
+      "type": "info",
+      "title": "Prize #3",
+      "htmlContent": "<div class='prize-single'><h2>Goodie Bags</h2><div class='prize-value'>(worth €25 each)</div><p class='prize-subtext'>by <em>Tryfon Tseriotis</em></p><div class='prize-list prize-list-small'>2 Cadbury Fingers<br>1 Kettle Cooked chips<br>2 McVities Digestive<br>2 Balconi Waffles<br>1 McVities Billions Gold Wafer<br>1 Nexba Kombucha<br>1 Milka Chocolate<br>2 McVities Limited Edition Mugs</div></div>"
+    },
+    {
+      "id": "prize-2",
+      "type": "info",
+      "title": "Prize #2",
+      "htmlContent": "<div class='prize-single'><h2>Handmade Candles</h2><div class='prize-value'>(worth €30 each)</div><p class='prize-subtext'>from <em>Hippie Candles by Gloria</em></p></div>"
+    },
+    {
+      "id": "prize-1",
+      "type": "info",
+      "title": "Prize #1",
+      "htmlContent": "<div class='prize-single'><h2>Christmas Hamper Baskets</h2><div class='prize-value'>(worth €55 each)</div><div class='prize-list prize-list-small'>Bottle of wine from <em>Laiko Cosmos</em><br>Bottle of wine from <em>Xinaris</em><br>Brie Cheese<br>Nuts from Amalia<br>Voucher from <em>Misfit Union Kitchen</em><br />for any Platter of your choice</div></div>"
     },
     {
       "id": "round1-intro",
@@ -44,7 +67,7 @@
       "round": 1,
       "title": "Round 1",
       "subtitle": "(multiple choice round)",
-      "instructions": "Remember to write the rounds & team name each time"
+      "instructions": "Make sure you've written your team name on the answer sheet!"
     },
     {
       "id": "r1-q1",
@@ -201,7 +224,7 @@
       "type": "question-free-text",
       "round": 1,
       "questionNumber": "Bonus 1",
-      "questionText": "I work all night, I work all day, to pay the bills I have to pay. Ain't It Sad? And still there never seems to be a single penny left for me. That’s too bad.",
+      "questionText": "I work all night, I work all day, to pay the bills I have to pay. Ain't It Sad?<br />And still there never seems to be a single penny left for me. That's too bad.",
       "correctAnswerText": "'Money Money Money' by Abba",
       "timerSeconds": 30,
       "pointsAvailable": 2,
@@ -212,11 +235,17 @@
       "type": "question-free-text",
       "round": 1,
       "questionNumber": "Bonus 2",
-      "questionText": "Aside from Rudolph, can you name 2 of Santa's other reindeers? (1 point per reindeer)",
+      "questionText": "Aside from Rudolph, can you name 2 of Santa's other reindeers?<br />(1 point per reindeer)",
       "correctAnswerText": "Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, Blitzen",
       "timerSeconds": 30,
       "pointsAvailable": 2,
       "instructions": "Write the answer!\n2 points!"
+    },
+    {
+      "id": "r1-collection",
+      "type": "info",
+      "title": "End of Round 1",
+      "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
     },
     {
       "id": "r1-q1-answer",
@@ -318,7 +347,7 @@
       "id": "r1-end",
       "type": "info",
       "title": "End of Round 1",
-      "subtitle": "Time to check your answers!"
+      "subtitle": "Get ready for the next round!"
     },
     {
       "id": "break-1",
@@ -332,7 +361,7 @@
       "round": 2,
       "title": "Round 2",
       "subtitle": "(multiple choice round)",
-      "instructions": "Remember to write the rounds & team name each time"
+      "instructions": "Make sure you've written your team name on the answer sheet!"
     },
     {
       "id": "r2-q1",
@@ -489,7 +518,7 @@
       "type": "question-free-text",
       "round": 2,
       "questionNumber": "Bonus 1",
-      "questionText": "Before you came into my life, I missed you so bad. I missed you so bad. I missed you so so bad.",
+      "questionText": "Before you came into my life, I missed you so bad.<br />I missed you so bad. I missed you so so bad.",
       "correctAnswerText": "'Call Me Maybe' by Carly Rae Jepsen",
       "timerSeconds": 30,
       "pointsAvailable": 2,
@@ -500,11 +529,17 @@
       "type": "question-free-text",
       "round": 2,
       "questionNumber": "Bonus 2",
-      "questionText": "In Harry Potter, which character says they never have enough socks, cause people always buy them books for Xmas?",
+      "questionText": "In Harry Potter, which character says they never have enough socks,<br />cause people always buy them books for Xmas?",
       "correctAnswerText": "Professor Dumbledore",
       "timerSeconds": 30,
       "pointsAvailable": 2,
       "instructions": "Write the answer!\n2 points!"
+    },
+    {
+      "id": "r2-collection",
+      "type": "info",
+      "title": "End of Round 2",
+      "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
     },
     {
       "id": "r2-q1-answer",
@@ -606,7 +641,7 @@
       "id": "r2-end",
       "type": "info",
       "title": "End of Round 2",
-      "subtitle": "Time to check your answers!"
+      "subtitle": "Get ready for the next round!"
     },
     {
       "id": "break-2",
@@ -620,7 +655,7 @@
       "round": 3,
       "title": "Round 3",
       "subtitle": "(video round)",
-      "instructions": "Watch carefully and identify!"
+      "instructions": "Make sure you've written your team name on the answer sheet!"
     },
     {
       "id": "r3-q1",
@@ -733,6 +768,12 @@
       "correctAnswerText": "[To be filled]"
     },
     {
+      "id": "r3-collection",
+      "type": "info",
+      "title": "End of Round 3",
+      "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
+    },
+    {
       "id": "r3-q1-answer",
       "type": "answer",
       "round": 3,
@@ -816,7 +857,7 @@
       "id": "r3-end",
       "type": "info",
       "title": "End of Round 3",
-      "subtitle": "Time to check your answers!"
+      "subtitle": "Get ready for the next round!"
     },
     {
       "id": "break-3",
@@ -830,7 +871,7 @@
       "round": 4,
       "title": "Round 4",
       "subtitle": "(multiple choice round)",
-      "instructions": "Remember to write the rounds & team name each time"
+      "instructions": "Make sure you've written your team name on the answer sheet!"
     },
     {
       "id": "r4-q1",
@@ -912,7 +953,7 @@
       "type": "question-mcq",
       "round": 4,
       "questionNumber": 6,
-      "questionText": "What movie's tagline is 'They're young, they're in love, and they kill people?'",
+      "questionText": "What movie's tagline is 'They're young, they're in love, and they kill people'?",
       "options": [
         "Natural Born Killers",
         "True Romance",
@@ -987,7 +1028,7 @@
       "type": "question-free-text",
       "round": 4,
       "questionNumber": "Bonus 1",
-      "questionText": "It was a slap in the face how quickly I was replaced. And are you thinkin' of me when you fuck her?",
+      "questionText": "It was a slap in the face how quickly I was replaced.<br />And are you thinkin' of me when you fuck her?",
       "correctAnswerText": "'You Oughta Know' by Alanis Morissette",
       "timerSeconds": 30,
       "pointsAvailable": 2,
@@ -1003,6 +1044,12 @@
       "timerSeconds": 30,
       "pointsAvailable": 2,
       "instructions": "Write the answer!\n2 points!"
+    },
+    {
+      "id": "r4-collection",
+      "type": "info",
+      "title": "End of Round 4",
+      "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
     },
     {
       "id": "r4-q1-answer",
@@ -1104,7 +1151,7 @@
       "id": "r4-end",
       "type": "info",
       "title": "End of Round 4",
-      "subtitle": "Time to check your answers!"
+      "subtitle": "Get ready for the next round!"
     },
     {
       "id": "break-4",
@@ -1118,7 +1165,7 @@
       "round": 5,
       "title": "Round 5",
       "subtitle": "(multiple choice round)",
-      "instructions": "Remember to write the rounds & team name each time"
+      "instructions": "Make sure you've written your team name on the answer sheet!"
     },
     {
       "id": "r5-q1",
@@ -1140,7 +1187,7 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 2,
-      "questionText": "In \"Back to the Future\" what speed does the DeLorean need to reach to travel through time?",
+      "questionText": "In \"Back to the Future\" what speed does the DeLorean need to reach<br />to travel through time?",
       "options": [
         "88 mph",
         "77 mph",
@@ -1155,7 +1202,7 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 3,
-      "questionText": "Released in 1978, what arcade game caused a coin shortage in Japan due to its popularity?",
+      "questionText": "Released in 1978, what arcade game caused a coin shortage in Japan<br />due to its popularity?",
       "options": [
         "Pac-Man",
         "Space Invaders",
@@ -1185,7 +1232,7 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 5,
-      "questionText": "Which French designer introduced 'New Look' in 1947, revolutionizing women's fashion in the 1950s?",
+      "questionText": "Which French designer introduced 'New Look' in 1947,<br />revolutionizing women's fashion in the 1950s?",
       "options": [
         "Coco Chanel",
         "Pierre Cardin",
@@ -1245,7 +1292,7 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 9,
-      "questionText": "Which dance move, popularized by Soulja Boy in 2007, became a viral phenomenon?",
+      "questionText": "Which dance move, popularized by Soulja Boy in 2007,<br />became a viral phenomenon?",
       "options": [
         "Crank That",
         "The Dougie",
@@ -1260,7 +1307,7 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 10,
-      "questionText": "What was the name of the first web browser with a graphical interface, released in 1993?",
+      "questionText": "What was the name of the first web browser with a graphical interface,<br />released in 1993?",
       "options": [
         "Netscape",
         "Internet Explorer",
@@ -1275,7 +1322,7 @@
       "type": "question-free-text",
       "round": 5,
       "questionNumber": "Bonus 1",
-      "questionText": "When it comes to sex, I'm similar to the thriller in Manila. Honeys call me Bigga the condom filler. Whether it's stiff tongue or stiff dick. Biggie squeeze it to make shit fit, now check this shit",
+      "questionText": "When it comes to sex, I'm similar to the thriller in Manila.<br />Honeys call me Bigga the condom filler.<br />Whether it's stiff tongue or stiff dick.<br />Biggie squeeze it to make shit fit, now check this shit",
       "correctAnswerText": "'One More Chance' OR 'Old Thing Back' by Notorious B.I.G.",
       "timerSeconds": 30,
       "pointsAvailable": 2,
@@ -1291,6 +1338,12 @@
       "timerSeconds": 30,
       "pointsAvailable": 2,
       "instructions": "Write the answer!\n2 points!"
+    },
+    {
+      "id": "r5-collection",
+      "type": "info",
+      "title": "End of Round 5",
+      "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
     },
     {
       "id": "r5-q1-answer",
@@ -1392,7 +1445,7 @@
       "id": "r5-end",
       "type": "info",
       "title": "End of Round 5",
-      "subtitle": "Time to check your answers!"
+      "subtitle": "Get ready for the next round!"
     },
     {
       "id": "break-5",
@@ -1406,7 +1459,7 @@
       "round": 6,
       "title": "Round 6",
       "subtitle": "(audio round)",
-      "instructions": "Listen carefully and identify!"
+      "instructions": "Make sure you've written your team name on the answer sheet!"
     },
     {
       "id": "r6-q1",
@@ -1519,6 +1572,12 @@
       "correctAnswerText": "[To be filled]"
     },
     {
+      "id": "r6-collection",
+      "type": "info",
+      "title": "End of Round 6",
+      "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
+    },
+    {
       "id": "r6-q1-answer",
       "type": "answer",
       "round": 6,
@@ -1602,7 +1661,7 @@
       "id": "r6-end",
       "type": "info",
       "title": "End of Round 6",
-      "subtitle": "Time to check your answers!"
+      "subtitle": "Get ready for the next round!"
     },
     {
       "id": "thank-you",

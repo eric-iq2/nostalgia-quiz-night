@@ -295,6 +295,11 @@ function renderRoundIntro(slide) {
         container.appendChild(subtitle);
     }
 
+    if (slide.instructions) {
+        const instructions = createElement('p', 'slide-instructions', slide.instructions);
+        container.appendChild(instructions);
+    }
+
     elements.slideRoot.appendChild(container);
 }
 
@@ -545,6 +550,13 @@ function renderInfo(slide) {
         container.appendChild(subtitle);
     }
 
+    if (slide.htmlContent) {
+        const htmlDiv = document.createElement('div');
+        htmlDiv.className = 'slide-html-content';
+        htmlDiv.innerHTML = slide.htmlContent;
+        container.appendChild(htmlDiv);
+    }
+
     if (slide.image) {
         const img = createImage(slide.image, 'slide-image');
         if (slide.fullscreenImage) {
@@ -589,7 +601,6 @@ function startQuestionTimer(slide) {
     const audioSrc = (state.config.settings && state.config.settings.countdownAudio)
         || 'media/countdown.mp3';
     countdownAudio.src = audioSrc;
-    countdownAudio.loop = true;
     countdownAudio.volume = 0.5;
 
     // Start playing audio immediately if user has interacted
@@ -608,8 +619,6 @@ function startQuestionTimer(slide) {
 
         if (remainingTime <= 0) {
             clearInterval(intervalId);
-            countdownAudio.pause();
-            countdownAudio.currentTime = 0;
         }
     }, 1000);
 
@@ -620,8 +629,6 @@ function startQuestionTimer(slide) {
     // Set timeout for full duration
     state.currentQuestionTimer = setTimeout(() => {
         clearInterval(intervalId);
-        countdownAudio.pause();
-        countdownAudio.currentTime = 0;
         showTimesUp();
     }, duration * 1000);
 }
@@ -773,7 +780,7 @@ function createElement(tag, className, textContent = '') {
     const element = document.createElement(tag);
     element.className = className;
     if (textContent) {
-        element.textContent = textContent;
+        element.innerHTML = textContent;
     }
     return element;
 }

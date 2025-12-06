@@ -173,6 +173,14 @@ body {
     font-size: 4.5rem;
 }
 
+.slide-instructions {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    color: var(--accent-color, #ffcc00);
+    font-weight: 600;
+    text-align: center;
+}
+
 /* ===== Question Slides ===== */
 .question-slide {
     position: relative;
@@ -442,5 +450,99 @@ body {
 
     .mcq-option {
         font-size: 1.5rem;
+    }
+}
+
+/* ===== Prize Single Slide Styling ===== */
+.prize-single {
+    background: linear-gradient(135deg, rgba(255, 204, 0, 0.15) 0%, rgba(255, 107, 107, 0.15) 100%);
+    border: 3px solid var(--accent-color, #ffcc00);
+    border-radius: 24px;
+    padding: 3rem 4rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(255, 204, 0, 0.3);
+}
+
+.prize-single h2 {
+    color: var(--accent-color, #ffcc00);
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.prize-value {
+    color: var(--secondary-accent, #ff6b6b);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+.prize-single p {
+    font-size: 1.8rem;
+    line-height: 2;
+    margin: 1rem 0;
+    color: #ffffff;
+}
+
+.prize-subtext {
+    font-size: 2.2rem !important;
+    line-height: 2;
+    margin: 1.5rem 0;
+    color: #ffffff;
+}
+
+.prize-list {
+    font-size: 1.5rem;
+    line-height: 2.2;
+    margin-top: 2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.prize-list-small {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.prize-single em {
+    color: var(--accent-color, #ffcc00);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    .prize-single {
+        padding: 2rem 2.5rem;
+        max-width: 90%;
+    }
+
+    .prize-single h2 {
+        font-size: 2.2rem;
+    }
+
+    .prize-value {
+        font-size: 1.6rem;
+    }
+
+    .prize-single p {
+        font-size: 1.4rem;
+    }
+
+    .prize-subtext {
+        font-size: 1.7rem !important;
+    }
+
+    .prize-list {
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+
+    .prize-list-small {
+        font-size: 1rem;
+        line-height: 1.6;
     }
 }
