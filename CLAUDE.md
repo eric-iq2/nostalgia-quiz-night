@@ -49,15 +49,20 @@ The application uses a type-based renderer pattern:
 
 ### Question Timer System
 
-Question slides automatically trigger timers via `startQuestionTimer()` (app.js:561-588):
+Question slides automatically trigger timers via `startQuestionTimer()` (app.js:561-604):
 
 1. Timer duration from `slide.timerSeconds` or `settings.defaultQuestionDurationSec` (default 30s)
 2. Creates visual timer display (bottom-right corner, circular)
 3. Updates every second via `setInterval`
-4. When timer expires, calls `startCountdownVideoThenAdvance()` (app.js:599-633)
-5. Countdown video overlays the slide, auto-advances to next slide when video ends
+4. Plays looping countdown audio tick during last 10 seconds (requires user interaction first)
+5. When timer expires, calls `showTimesUp()` which:
+   - Hides all answer options (MCQ choices or free-text prompts)
+   - Displays "TIME'S UP!" message with animation
+   - Auto-advances to next slide after 3 seconds
 
 **Critical Behavior**: Navigation (next/prev) or new slide render must call `clearQuestionTimer()` to prevent timer leaks.
+
+**Audio**: Countdown tick audio (`media/countdown-tick.wav` or `.mp3`) loops during final 10 seconds at 30% volume.
 
 ### Answer Slide Cross-Reference System
 
@@ -83,12 +88,19 @@ After loading, calls `applyTheme()` (app.js:85-105) which applies theme colors f
 
 All quiz content comes from a single JSON file. Key points:
 
-- `settings.countdownVideo` - Global countdown video shown after every question timer
-- `settings.defaultQuestionDurationSec` - Default timer for all questions
+- `settings.countdownAudio` - Audio tick that plays during final 10 seconds of question timers
+- `settings.defaultQuestionDurationSec` - Default timer for all questions (typically 30s)
 - `settings.theme` - Colors and fonts applied via JavaScript
 - `slides` - Flat array in display order (not grouped by round)
 
 Question slides support optional `timerSeconds` override. MCQ options are always labeled A/B/C/D automatically (app.js:304).
+
+**Quiz Structure Pattern**: Each round follows this sequence:
+1. Round intro slide
+2. All questions for the round (10 MCQ + 2 bonus)
+3. All answers grouped together (12 answer slides)
+4. "End of Round X" info slide
+5. Break slide (between rounds)
 
 ## Media Files
 

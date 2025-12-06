@@ -9,10 +9,13 @@ const state = {
     slides: [],
     currentSlideIndex: 0,
     currentQuestionTimer: null,
+    currentQuestionTimerInterval: null,
+    currentQuestionTimerAudio: null,
     countdownVideoElement: null,
     isCountdownPlaying: false,
     hasUserInteracted: false,
-    controlBarTimeout: null
+    controlBarTimeout: null,
+    timerStarted: false
 };
 
 // ===== DOM Elements =====
@@ -127,6 +130,16 @@ function setupEventListeners() {
 
 // ===== Keyboard Handler =====
 function handleKeyPress(event) {
+    const currentSlide = state.slides[state.currentSlideIndex];
+
+    // If on a question slide and timer hasn't started, start it on any key press
+    if (isQuestionSlide(currentSlide) && !state.timerStarted) {
+        event.preventDefault();
+        state.timerStarted = true;
+        startQuestionTimer(currentSlide);
+        return;
+    }
+
     switch (event.key) {
         case 'ArrowRight':
         case ' ':
@@ -174,7 +187,7 @@ function skipToCountdown() {
     const currentSlide = state.slides[state.currentSlideIndex];
     if (isQuestionSlide(currentSlide)) {
         clearQuestionTimer();
-        startCountdownVideoThenAdvance();
+        showTimesUp();
     }
 }
 
@@ -182,6 +195,7 @@ function restartQuestionTimer() {
     const currentSlide = state.slides[state.currentSlideIndex];
     if (isQuestionSlide(currentSlide) && !state.isCountdownPlaying) {
         clearQuestionTimer();
+        state.timerStarted = true;
         startQuestionTimer(currentSlide);
     }
 }
@@ -191,6 +205,9 @@ function renderCurrentSlide() {
     // Clear any existing timers and countdown
     clearQuestionTimer();
     hideCountdownVideo();
+
+    // Reset timer started flag for new slide
+    state.timerStarted = false;
 
     // Update slide counter
     updateSlideCounter();
@@ -315,8 +332,7 @@ function renderQuestionMcq(slide) {
     container.appendChild(optionsContainer);
     elements.slideRoot.appendChild(container);
 
-    // Start question timer
-    startQuestionTimer(slide);
+    // Timer will start on first key press (no auto-start)
 }
 
 function renderQuestionFreeText(slide) {
@@ -336,8 +352,7 @@ function renderQuestionFreeText(slide) {
 
     elements.slideRoot.appendChild(container);
 
-    // Start question timer
-    startQuestionTimer(slide);
+    // Timer will start on first key press (no auto-start)
 }
 
 function renderQuestionVideo(slide) {
@@ -376,8 +391,7 @@ function renderQuestionVideo(slide) {
     container.appendChild(video);
     elements.slideRoot.appendChild(container);
 
-    // Start question timer
-    startQuestionTimer(slide);
+    // Timer will start on first key press (no auto-start)
 }
 
 function renderQuestionAudio(slide) {
@@ -413,8 +427,7 @@ function renderQuestionAudio(slide) {
     container.appendChild(audioContainer);
     elements.slideRoot.appendChild(container);
 
-    // Start question timer
-    startQuestionTimer(slide);
+    // Timer will start on first key press (no auto-start)
 }
 
 function renderAnswer(slide) {
@@ -534,6 +547,9 @@ function renderInfo(slide) {
 
     if (slide.image) {
         const img = createImage(slide.image, 'slide-image');
+        if (slide.fullscreenImage) {
+            img.classList.add('fullscreen');
+        }
         container.appendChild(img);
     }
 
@@ -568,6 +584,21 @@ function startQuestionTimer(slide) {
     const timerDisplay = createElement('div', 'question-timer', duration.toString());
     elements.slideRoot.appendChild(timerDisplay);
 
+    // Create countdown audio element
+    const countdownAudio = new Audio();
+    const audioSrc = (state.config.settings && state.config.settings.countdownAudio)
+        || 'media/The Countdown Clock.mp3';
+    countdownAudio.src = audioSrc;
+    countdownAudio.loop = true;
+    countdownAudio.volume = 0.5;
+
+    // Start playing audio immediately if user has interacted
+    if (state.hasUserInteracted) {
+        countdownAudio.play().catch(err => {
+            console.warn('Could not play countdown audio:', err);
+        });
+    }
+
     let remainingTime = duration;
 
     // Update timer every second
@@ -577,13 +608,21 @@ function startQuestionTimer(slide) {
 
         if (remainingTime <= 0) {
             clearInterval(intervalId);
+            countdownAudio.pause();
+            countdownAudio.currentTime = 0;
         }
     }, 1000);
+
+    // Store audio reference and interval for cleanup
+    state.currentQuestionTimerAudio = countdownAudio;
+    state.currentQuestionTimerInterval = intervalId;
 
     // Set timeout for full duration
     state.currentQuestionTimer = setTimeout(() => {
         clearInterval(intervalId);
-        startCountdownVideoThenAdvance();
+        countdownAudio.pause();
+        countdownAudio.currentTime = 0;
+        showTimesUp();
     }, duration * 1000);
 }
 
@@ -592,6 +631,36 @@ function clearQuestionTimer() {
         clearTimeout(state.currentQuestionTimer);
         state.currentQuestionTimer = null;
     }
+
+    if (state.currentQuestionTimerInterval) {
+        clearInterval(state.currentQuestionTimerInterval);
+        state.currentQuestionTimerInterval = null;
+    }
+
+    if (state.currentQuestionTimerAudio) {
+        state.currentQuestionTimerAudio.pause();
+        state.currentQuestionTimerAudio.currentTime = 0;
+        state.currentQuestionTimerAudio = null;
+    }
+}
+
+function showTimesUp() {
+    // Hide all answer options
+    const optionsContainer = document.querySelector('.mcq-options');
+    const freeTextPrompt = document.querySelector('.free-text-prompt');
+
+    if (optionsContainer) {
+        optionsContainer.style.display = 'none';
+    }
+    if (freeTextPrompt) {
+        freeTextPrompt.style.display = 'none';
+    }
+
+    // Create and show "TIME'S UP!" message
+    const timesUpDiv = createElement('div', 'times-up-message', "TIME'S UP!");
+    elements.slideRoot.appendChild(timesUpDiv);
+
+    // No auto-advance - user must manually advance to next slide
 }
 
 // ===== Countdown Video Logic =====
