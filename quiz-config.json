@@ -1,0 +1,832 @@
+{
+  "settings": {
+    "title": "Quiz Night #4",
+    "venue": "Antonakis Music Hall",
+    "defaultQuestionDurationSec": 30,
+    "countdownVideo": "media/countdown.mov",
+    "theme": {
+      "backgroundColor": "#1a1a2e",
+      "textColor": "#ffffff",
+      "accentColor": "#ffcc00",
+      "secondaryAccent": "#ff6b6b",
+      "fontFamily": "Graphik-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    }
+  },
+  "slides": [
+    {
+      "id": "welcome",
+      "type": "welcome",
+      "title": "Quiz Night #4",
+      "subtitle": "Antonakis Music Hall",
+      "instructions": "Starts at 9:00pm\nHave a seat & choose your team name!",
+      "logoImage": "media/logo.png"
+    },
+    {
+      "id": "welcome-2",
+      "type": "info",
+      "title": "Welcome!",
+      "subtitle": "Get ready for an amazing night of trivia",
+      "image": "media/logo.png"
+    },
+    {
+      "id": "prizes-1",
+      "type": "info",
+      "title": "Tonight's Prizes",
+      "image": "media/prizes-1.png"
+    },
+    {
+      "id": "prizes-2",
+      "type": "info",
+      "title": "More Prizes",
+      "image": "media/prizes-2.png"
+    },
+    {
+      "id": "round1-intro",
+      "type": "round-intro",
+      "round": 1,
+      "title": "Round 1",
+      "subtitle": "(multiple choice round)",
+      "instructions": "Remember to write the rounds & team name each time"
+    },
+    {
+      "id": "r1-q1",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 1,
+      "questionText": "Which 90s movie featured Whitney Houston's hit song 'I Will Always Love You'?",
+      "options": [
+        "The Princess Diaries",
+        "The Bodyguard",
+        "The Preacher's Wife",
+        "Not available"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q1-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q1",
+      "title": "Answer",
+      "correctAnswerText": "The Bodyguard"
+    },
+    {
+      "id": "r1-q2",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 2,
+      "questionText": "Who wrote the 1971 classic 'Ain't No Sunshine,' one of the most covered songs of all time?",
+      "options": [
+        "Al Green",
+        "Marvin Gaye",
+        "Bill Withers",
+        "Stevie Wonder"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q2-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q2",
+      "title": "Answer",
+      "correctAnswerText": "Bill Withers"
+    },
+    {
+      "id": "r1-q3",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 3,
+      "questionText": "Which 2004 comedy stars Lindsay Lohan as a high school student navigating friends and social politics?",
+      "options": [
+        "Freaky Friday",
+        "The Parent Trap",
+        "Easy A",
+        "Mean Girls"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q3-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q3",
+      "title": "Answer",
+      "correctAnswerText": "Mean Girls"
+    },
+    {
+      "id": "r1-q4",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 4,
+      "questionText": "What iconic music festival took place in August 1969 on a dairy farm in New York?",
+      "options": [
+        "Woodstock",
+        "Monterey Pop Festival",
+        "Isle of Wight Festival",
+        "Not available"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q4-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q4",
+      "title": "Answer",
+      "correctAnswerText": "Woodstock"
+    },
+    {
+      "id": "r1-q5",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 5,
+      "questionText": "Which act represented Cyprus at Eurovision in 1983 with the song \"H Agapi Akoma Zei\"?",
+      "options": [
+        "Christie Stassinopoulou",
+        "Anna Vissi",
+        "Stavros & Konstantina",
+        "Not available"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q5-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q5",
+      "title": "Answer",
+      "correctAnswerText": "Stavros & Konstantina"
+    },
+    {
+      "id": "r1-q6",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 6,
+      "questionText": "Which of the following musicians did NOT appear on Miles Davis' legendary 1959 jazz album 'Kind of Blue'?",
+      "options": [
+        "Bill Evans",
+        "John Coltrane",
+        "Cannonball Adderley",
+        "Sonny Rollins"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q6-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q6",
+      "title": "Answer",
+      "correctAnswerText": "Sonny Rollins"
+    },
+    {
+      "id": "r1-q7",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 7,
+      "questionText": "On Michael Jackson's legendary 'Beat It' song, which guitarist delivered its iconic solo?",
+      "options": [
+        "Brian May",
+        "Slash",
+        "Eddie Van Halen",
+        "Not available"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q7-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q7",
+      "title": "Answer",
+      "correctAnswerText": "Eddie Van Halen"
+    },
+    {
+      "id": "r1-q8",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 8,
+      "questionText": "Where was the famous toy company LEGO founded?",
+      "options": [
+        "Sweden",
+        "Denmark",
+        "Finland",
+        "Norway"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q8-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q8",
+      "title": "Answer",
+      "correctAnswerText": "Denmark"
+    },
+    {
+      "id": "r1-q9",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 9,
+      "questionText": "Which Beatles song features the lyric: [Complete this from source]",
+      "options": [
+        "Please Please Me",
+        "Martha My Dear",
+        "Oh Darling",
+        "Not available"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q9-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q9",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r1-q10",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 10,
+      "questionText": "What was the name of the first widely-used web browser released in 1993?",
+      "options": [
+        "Mosaic",
+        "Netscape Navigator",
+        "Internet Explorer",
+        "Not available"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q10-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q10",
+      "title": "Answer",
+      "correctAnswerText": "Mosaic"
+    },
+    {
+      "id": "r1-bonus1",
+      "type": "question-free-text",
+      "round": 1,
+      "questionNumber": "Bonus 1",
+      "questionText": "He turned to me as if to say,\nHurry boy he's waiting there for you\n\nWrite the song name and artist from the lyrics",
+      "correctAnswerText": "Africa by Toto",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "1 point each!"
+    },
+    {
+      "id": "r1-bonus1-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-bonus1",
+      "title": "Bonus Answer",
+      "correctAnswerText": "Africa by Toto"
+    },
+    {
+      "id": "r1-bonus2",
+      "type": "question-free-text",
+      "round": 1,
+      "questionNumber": "Bonus 2",
+      "questionText": "Before Greek star Sakis Rouvas became a famous singer, which track & field sport did he excel at, even joining the Hellenic national team?",
+      "correctAnswerText": "[To be filled]",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "Write the answer!\n2 points!"
+    },
+    {
+      "id": "r1-bonus2-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-bonus2",
+      "title": "Bonus Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r1-end",
+      "type": "info",
+      "title": "End of Round 1",
+      "subtitle": "Time to check your answers!"
+    },
+    {
+      "id": "break-1",
+      "type": "info",
+      "title": "BREAK TIME",
+      "subtitle": "Grab a drink and get ready for Round 2!"
+    },
+    {
+      "id": "round2-intro",
+      "type": "round-intro",
+      "round": 2,
+      "title": "Round 2",
+      "subtitle": "(multiple choice round)",
+      "instructions": "Remember to write the rounds & team name each time"
+    },
+    {
+      "id": "r2-q1",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 1,
+      "questionText": "\"We don't wake up for less than $10,000 a day\". Which supermodel famously said this in a 1990 interview?",
+      "options": [
+        "Naomi Campbell",
+        "Cindy Crawford",
+        "Claudia Schiffer",
+        "Linda Evangelista"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q1-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q1",
+      "title": "Answer",
+      "correctAnswerText": "Linda Evangelista"
+    },
+    {
+      "id": "r2-q2",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 2,
+      "questionText": "Which 1950s film holds the record for the most Oscars (11) until it was tied decades later by Titanic (1997)?",
+      "options": [
+        "On The Waterfront",
+        "Ben-Hur",
+        "From Here to Eternity",
+        "Not available"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q2-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q2",
+      "title": "Answer",
+      "correctAnswerText": "Ben-Hur"
+    },
+    {
+      "id": "r2-q3",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 3,
+      "questionText": "Which rock band performed the 1982 hit 'Here I Go Again'?",
+      "options": [
+        "Scorpions",
+        "Def Leppard",
+        "Whitesnake",
+        "Not available"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q3-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q3",
+      "title": "Answer",
+      "correctAnswerText": "Whitesnake"
+    },
+    {
+      "id": "r2-q4",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 4,
+      "questionText": "The 1979 novel \"Hitchhiker's Guide to the Galaxy\" says \"the answer to the ultimate question of life, the universe and everything\" is what number?",
+      "options": [
+        "42",
+        "7",
+        "100",
+        "Not available"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q4-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q4",
+      "title": "Answer",
+      "correctAnswerText": "42"
+    },
+    {
+      "id": "r2-q5",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 5,
+      "questionText": "Who is the highest-selling female musician/artist of all time in Greece, according to album sales?",
+      "options": [
+        "Marinella",
+        "Anna Vissi",
+        "Haris Alexiou",
+        "Alkistis Protopsalti"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q5-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q5",
+      "title": "Answer",
+      "correctAnswerText": "Anna Vissi"
+    },
+    {
+      "id": "r2-q6",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 6,
+      "questionText": "[Question 6 - To be filled]",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q6-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q6",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r2-q7",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 7,
+      "questionText": "[Question 7 - To be filled]",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q7-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q7",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r2-q8",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 8,
+      "questionText": "[Question 8 - To be filled]",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q8-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q8",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r2-q9",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 9,
+      "questionText": "[Question 9 - To be filled]",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q9-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q9",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r2-q10",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 10,
+      "questionText": "[Question 10 - To be filled]",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q10-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q10",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r2-bonus1",
+      "type": "question-free-text",
+      "round": 2,
+      "questionNumber": "Bonus 1",
+      "questionText": "[Lyrics-based bonus question - To be filled]",
+      "correctAnswerText": "[Song name and artist]",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "Write the song name and artist from the lyrics\n1 point each!"
+    },
+    {
+      "id": "r2-bonus1-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-bonus1",
+      "title": "Bonus Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r2-bonus2",
+      "type": "question-free-text",
+      "round": 2,
+      "questionNumber": "Bonus 2",
+      "questionText": "In which city was Greek pop star Anna Vissi born and raised?",
+      "correctAnswerText": "[To be filled]",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "Write the answer!\n2 points!"
+    },
+    {
+      "id": "r2-bonus2-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-bonus2",
+      "title": "Bonus Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r2-end",
+      "type": "info",
+      "title": "End of Round 2",
+      "subtitle": "Time to check your answers!"
+    },
+    {
+      "id": "break-2",
+      "type": "info",
+      "title": "BREAK TIME",
+      "subtitle": "Grab another drink and get ready for Round 3!"
+    },
+    {
+      "id": "round3-intro",
+      "type": "round-intro",
+      "round": 3,
+      "title": "Round 3",
+      "subtitle": "(audio/visual round)",
+      "instructions": "Listen carefully and identify the song or film"
+    },
+    {
+      "id": "r3-q1",
+      "type": "question-audio",
+      "round": 3,
+      "questionNumber": 1,
+      "questionText": "Listen carefully!\nName the song or film from this audio clip",
+      "audioSrc": "media/audio-placeholder-1.mp3",
+      "autoplay": true,
+      "timerSeconds": 30,
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q1-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q1",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q2",
+      "type": "question-audio",
+      "round": 3,
+      "questionNumber": 2,
+      "questionText": "Listen carefully!\nName the song or film from this audio clip",
+      "audioSrc": "media/audio-placeholder-2.mp3",
+      "autoplay": true,
+      "timerSeconds": 30,
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q2-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q2",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q3",
+      "type": "question-audio",
+      "round": 3,
+      "questionNumber": 3,
+      "questionText": "Listen carefully!\nName the song or film from this audio clip",
+      "audioSrc": "media/audio-placeholder-3.mp3",
+      "autoplay": true,
+      "timerSeconds": 30,
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q3-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q3",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q4",
+      "type": "question-audio",
+      "round": 3,
+      "questionNumber": 4,
+      "questionText": "Listen carefully!\nName the song or film from this audio clip",
+      "audioSrc": "media/audio-placeholder-4.mp3",
+      "autoplay": true,
+      "timerSeconds": 30,
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q4-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q4",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q5",
+      "type": "question-audio",
+      "round": 3,
+      "questionNumber": 5,
+      "questionText": "Listen carefully!\nName the song or film from this audio clip",
+      "audioSrc": "media/audio-placeholder-5.mp3",
+      "autoplay": true,
+      "timerSeconds": 30,
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q5-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q5",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q6",
+      "type": "question-audio",
+      "round": 3,
+      "questionNumber": 6,
+      "questionText": "Listen carefully!\nName the song or film from this audio clip",
+      "audioSrc": "media/audio-placeholder-6.mp3",
+      "autoplay": true,
+      "timerSeconds": 30,
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q6-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q6",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q7",
+      "type": "question-audio",
+      "round": 3,
+      "questionNumber": 7,
+      "questionText": "Listen carefully!\nName the song or film from this audio clip",
+      "audioSrc": "media/audio-placeholder-7.mp3",
+      "autoplay": true,
+      "timerSeconds": 30,
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q7-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q7",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q8",
+      "type": "question-audio",
+      "round": 3,
+      "questionNumber": 8,
+      "questionText": "Listen carefully!\nName the song or film from this audio clip",
+      "audioSrc": "media/audio-placeholder-8.mp3",
+      "autoplay": true,
+      "timerSeconds": 30,
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q8-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q8",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q9",
+      "type": "question-audio",
+      "round": 3,
+      "questionNumber": 9,
+      "questionText": "Listen carefully!\nName the song or film from this audio clip",
+      "audioSrc": "media/audio-placeholder-9.mp3",
+      "autoplay": true,
+      "timerSeconds": 30,
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q9-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q9",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q10",
+      "type": "question-audio",
+      "round": 3,
+      "questionNumber": 10,
+      "questionText": "Listen carefully!\nName the song or film from this audio clip",
+      "audioSrc": "media/audio-placeholder-10.mp3",
+      "autoplay": true,
+      "timerSeconds": 30,
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-q10-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q10",
+      "title": "Answer",
+      "correctAnswerText": "[To be filled]"
+    },
+    {
+      "id": "r3-end",
+      "type": "info",
+      "title": "End of Round 3",
+      "subtitle": "Time to check your answers!"
+    },
+    {
+      "id": "thank-you",
+      "type": "thank-you",
+      "title": "THANK YOU ALL",
+      "subtitle": "FOR COMING",
+      "message": "Quiz Night #4\nAntonakis Music Hall",
+      "logoImage": "media/logo.png"
+    }
+  ]
+}
