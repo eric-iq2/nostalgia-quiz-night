@@ -1,11 +1,11 @@
 {
   "settings": {
-    "title": "Quiz Night #4",
+    "title": "Quiz Night #5",
     "venue": "Antonakis Music Hall",
     "defaultQuestionDurationSec": 35,
     "countdownAudio": "media/countdown.mp3",
     "theme": {
-      "backgroundColor": "#1a1a2e",
+      "backgroundColor": "#000000",
       "textColor": "#ffffff",
       "accentColor": "#ffcc00",
       "secondaryAccent": "#ff6b6b",
@@ -16,50 +16,137 @@
     {
       "id": "welcome",
       "type": "info",
-      "image": "Nostalgia QUIZ FB event.jpg",
-      "fullscreenImage": true
+      "image": "logo.jpg",
+      "fullscreenImage": true,
+      "_note": "PLACEHOLDER: Replace logo.jpg with Quiz #5 logo when ready"
+    },
+    {
+      "id": "final-5th-place",
+      "type": "info",
+      "title": "5th Place",
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #ff6b6b; margin-top: 0.5em;'>Prize: Complimentary Wines (up to €60)</div><div style='font-size: 0.8em; color: #888;'>by A.S.Xinaris &amp; Sons Ltd</div></div>"
+    },
+    {
+      "id": "final-5th-team",
+      "type": "info",
+      "title": "5th Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.5em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>BACK TO THE FUTURE</div><div style='font-size: 1em; margin-top: 0.3em;'>105 points</div></div>"
+    },
+    {
+      "id": "final-4th-place",
+      "type": "info",
+      "title": "4th Place",
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #ff6b6b; margin-top: 0.5em;'>Prize: Free Movie Tickets (up to €60)</div><div style='font-size: 0.8em; color: #888;'>by Pantheon Cinema</div></div>"
+    },
+    {
+      "id": "final-4th-team",
+      "type": "info",
+      "title": "4th Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.5em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>UNROLLING STONES</div><div style='font-size: 1em; margin-top: 0.3em;'>108 points</div></div>"
+    },
+    {
+      "id": "final-3rd-place",
+      "type": "info",
+      "title": "3rd Place",
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #ff6b6b; margin-top: 0.5em;'>Prize: Free Tickets for Sarah's Jazz Club (up to €90)</div><div style='font-size: 0.8em; color: #888;'>by Sarah's Jazz Club</div></div>"
+    },
+    {
+      "id": "final-3rd-team",
+      "type": "info",
+      "title": "3rd Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.5em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>VAG-A-BONDAGE</div><div style='font-size: 1em; margin-top: 0.3em;'>113 points</div></div>"
+    },
+    {
+      "id": "final-2nd-place",
+      "type": "info",
+      "title": "2nd Place",
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #ff6b6b; margin-top: 0.5em;'>Prize: 50% Off Tonight's Table Bill + Event Tickets (up to €135)</div><div style='font-size: 0.8em; color: #888;'>by Antonakis Music Hall</div></div>"
+    },
+    {
+      "id": "final-2nd-team",
+      "type": "info",
+      "title": "2nd Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.5em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>SOUP OF THE DAY</div><div style='font-size: 1em; margin-top: 0.3em;'>114 points</div></div>"
+    },
+    {
+      "id": "final-1st-place",
+      "type": "info",
+      "title": "1st Place",
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #ff6b6b; margin-top: 0.5em;'>Prize: One-Night Stay (up to €360)</div><div style='font-size: 0.8em; color: #888;'>at Forest Park Hotel &amp; Jubilee Hotel</div></div>"
+    },
+    {
+      "id": "final-1st-team",
+      "type": "info",
+      "title": "1st Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.5em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>SHRAPNEL SANDWICH</div><div style='font-size: 1em; margin-top: 0.3em;'>115 points</div></div>"
+    },
+    {
+      "id": "final-rest-1",
+      "type": "info",
+      "title": "All Other Teams",
+      "htmlContent": "<div style='text-align: center; font-size: 1.8em; line-height: 1.8;'><div style='margin: 0.2em;'><span style='color: #888;'>6.</span> SALT AND VINEGAR QUIZPS — 101</div><div style='margin: 0.2em;'><span style='color: #888;'>7.</span> 3 KAI O KOUKOS — 99</div><div style='margin: 0.2em;'><span style='color: #888;'>8.</span> LES COUSINES — 94</div><div style='margin: 0.2em;'><span style='color: #888;'>9.</span> MOON NIGHTS — 94</div><div style='margin: 0.2em;'><span style='color: #888;'>10.</span> POUREKKIA — 94</div><div style='margin: 0.2em;'><span style='color: #888;'>11.</span> ARAGON'S BROKEN TOE — 93</div><div style='margin: 0.2em;'><span style='color: #888;'>12.</span> SOUPES AVGOLEMONES — 93</div><div style='margin: 0.2em;'><span style='color: #888;'>13.</span> THE MESSY GIRLS — 93</div><div style='margin: 0.2em;'><span style='color: #888;'>14.</span> USSR — 93</div><div style='margin: 0.2em;'><span style='color: #888;'>15.</span> QUIZ PRO QUO — 92</div></div>"
+    },
+    {
+      "id": "final-rest-2",
+      "type": "info",
+      "title": "All Other Teams",
+      "htmlContent": "<div style='text-align: center; font-size: 1.8em; line-height: 1.8;'><div style='margin: 0.2em;'><span style='color: #888;'>16.</span> SILVER SPRINGS — 92</div><div style='margin: 0.2em;'><span style='color: #888;'>17.</span> KENT GIRLS — 91</div><div style='margin: 0.2em;'><span style='color: #888;'>18.</span> PRIVE — 90</div><div style='margin: 0.2em;'><span style='color: #888;'>19.</span> BRYLLCREEM — 89</div><div style='margin: 0.2em;'><span style='color: #888;'>20.</span> THE FABULOUS FIVE — 89</div><div style='margin: 0.2em;'><span style='color: #888;'>21.</span> THE MALCOLMS — 88</div><div style='margin: 0.2em;'><span style='color: #888;'>22.</span> ADIAFOROI!!! — 86</div><div style='margin: 0.2em;'><span style='color: #888;'>23.</span> TA ERMAIA — 86</div><div style='margin: 0.2em;'><span style='color: #888;'>24.</span> BAD CHOICES — 78</div><div style='margin: 0.2em;'><span style='color: #888;'>25.</span> BLENDER — 78</div></div>"
+    },
+    {
+      "id": "final-rest-3",
+      "type": "info",
+      "title": "All Other Teams",
+      "htmlContent": "<div style='text-align: center; font-size: 1.8em; line-height: 1.8;'><div style='margin: 0.2em;'><span style='color: #888;'>26.</span> MAWA — 77</div><div style='margin: 0.2em;'><span style='color: #888;'>27.</span> STROVOLIAN KOUMBARI — 77</div><div style='margin: 0.2em;'><span style='color: #888;'>28.</span> CARTOONS — 68</div><div style='margin: 0.2em;'><span style='color: #888;'>29.</span> THE 3 MUSKATEERS — 61</div><div style='margin: 0.2em;'><span style='color: #888;'>30.</span> FOREVER YOUNG — 57</div><div style='margin: 0.2em;'><span style='color: #888;'>31.</span> PAOLA — 22</div></div>"
+    },
+    {
+      "id": "final-end",
+      "type": "info",
+      "title": "THE END",
+      "subtitle": "Congratulations to all teams!"
+    },
+    {
+      "id": "final-thank-you",
+      "type": "thank-you",
+      "title": "THANK YOU ALL",
+      "subtitle": "to the 5th Nostalgia Quiz Night<br>we hope you had a fantastic time",
+      "message": "Quiz Night #5\nAntonakis Music Hall",
+      "logoImage": "logo.jpg"
     },
     {
       "id": "welcome-2",
       "type": "info",
-      "title": "Welcome!",
-      "subtitle": "Have a seat, order some drinks and think of a team name!"
-    },
-    {
-      "id": "prize-6",
-      "type": "info",
-      "title": "Prize #6",
-      "htmlContent": "<div class='prize-single'><h2>50% off Today's<br />Table Bill</h2><p class='prize-subtext'>at <em>Antonakis Music Hall</em></p></div>"
+      "image": "welcome.jpg",
+      "fullscreenImage": true
     },
     {
       "id": "prize-5",
       "type": "info",
       "title": "Prize #5",
-      "htmlContent": "<div class='prize-single'><h2>Free Movie Tickets</h2><p class='prize-subtext'>to <em>Pantheon Cinema</em></p></div>"
+      "htmlContent": "<div class='prize-single'><h2>Complimentary Wines</h2><div class='prize-value'>(worth up to €60)</div><p class='prize-subtext'>by <em>A.S.Xinaris & Sons Ltd</em></p></div>"
     },
     {
       "id": "prize-4",
       "type": "info",
       "title": "Prize #4",
-      "htmlContent": "<div class='prize-single'><h2>Packs of 4 <br />Multi-Flavoured Kombuchas</h2><div class='prize-value'>(worth €14 each)</div><p class='prize-subtext'>by <em>Mikro Kombucha</em></p><div class='prize-list prize-list-small'>Lemon, Ginger, Turmeric<br>Three Hops Blend<br>Grapefruit<br>Lavender Hibiscus Honey</div></div>"
+      "htmlContent": "<div class='prize-single'><h2>Free Movie Tickets</h2><div class='prize-value'>(worth up to €60)</div><p class='prize-subtext'>by <em>Pantheon Cinema</em></p></div>"
     },
     {
       "id": "prize-3",
       "type": "info",
       "title": "Prize #3",
-      "htmlContent": "<div class='prize-single'><h2>Goodie Bags</h2><div class='prize-value'>(worth €25 each)</div><p class='prize-subtext'>by <em>Tryfon Tseriotis</em></p><div class='prize-list prize-list-small'>2 Cadbury Fingers<br>1 Kettle Cooked chips<br>2 McVities Digestive<br>2 Balconi Waffles<br>1 McVities Billions Gold Wafer<br>1 Nexba Kombucha<br>1 Milka Chocolate<br>2 McVities Limited Edition Mugs</div></div>"
+      "htmlContent": "<div class='prize-single'><h2>Free Tickets for Sarah's Jazz Club</h2><div class='prize-value'>(worth up to €90)</div><p class='prize-subtext'>by <em>Sarah's Jazz Club</em></p></div>"
     },
     {
       "id": "prize-2",
       "type": "info",
       "title": "Prize #2",
-      "htmlContent": "<div class='prize-single'><h2>Handmade Candles</h2><div class='prize-value'>(worth €30 each)</div><p class='prize-subtext'>from <em>Hippie Candles by Gloria</em></p></div>"
+      "htmlContent": "<div class='prize-single'><h2>50% Off Tonight's Table Bill<br>+ Free Tickets to Upcoming Event</h2><div class='prize-value'>(worth up to €135)</div><p class='prize-subtext'>by <em>Antonakis Music Hall</em></p></div>"
     },
     {
       "id": "prize-1",
       "type": "info",
       "title": "Prize #1",
-      "htmlContent": "<div class='prize-single'><h2>Christmas Hamper Baskets</h2><div class='prize-value'>(worth €55 each)</div><div class='prize-list prize-list-small'>Bottle of wine from <em>Laiko Cosmos</em><br>Bottle of wine from <em>Xinaris</em><br>Brie Cheese<br>Nuts from Amalia<br>Voucher from <em>Misfit Union Kitchen</em><br />for any Platter of your choice</div></div>"
+      "htmlContent": "<div class='prize-single'><h2>One-Night Stay</h2><div class='prize-value'>(worth up to €360)</div><p class='prize-subtext'>at <em>Forest Park Hotel</em> in Troodos<br>+ <em>Jubilee Hotel</em> in Platres</p></div>"
     },
     {
       "id": "round1-intro",
@@ -74,14 +161,14 @@
       "type": "question-mcq",
       "round": 1,
       "questionNumber": 1,
-      "questionText": "What was the name of the benefit concert for African famine relief held in 1985?",
+      "questionText": "In what film did Daniel Craig make his very first appearance as James Bond?",
       "options": [
-        "Band Aid",
-        "Live Aid",
-        "Africa Aid",
-        "Make Poverty History"
+        "Spectre",
+        "Quantum of Solace",
+        "Skyfall",
+        "Casino Royale"
       ],
-      "correctOptionIndex": 1,
+      "correctOptionIndex": 3,
       "timerSeconds": 30
     },
     {
@@ -89,14 +176,14 @@
       "type": "question-mcq",
       "round": 1,
       "questionNumber": 2,
-      "questionText": "Who was known as 'The Brazilian Bombshell' in 1950s Hollywood?",
+      "questionText": "The album 'Pet Sounds' that revolutionised studio recording techniques, was released by which band?",
       "options": [
-        "Rita Hayworth",
-        "Sophia Loren",
-        "Carmen Miranda",
-        "Gina Lollobrigida"
+        "The Beach Boys",
+        "The Beatles",
+        "The Kinks",
+        "The Rolling Stones"
       ],
-      "correctOptionIndex": 2,
+      "correctOptionIndex": 0,
       "timerSeconds": 30
     },
     {
@@ -104,12 +191,12 @@
       "type": "question-mcq",
       "round": 1,
       "questionNumber": 3,
-      "questionText": "Which Greek actress won Best Actress at Cannes in 1960 for 'Never on Sunday'?",
+      "questionText": "Which cyclist was stripped of seven Tour de France titles due to doping?",
       "options": [
-        "Aliki Vougiouklaki",
-        "Melina Mercouri",
-        "Irene Papas",
-        "Katina Paxinou"
+        "Jan Ullrich",
+        "Lance Armstrong",
+        "Alberto Contador",
+        "Pambos Pambou"
       ],
       "correctOptionIndex": 1,
       "timerSeconds": 30
@@ -119,14 +206,14 @@
       "type": "question-mcq",
       "round": 1,
       "questionNumber": 4,
-      "questionText": "Which band or artist has won the most Grammys of all time with 35?",
+      "questionText": "Which 2004 game became the most subscribed multiplayer online role-playing game (MMORPG) of all time?",
       "options": [
-        "Beyonce",
-        "Stevie Wonder",
-        "Michael Jackson",
-        "Vanilla Ice"
+        "RuneScape",
+        "EverQuest II",
+        "World of Warcraft",
+        "Guild Wars"
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 2,
       "timerSeconds": 30
     },
     {
@@ -134,12 +221,12 @@
       "type": "question-mcq",
       "round": 1,
       "questionNumber": 5,
-      "questionText": "Which underdog team won the 2004 UEFA Football Euro Championship?",
+      "questionText": "Steven Spielberg has won two Best Director Oscars.<br>One was for Schindler's List, which was the other?",
       "options": [
-        "Denmark",
-        "Netherlands",
-        "Greece",
-        "Portugal"
+        "Jaws",
+        "E.T.",
+        "Saving Private Ryan",
+        "Raiders Of The Lost Ark"
       ],
       "correctOptionIndex": 2,
       "timerSeconds": 30
@@ -149,12 +236,12 @@
       "type": "question-mcq",
       "round": 1,
       "questionNumber": 6,
-      "questionText": "Popular in the 80s, what were the colourful rubber shoes with holes called?",
+      "questionText": "Which low-rise fashion trend of the early 2000s often revealed G-strings underwear?",
       "options": [
-        "Jellies",
-        "Crocs",
-        "Plastics",
-        "Rubber Ducks"
+        "Whale Tail",
+        "Muffin Top",
+        "Hip Huggers",
+        "Boyfriend Jeans"
       ],
       "correctOptionIndex": 0,
       "timerSeconds": 30
@@ -164,12 +251,12 @@
       "type": "question-mcq",
       "round": 1,
       "questionNumber": 7,
-      "questionText": "The beloved song 'My Sweet Lord' was released by which artist in 1970?",
+      "questionText": "The theme for the James Bond film 'A View to a Kill' in 1985 was performed by which band?",
       "options": [
-        "John Lennon",
-        "Neil Young",
-        "Paul McCartney",
-        "George Harrison"
+        "Depeche Mode",
+        "U2",
+        "The Police",
+        "Duran Duran"
       ],
       "correctOptionIndex": 3,
       "timerSeconds": 30
@@ -179,14 +266,14 @@
       "type": "question-mcq",
       "round": 1,
       "questionNumber": 8,
-      "questionText": "What was the highest-grossing movie of the 1990s?",
+      "questionText": "What year did the first commercial colour TV broadcast occur in the U.S.?",
       "options": [
-        "Jurassic Park",
-        "Home Alone",
-        "The Lion King",
-        "Titanic"
+        "1931",
+        "1941",
+        "1951",
+        "1961"
       ],
-      "correctOptionIndex": 3,
+      "correctOptionIndex": 2,
       "timerSeconds": 30
     },
     {
@@ -194,14 +281,14 @@
       "type": "question-mcq",
       "round": 1,
       "questionNumber": 9,
-      "questionText": "What is widely considered the first video game of all time?",
+      "questionText": "What dance craze, popularised by Chubby Checker, started in the late 1950s?",
       "options": [
-        "Pong",
-        "Tennis for Two",
-        "Spacewar",
-        "Checkers"
+        "The Twist",
+        "The Twerk",
+        "The Mashed Potato",
+        "The Tap Dance"
       ],
-      "correctOptionIndex": 1,
+      "correctOptionIndex": 0,
       "timerSeconds": 30
     },
     {
@@ -209,37 +296,15 @@
       "type": "question-mcq",
       "round": 1,
       "questionNumber": 10,
-      "questionText": "In The Air Tonight' is one of the signature songs of which artist?",
+      "questionText": "What was the first commercially successful home video game console, released in 1972?",
       "options": [
-        "Sting",
-        "Bryan Adams",
-        "George Michael",
-        "Phil Collins"
+        "Atari 2600",
+        "Magnavox Odyssey",
+        "Commodore 64",
+        "ColecoVision"
       ],
-      "correctOptionIndex": 3,
+      "correctOptionIndex": 1,
       "timerSeconds": 30
-    },
-    {
-      "id": "r1-bonus1",
-      "type": "question-free-text",
-      "round": 1,
-      "questionNumber": "Bonus 1",
-      "questionText": "I work all night, I work all day, to pay the bills I have to pay. Ain't It Sad?<br />And still there never seems to be a single penny left for me. That's too bad.",
-      "correctAnswerText": "'Money Money Money' by Abba",
-      "timerSeconds": 30,
-      "pointsAvailable": 2,
-      "instructions": "Write the song name and artist\n1 point each!"
-    },
-    {
-      "id": "r1-bonus2",
-      "type": "question-free-text",
-      "round": 1,
-      "questionNumber": "Bonus 2",
-      "questionText": "Aside from Rudolph, can you name 2 of Santa's other reindeers?<br />(1 point per reindeer)",
-      "correctAnswerText": "Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, Blitzen",
-      "timerSeconds": 30,
-      "pointsAvailable": 2,
-      "instructions": "Write the answer!\n2 points!"
     },
     {
       "id": "r1-collection",
@@ -248,112 +313,75 @@
       "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
     },
     {
-      "id": "r1-q1-answer",
+      "id": "r1-answers-intro",
+      "type": "info",
+      "title": "Answers of Round 1"
+    },
+    {
+      "id": "r1-a1",
       "type": "answer",
-      "round": 1,
       "questionRefId": "r1-q1",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r1-q2-answer",
+      "id": "r1-a2",
       "type": "answer",
-      "round": 1,
       "questionRefId": "r1-q2",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r1-q3-answer",
+      "id": "r1-a3",
       "type": "answer",
-      "round": 1,
       "questionRefId": "r1-q3",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r1-q4-answer",
+      "id": "r1-a4",
       "type": "answer",
-      "round": 1,
       "questionRefId": "r1-q4",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r1-q5-answer",
+      "id": "r1-a5",
       "type": "answer",
-      "round": 1,
       "questionRefId": "r1-q5",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r1-q6-answer",
+      "id": "r1-a6",
       "type": "answer",
-      "round": 1,
       "questionRefId": "r1-q6",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r1-q7-answer",
+      "id": "r1-a7",
       "type": "answer",
-      "round": 1,
       "questionRefId": "r1-q7",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r1-q8-answer",
+      "id": "r1-a8",
       "type": "answer",
-      "round": 1,
       "questionRefId": "r1-q8",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r1-q9-answer",
+      "id": "r1-a9",
       "type": "answer",
-      "round": 1,
       "questionRefId": "r1-q9",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r1-q10-answer",
+      "id": "r1-a10",
       "type": "answer",
-      "round": 1,
       "questionRefId": "r1-q10",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r1-bonus1-answer",
-      "type": "answer",
-      "round": 1,
-      "questionRefId": "r1-bonus1",
-      "title": "Bonus Answer",
-      "correctAnswerText": "'Money Money Money' by Abba"
-    },
-    {
-      "id": "r1-bonus2-answer",
-      "type": "answer",
-      "round": 1,
-      "questionRefId": "r1-bonus2",
-      "title": "Bonus Answer",
-      "correctAnswerText": "Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, Blitzen"
-    },
-    {
-      "id": "r1-end",
+      "id": "round1-end",
       "type": "info",
       "title": "End of Round 1",
-      "subtitle": "Get ready for the next round!"
-    },
-    {
-      "id": "break-1",
-      "type": "info",
-      "title": "BREAK TIME",
-      "subtitle": "Grab a drink and get ready for Round 2!"
+      "subtitle": "Get ready for Round 2!"
     },
     {
       "id": "round2-intro",
@@ -368,14 +396,14 @@
       "type": "question-mcq",
       "round": 2,
       "questionNumber": 1,
-      "questionText": "Which environmental awareness day was first celebrated on April 22, 1970?",
+      "questionText": "Name the boxer who rose to fame in the 80s,<br>eventually biting another boxer's ear during a 1997 fight",
       "options": [
-        "Planet Day",
-        "Nature Day",
-        "Earth Day",
-        "Dooms Day"
+        "Evander Holyfield",
+        "Mike Tyson",
+        "George Foreman",
+        "Rocky Marciano"
       ],
-      "correctOptionIndex": 2,
+      "correctOptionIndex": 1,
       "timerSeconds": 30
     },
     {
@@ -383,14 +411,14 @@
       "type": "question-mcq",
       "round": 2,
       "questionNumber": 2,
-      "questionText": "Which 90s romantic comedy featured Meg Ryan and Tom Hanks as pen pals?",
+      "questionText": "Which female artist sang \"Fallin'\"?",
       "options": [
-        "Sleepless in Seattle",
-        "You've Got Mail",
-        "When Harry Met Sally",
-        "Addicted to Love"
+        "Erykah Badu",
+        "Beyoncé",
+        "Rihanna",
+        "Alicia Keys"
       ],
-      "correctOptionIndex": 1,
+      "correctOptionIndex": 3,
       "timerSeconds": 30
     },
     {
@@ -398,14 +426,14 @@
       "type": "question-mcq",
       "round": 2,
       "questionNumber": 3,
-      "questionText": "In which German city did The Beatles often play in clubs, before becoming famous?",
+      "questionText": "Which Greek-American actress starred in 'My Big Fat Greek Wedding' (2000)?",
       "options": [
-        "Berlin",
-        "Hamburg ",
-        "Frankfurt",
-        "Munich"
+        "Jennifer Aniston",
+        "Melina Kanakaredes",
+        "Nia Vardalos",
+        "Olympia Dukakis"
       ],
-      "correctOptionIndex": 1,
+      "correctOptionIndex": 2,
       "timerSeconds": 30
     },
     {
@@ -413,14 +441,14 @@
       "type": "question-mcq",
       "round": 2,
       "questionNumber": 4,
-      "questionText": "Which Greek singer represented Luxembourg in Eurovision 1972 with 'Après Toi'?",
+      "questionText": "What did Sony introduce in 1979 that revolutionized portable music?",
       "options": [
-        "Nana Mouskouri",
-        "Demis Roussos",
-        "Vicky Leandros",
-        "Marinella"
+        "Walkman",
+        "Boombox",
+        "MiniDisc",
+        "Discman"
       ],
-      "correctOptionIndex": 2,
+      "correctOptionIndex": 0,
       "timerSeconds": 30
     },
     {
@@ -428,14 +456,14 @@
       "type": "question-mcq",
       "round": 2,
       "questionNumber": 5,
-      "questionText": "Name the singer who played 27 different instruments in his debut album 'For You'.",
+      "questionText": "Which fighting game introduced the 'Fatality' finishing move?",
       "options": [
-        "Lenny Kravitz",
-        "Frank Zappa",
-        "Stevie Wonder",
-        "Prince"
+        "Street Fighter II",
+        "Mortal Kombat",
+        "Tekken",
+        "Grand Theft Auto"
       ],
-      "correctOptionIndex": 3,
+      "correctOptionIndex": 1,
       "timerSeconds": 30
     },
     {
@@ -443,14 +471,14 @@
       "type": "question-mcq",
       "round": 2,
       "questionNumber": 6,
-      "questionText": "Which 1959 rock 'n' roll pioneer had hits with \"Whole Lotta Shakin'\" and \"Great Balls Of Fire\"?",
+      "questionText": "In the movie Fight Club, what is the eighth and final rule of Fight Club?",
       "options": [
-        "Jerry Lee Lewis",
-        "Chuck Berry",
-        "Little Richard",
-        "Buddy Holly"
+        "You do not talk about Fight Club",
+        "If this is your first night, you HAVE to fight",
+        "Fights go on as long as they have to",
+        "You DO NOT talk about Fight Club"
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 1,
       "timerSeconds": 30
     },
     {
@@ -458,12 +486,12 @@
       "type": "question-mcq",
       "round": 2,
       "questionNumber": 7,
-      "questionText": "What is the final novel in Stephenie Meyer's 'Twilight Saga'?",
+      "questionText": "On Pink Floyd's 1977 album 'Animals', which are the 3 animals featured as main songs?",
       "options": [
-        "Breaking Dawn",
-        "New Moon",
-        "Eclipse",
-        "Twilight"
+        "Dogs, Pigs, Sheep",
+        "Dogs, Pigs, Cats",
+        "Dogs, Cows, Pigs",
+        "Dogs, Cows, Sheep"
       ],
       "correctOptionIndex": 0,
       "timerSeconds": 30
@@ -473,14 +501,14 @@
       "type": "question-mcq",
       "round": 2,
       "questionNumber": 8,
-      "questionText": "Which of the following Pixar animations was the first to be released in the 2000s?",
+      "questionText": "Which American singer had a huge 1968 hit with 'Sittin' On The Dock Of The Bay'?",
       "options": [
-        "Cars",
-        "Finding Nemo",
-        "Monsters Inc",
-        "The Incredibles"
+        "Sam Cooke",
+        "Jackie Wilson",
+        "Al Green",
+        "Otis Redding"
       ],
-      "correctOptionIndex": 2,
+      "correctOptionIndex": 3,
       "timerSeconds": 30
     },
     {
@@ -488,14 +516,14 @@
       "type": "question-mcq",
       "round": 2,
       "questionNumber": 9,
-      "questionText": "Which British designer is credited with popularising the miniskirt in the 1960s?",
+      "questionText": "Which animated series featured characters including Lion-O and Cheetara?",
       "options": [
-        "Vivienne Westwood",
-        "Mary Quant",
-        "Twiggy",
-        "Jean Shrimpton"
+        "ThunderCats",
+        "He-Man",
+        "Wild C.A.T.s",
+        "Teenage Mutant Ninja Turtles"
       ],
-      "correctOptionIndex": 1,
+      "correctOptionIndex": 0,
       "timerSeconds": 30
     },
     {
@@ -503,37 +531,15 @@
       "type": "question-mcq",
       "round": 2,
       "questionNumber": 10,
-      "questionText": "Which Greek composer won an Oscar for the 'Chariots of Fire' soundtrack in 1982?",
+      "questionText": "Which comedian was known for his observational humour and released the album '200 mph' in 1968?",
       "options": [
-        "Yanni",
-        "Manos Hatzidakis",
-        "Mikis Theodorakis",
-        "Vangelis"
+        "George Carlin",
+        "Bill Cosby",
+        "Richard Pryor",
+        "Lenny Bruce"
       ],
-      "correctOptionIndex": 3,
+      "correctOptionIndex": 1,
       "timerSeconds": 30
-    },
-    {
-      "id": "r2-bonus1",
-      "type": "question-free-text",
-      "round": 2,
-      "questionNumber": "Bonus 1",
-      "questionText": "Before you came into my life, I missed you so bad.<br />I missed you so bad. I missed you so so bad.",
-      "correctAnswerText": "'Call Me Maybe' by Carly Rae Jepsen",
-      "timerSeconds": 30,
-      "pointsAvailable": 2,
-      "instructions": "Write the song name and artist\n1 point each!"
-    },
-    {
-      "id": "r2-bonus2",
-      "type": "question-free-text",
-      "round": 2,
-      "questionNumber": "Bonus 2",
-      "questionText": "In Harry Potter, which character says they never have enough socks,<br />cause people always buy them books for Xmas?",
-      "correctAnswerText": "Professor Dumbledore",
-      "timerSeconds": 30,
-      "pointsAvailable": 2,
-      "instructions": "Write the answer!\n2 points!"
     },
     {
       "id": "r2-collection",
@@ -542,230 +548,248 @@
       "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
     },
     {
-      "id": "r2-q1-answer",
+      "id": "r2-answers-intro",
+      "type": "info",
+      "title": "Answers of Round 2"
+    },
+    {
+      "id": "r2-a1",
       "type": "answer",
-      "round": 2,
       "questionRefId": "r2-q1",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r2-q2-answer",
+      "id": "r2-a2",
       "type": "answer",
-      "round": 2,
       "questionRefId": "r2-q2",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r2-q3-answer",
+      "id": "r2-a3",
       "type": "answer",
-      "round": 2,
       "questionRefId": "r2-q3",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r2-q4-answer",
+      "id": "r2-a4",
       "type": "answer",
-      "round": 2,
       "questionRefId": "r2-q4",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r2-q5-answer",
+      "id": "r2-a5",
       "type": "answer",
-      "round": 2,
       "questionRefId": "r2-q5",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r2-q6-answer",
+      "id": "r2-a6",
       "type": "answer",
-      "round": 2,
       "questionRefId": "r2-q6",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r2-q7-answer",
+      "id": "r2-a7",
       "type": "answer",
-      "round": 2,
       "questionRefId": "r2-q7",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r2-q8-answer",
+      "id": "r2-a8",
       "type": "answer",
-      "round": 2,
       "questionRefId": "r2-q8",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r2-q9-answer",
+      "id": "r2-a9",
       "type": "answer",
-      "round": 2,
       "questionRefId": "r2-q9",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r2-q10-answer",
+      "id": "r2-a10",
       "type": "answer",
-      "round": 2,
       "questionRefId": "r2-q10",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r2-bonus1-answer",
-      "type": "answer",
-      "round": 2,
-      "questionRefId": "r2-bonus1",
-      "title": "Bonus Answer",
-      "correctAnswerText": "'Call Me Maybe' by Carly Rae Jepsen"
-    },
-    {
-      "id": "r2-bonus2-answer",
-      "type": "answer",
-      "round": 2,
-      "questionRefId": "r2-bonus2",
-      "title": "Bonus Answer",
-      "correctAnswerText": "Professor Dumbledore"
-    },
-    {
-      "id": "r2-end",
+      "id": "round2-end",
       "type": "info",
       "title": "End of Round 2",
-      "subtitle": "Get ready for the next round!"
-    },
-    {
-      "id": "break-2",
-      "type": "info",
-      "title": "BREAK TIME",
-      "subtitle": "Grab a drink and get ready for Round 3!"
+      "subtitle": "Get ready for Round 3 — Pictures & Sounds!"
     },
     {
       "id": "round3-intro",
       "type": "round-intro",
       "round": 3,
       "title": "Round 3",
-      "subtitle": "(video round)",
-      "instructions": "Make sure you've written your team name on the answer sheet!"
+      "subtitle": "(pictures & sounds round)",
+      "instructions": "Name the people, characters, or logos in each picture.<br>For sounds, name the song/show/sound."
     },
     {
-      "id": "r3-q1",
-      "type": "question-video",
+      "id": "r3-q1-question",
+      "type": "picture-question",
       "round": 3,
       "questionNumber": 1,
-      "questionText": "Watch the video!\nWhat is this from?",
-      "videoSrc": "media/video-placeholder-1.mp4",
-      "autoplay": true,
+      "questionText": "Full name of each person (1 point each)"
+    },
+    {
+      "id": "r3-q1-show",
+      "type": "picture-fullscreen",
+      "image": "media/r3-beatles.jpg"
+    },
+    {
+      "id": "r3-q1-timer",
+      "type": "picture-timer",
+      "round": 3,
+      "questionNumber": 1,
+      "questionText": "Full name of each person (1 point each)",
       "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "correctAnswerText": "John Lennon, Paul McCartney, George Harrison, and Ringo Starr",
+      "image": "media/r3-beatles.jpg"
     },
     {
       "id": "r3-q2",
-      "type": "question-video",
+      "type": "question-audio",
       "round": 3,
       "questionNumber": 2,
-      "questionText": "Watch the video!\nWhat is this from?",
-      "videoSrc": "media/video-placeholder-2.mp4",
-      "autoplay": true,
+      "questionText": "Name the TV show",
+      "subtitle": "(2 points)",
+      "audioSrc": "media/r3-q2.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "correctAnswerText": "Twin Peaks"
     },
     {
-      "id": "r3-q3",
-      "type": "question-video",
+      "id": "r3-q3-question",
+      "type": "picture-question",
       "round": 3,
       "questionNumber": 3,
-      "questionText": "Watch the video!\nWhat is this from?",
-      "videoSrc": "media/video-placeholder-3.mp4",
-      "autoplay": true,
+      "questionText": "Full name of each character (1 point each)"
+    },
+    {
+      "id": "r3-q3-show",
+      "type": "picture-fullscreen",
+      "image": "media/simpsons.jpeg"
+    },
+    {
+      "id": "r3-q3-timer",
+      "type": "picture-timer",
+      "round": 3,
+      "questionNumber": 3,
+      "questionText": "Full name of each character (1 point each)",
       "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "correctAnswerText": "Apu Nahasapeemapetilon, Bart Simpson,<br>Chief Wiggum, Mr Burns, Ned Flanders,<br>Principal Skinner, Waylon Smithers",
+      "image": "media/simpsons.jpeg"
     },
     {
       "id": "r3-q4",
-      "type": "question-video",
+      "type": "question-audio",
       "round": 3,
       "questionNumber": 4,
-      "questionText": "Watch the video!\nWhat is this from?",
-      "videoSrc": "media/video-placeholder-4.mp4",
-      "autoplay": true,
+      "questionText": "Name the TV show",
+      "subtitle": "(2 points)",
+      "audioSrc": "media/r3-q4.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "correctAnswerText": "The X-Files"
     },
     {
-      "id": "r3-q5",
-      "type": "question-video",
+      "id": "r3-q5-question",
+      "type": "picture-question",
       "round": 3,
       "questionNumber": 5,
-      "questionText": "Watch the video!\nWhat is this from?",
-      "videoSrc": "media/video-placeholder-5.mp4",
-      "autoplay": true,
+      "questionText": "Full name of each person (1 point each)"
+    },
+    {
+      "id": "r3-q5-show",
+      "type": "picture-fullscreen",
+      "image": "media/r3-spicegirls.jpg"
+    },
+    {
+      "id": "r3-q5-timer",
+      "type": "picture-timer",
+      "round": 3,
+      "questionNumber": 5,
+      "questionText": "Full name of each person (1 point each)",
       "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "correctAnswerText": "Mel B, Melanie C, Emma Bunton, Geri Halliwell, Victoria Beckham",
+      "image": "media/r3-spicegirls.jpg"
     },
     {
       "id": "r3-q6",
-      "type": "question-video",
+      "type": "question-audio",
       "round": 3,
       "questionNumber": 6,
-      "questionText": "Watch the video!\nWhat is this from?",
-      "videoSrc": "media/video-placeholder-6.mp4",
-      "autoplay": true,
+      "questionText": "Name the song and the artist",
+      "subtitle": "(1 point each)",
+      "audioSrc": "media/r3-q6.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "correctAnswerText": "Sledgehammer — Peter Gabriel"
     },
     {
-      "id": "r3-q7",
-      "type": "question-video",
+      "id": "r3-q7-question",
+      "type": "picture-question",
       "round": 3,
       "questionNumber": 7,
-      "questionText": "Watch the video!\nWhat is this from?",
-      "videoSrc": "media/video-placeholder-7.mp4",
-      "autoplay": true,
+      "questionText": "Full name of each character (1 point each)"
+    },
+    {
+      "id": "r3-q7-show",
+      "type": "picture-fullscreen",
+      "image": "media/r3-sexandthecity.jpg"
+    },
+    {
+      "id": "r3-q7-timer",
+      "type": "picture-timer",
+      "round": 3,
+      "questionNumber": 7,
+      "questionText": "Full name of each character (1 point each)",
       "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "correctAnswerText": "Carrie Bradshaw, Charlotte York, Miranda Hobbes, and Samantha Jones",
+      "image": "media/r3-sexandthecity.jpg"
     },
     {
       "id": "r3-q8",
-      "type": "question-video",
+      "type": "question-audio",
       "round": 3,
       "questionNumber": 8,
-      "questionText": "Watch the video!\nWhat is this from?",
-      "videoSrc": "media/video-placeholder-8.mp4",
-      "autoplay": true,
+      "questionText": "Name the song and the artist",
+      "subtitle": "(1 point each)",
+      "audioSrc": "media/r3-q8.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "correctAnswerText": "Runaway — Del Shannon"
     },
     {
-      "id": "r3-q9",
-      "type": "question-video",
+      "id": "r3-q9-question",
+      "type": "picture-question",
       "round": 3,
       "questionNumber": 9,
-      "questionText": "Watch the video!\nWhat is this from?",
-      "videoSrc": "media/video-placeholder-9.mp4",
-      "autoplay": true,
+      "questionText": "Full name of each logo (1 point each)"
+    },
+    {
+      "id": "r3-q9-show",
+      "type": "picture-fullscreen",
+      "image": "media/r3-brands.jpg"
+    },
+    {
+      "id": "r3-q9-timer",
+      "type": "picture-timer",
+      "round": 3,
+      "questionNumber": 9,
+      "questionText": "Full name of each logo (1 point each)",
       "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "correctAnswerText": "Nike, Burberry, Versace, Levi's,<br>Louis Vuitton, adidas, Chanel, and Tommy Hilfiger",
+      "image": "media/r3-brands.jpg"
     },
     {
       "id": "r3-q10",
-      "type": "question-video",
+      "type": "question-audio",
       "round": 3,
       "questionNumber": 10,
-      "questionText": "Watch the video!\nWhat is this from?",
-      "videoSrc": "media/video-placeholder-10.mp4",
-      "autoplay": true,
+      "questionText": "Name the TV show",
+      "subtitle": "(2 points)",
+      "audioSrc": "media/r3-q10.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "correctAnswerText": "The Addams Family"
     },
     {
       "id": "r3-collection",
@@ -774,96 +798,135 @@
       "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
     },
     {
-      "id": "r3-q1-answer",
-      "type": "answer",
-      "round": 3,
-      "questionRefId": "r3-q1",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "id": "r3-answers-intro",
+      "type": "info",
+      "title": "Answers of Round 3"
     },
     {
-      "id": "r3-q2-answer",
+      "id": "r3-a1",
       "type": "answer",
-      "round": 3,
+      "questionRefId": "r3-q1-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r3-a2",
+      "type": "answer",
       "questionRefId": "r3-q2",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "title": "Answer"
     },
     {
-      "id": "r3-q3-answer",
+      "id": "r3-a3",
       "type": "answer",
-      "round": 3,
-      "questionRefId": "r3-q3",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r3-q3-timer",
+      "title": "Answer"
     },
     {
-      "id": "r3-q4-answer",
+      "id": "r3-a4",
       "type": "answer",
-      "round": 3,
       "questionRefId": "r3-q4",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "title": "Answer"
     },
     {
-      "id": "r3-q5-answer",
+      "id": "r3-a5",
       "type": "answer",
-      "round": 3,
-      "questionRefId": "r3-q5",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r3-q5-timer",
+      "title": "Answer"
     },
     {
-      "id": "r3-q6-answer",
+      "id": "r3-a6",
       "type": "answer",
-      "round": 3,
       "questionRefId": "r3-q6",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "title": "Answer"
     },
     {
-      "id": "r3-q7-answer",
+      "id": "r3-a7",
       "type": "answer",
-      "round": 3,
-      "questionRefId": "r3-q7",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r3-q7-timer",
+      "title": "Answer"
     },
     {
-      "id": "r3-q8-answer",
+      "id": "r3-a8",
       "type": "answer",
-      "round": 3,
       "questionRefId": "r3-q8",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "title": "Answer"
     },
     {
-      "id": "r3-q9-answer",
+      "id": "r3-a9",
       "type": "answer",
-      "round": 3,
-      "questionRefId": "r3-q9",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r3-q9-timer",
+      "title": "Answer"
     },
     {
-      "id": "r3-q10-answer",
+      "id": "r3-a10",
       "type": "answer",
-      "round": 3,
       "questionRefId": "r3-q10",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "title": "Answer"
     },
     {
-      "id": "r3-end",
+      "id": "round3-end",
       "type": "info",
       "title": "End of Round 3",
-      "subtitle": "Get ready for the next round!"
+      "subtitle": "Time for a break!"
     },
     {
-      "id": "break-3",
+      "id": "halftime",
       "type": "info",
-      "title": "BREAK TIME",
-      "subtitle": "Grab a drink and get ready for Round 4!"
+      "title": "LONG BREAK",
+      "subtitle": "Half Time"
+    },
+    {
+      "id": "halftime-intro",
+      "type": "info",
+      "title": "The score so far for the first half is...",
+      "subtitle": "*drum roll*"
+    },
+    {
+      "id": "halftime-5th",
+      "type": "info",
+      "title": "5th Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>VAG-A-BONDAGE</div></div>"
+    },
+    {
+      "id": "halftime-4th",
+      "type": "info",
+      "title": "4th Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>SOUP OF THE DAY</div></div>"
+    },
+    {
+      "id": "halftime-3rd",
+      "type": "info",
+      "title": "3rd Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>SALT AND VINEGAR QUIZPS</div></div>"
+    },
+    {
+      "id": "halftime-2nd",
+      "type": "info",
+      "title": "2nd Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>UNROLLING STONES</div></div>"
+    },
+    {
+      "id": "halftime-1st",
+      "type": "info",
+      "title": "1st Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>SHRAPNEL SANDWICH</div></div>"
+    },
+    {
+      "id": "halftime-rest-1",
+      "type": "info",
+      "title": "All Other Teams",
+      "htmlContent": "<div style='text-align: center; font-size: 1.8em; line-height: 1.8;'><div style='margin: 0.2em;'><span style='color: #888;'>6.</span> 3 KAI O KOUKOS</div><div style='margin: 0.2em;'><span style='color: #888;'>7.</span> BACK TO THE FUTURE</div><div style='margin: 0.2em;'><span style='color: #888;'>8.</span> LES COUSINES</div><div style='margin: 0.2em;'><span style='color: #888;'>9.</span> THE MALCOLMS</div><div style='margin: 0.2em;'><span style='color: #888;'>10.</span> ARAGON'S BROKEN TOE</div><div style='margin: 0.2em;'><span style='color: #888;'>11.</span> PRIVE</div><div style='margin: 0.2em;'><span style='color: #888;'>12.</span> THE MESSY GIRLS</div><div style='margin: 0.2em;'><span style='color: #888;'>13.</span> USSR</div><div style='margin: 0.2em;'><span style='color: #888;'>14.</span> MOON NIGHTS</div></div>"
+    },
+    {
+      "id": "halftime-rest-2",
+      "type": "info",
+      "title": "All Other Teams",
+      "htmlContent": "<div style='text-align: center; font-size: 1.8em; line-height: 1.8;'><div style='margin: 0.2em;'><span style='color: #888;'>15.</span> QUIZ PRO QUO</div><div style='margin: 0.2em;'><span style='color: #888;'>16.</span> BLENDER</div><div style='margin: 0.2em;'><span style='color: #888;'>17.</span> SILVER SPRINGS</div><div style='margin: 0.2em;'><span style='color: #888;'>18.</span> SOUPES AVGOLEMONES</div><div style='margin: 0.2em;'><span style='color: #888;'>19.</span> ADIAFOROI!!!</div><div style='margin: 0.2em;'><span style='color: #888;'>20.</span> BRYLLCREEM</div><div style='margin: 0.2em;'><span style='color: #888;'>21.</span> POUREKKIA</div><div style='margin: 0.2em;'><span style='color: #888;'>22.</span> THE FABULOUS FIVE</div><div style='margin: 0.2em;'><span style='color: #888;'>23.</span> TA ERMAIA</div></div>"
+    },
+    {
+      "id": "halftime-rest-3",
+      "type": "info",
+      "title": "All Other Teams",
+      "htmlContent": "<div style='text-align: center; font-size: 1.8em; line-height: 1.8;'><div style='margin: 0.2em;'><span style='color: #888;'>24.</span> CARTOONS</div><div style='margin: 0.2em;'><span style='color: #888;'>25.</span> KENT GIRLS</div><div style='margin: 0.2em;'><span style='color: #888;'>26.</span> MAWA</div><div style='margin: 0.2em;'><span style='color: #888;'>27.</span> STROVOLIAN KOUMBARI</div><div style='margin: 0.2em;'><span style='color: #888;'>28.</span> BAD CHOICES</div><div style='margin: 0.2em;'><span style='color: #888;'>29.</span> FOREVER YOUNG</div><div style='margin: 0.2em;'><span style='color: #888;'>30.</span> THE 3 MUSKATEERS</div><div style='margin: 0.2em;'><span style='color: #888;'>31.</span> PAOLA</div></div>"
     },
     {
       "id": "round4-intro",
@@ -878,14 +941,14 @@
       "type": "question-mcq",
       "round": 4,
       "questionNumber": 1,
-      "questionText": "In what movie would you find the Greek warrior Achilles?",
+      "questionText": "Which 1994 film won the Oscar for 'Best Picture' at the 1995 Academy Awards?",
       "options": [
-        "300",
-        "Clash Of The Titans",
-        "The Odyssey",
-        "Troy"
+        "The Shawshank Redemption",
+        "Quiz Show",
+        "Forrest Gump",
+        "Pulp Fiction"
       ],
-      "correctOptionIndex": 3,
+      "correctOptionIndex": 2,
       "timerSeconds": 30
     },
     {
@@ -893,14 +956,14 @@
       "type": "question-mcq",
       "round": 4,
       "questionNumber": 2,
-      "questionText": "Which MP3 player's silhouette ads became iconic in the 2000s?",
+      "questionText": "What dance style characterised by acrobatic moves<br>popularised in the early 80s as part of hip hop culture?",
       "options": [
-        "Zune",
-        "iPod",
-        "Creative Zen",
-        "Sony Walkman"
+        "Breakdancing",
+        "Moonwalking",
+        "Twerking",
+        "The Robot"
       ],
-      "correctOptionIndex": 1,
+      "correctOptionIndex": 0,
       "timerSeconds": 30
     },
     {
@@ -908,12 +971,12 @@
       "type": "question-mcq",
       "round": 4,
       "questionNumber": 3,
-      "questionText": "On which Michael Jackson album does the song 'Man in the Mirror' appear?",
+      "questionText": "Which one of these 1950s religious epics was directed by the legendary Cecil B. DeMille?",
       "options": [
-        "Bad",
-        "Thriller",
-        "Off the Wall",
-        "Dangerous"
+        "The Ten Commandments",
+        "Ben Hur",
+        "Quo Vadis",
+        "The Robe"
       ],
       "correctOptionIndex": 0,
       "timerSeconds": 30
@@ -923,14 +986,14 @@
       "type": "question-mcq",
       "round": 4,
       "questionNumber": 4,
-      "questionText": "Name the 'Beat Generation' author who wrote 'Naked Lunch' in 1959.",
+      "questionText": "Which 1980s dance-drama film starred Jennifer Beals as a welder-turned-dancer?",
       "options": [
-        "Jack Kerouac",
-        "Allen Ginsberg",
-        "William S. Burroughs",
-        "Diane di Prima"
+        "Flashdance",
+        "Footloose",
+        "Dirty Dancing",
+        "Fame"
       ],
-      "correctOptionIndex": 2,
+      "correctOptionIndex": 0,
       "timerSeconds": 30
     },
     {
@@ -938,14 +1001,14 @@
       "type": "question-mcq",
       "round": 4,
       "questionNumber": 5,
-      "questionText": "Which came first?",
+      "questionText": "Which British comedy series introduced the catchphrase 'I'm a Lady!' by David Walliams?",
       "options": [
-        "PlayStation",
-        "Nintendo 64",
-        "Xbox",
-        "Sega Saturn"
+        "The Office",
+        "Little Britain",
+        "The Mighty Boosh",
+        "Peep Show"
       ],
-      "correctOptionIndex": 3,
+      "correctOptionIndex": 1,
       "timerSeconds": 30
     },
     {
@@ -953,14 +1016,14 @@
       "type": "question-mcq",
       "round": 4,
       "questionNumber": 6,
-      "questionText": "What movie's tagline is 'They're young, they're in love, and they kill people'?",
+      "questionText": "Which 2005 movie adaptation of a Jane Austen novel starred Keira Knightley?",
       "options": [
-        "Natural Born Killers",
-        "True Romance",
-        "Bonnie & Clyde",
-        "Thelma & Louise"
+        "Emma",
+        "Sense and Sensibility",
+        "Mansfield Park",
+        "Pride & Prejudice"
       ],
-      "correctOptionIndex": 2,
+      "correctOptionIndex": 3,
       "timerSeconds": 30
     },
     {
@@ -968,14 +1031,14 @@
       "type": "question-mcq",
       "round": 4,
       "questionNumber": 7,
-      "questionText": "Which Greek singer performed 'My Number One' winning the #Eurovision in 2005?",
+      "questionText": "Kate Moss became the face of which designer clothing brand at the age of 17?",
       "options": [
-        "Elena Paparizou",
-        "Eleni Foureira",
-        "Despina Vandi",
-        "Kalomoira"
+        "Chanel",
+        "Versace",
+        "Gucci",
+        "Calvin Klein"
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 3,
       "timerSeconds": 30
     },
     {
@@ -983,12 +1046,12 @@
       "type": "question-mcq",
       "round": 4,
       "questionNumber": 8,
-      "questionText": "What type of skirt, named after a dog breed, was popular with teenagers in the 1950s?",
+      "questionText": "Which of these classic horror films was NOT released in the 1970s?",
       "options": [
-        "Spaniel skirt",
-        "Chihuahua skirt",
-        "Beagle skirt",
-        "Poodle skirt"
+        "The Exorcist",
+        "Carrie",
+        "The Wicker Man",
+        "Rosemary's Baby"
       ],
       "correctOptionIndex": 3,
       "timerSeconds": 30
@@ -998,14 +1061,14 @@
       "type": "question-mcq",
       "round": 4,
       "questionNumber": 9,
-      "questionText": "How many episodes of the hit British TV sitcom 'Fawlty Towers' were made in total?",
+      "questionText": "Which voice actor has featured in nearly every Pixar movie<br>and is considered the studio's good luck charm?",
       "options": [
-        "6",
-        "12",
-        "18",
-        "24"
+        "Tim Allen",
+        "Tom Hanks",
+        "Jon Favreau",
+        "John Ratzenberger"
       ],
-      "correctOptionIndex": 1,
+      "correctOptionIndex": 3,
       "timerSeconds": 30
     },
     {
@@ -1013,37 +1076,15 @@
       "type": "question-mcq",
       "round": 4,
       "questionNumber": 10,
-      "questionText": "Created in 1966, what did the 'ELIZA' computer programme, famously simulate?",
+      "questionText": "Which rock band recorded the critically-acclaimed 1994 album 'Superunknown'?",
       "options": [
-        "A chess player",
-        "A psychotherapist",
-        "A mathematician",
-        "A translator"
+        "Nirvana",
+        "Soundgarden",
+        "Pearl Jam",
+        "Alice in Chains"
       ],
       "correctOptionIndex": 1,
       "timerSeconds": 30
-    },
-    {
-      "id": "r4-bonus1",
-      "type": "question-free-text",
-      "round": 4,
-      "questionNumber": "Bonus 1",
-      "questionText": "It was a slap in the face how quickly I was replaced.<br />And are you thinkin' of me when you fuck her?",
-      "correctAnswerText": "'You Oughta Know' by Alanis Morissette",
-      "timerSeconds": 30,
-      "pointsAvailable": 2,
-      "instructions": "Write the song name and artist\n1 point each!"
-    },
-    {
-      "id": "r4-bonus2",
-      "type": "question-free-text",
-      "round": 4,
-      "questionNumber": "Bonus 2",
-      "questionText": "Which Christmas carol was declared an intangible cultural heritage by UNESCO?",
-      "correctAnswerText": "Silent Night",
-      "timerSeconds": 30,
-      "pointsAvailable": 2,
-      "instructions": "Write the answer!\n2 points!"
     },
     {
       "id": "r4-collection",
@@ -1052,112 +1093,75 @@
       "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
     },
     {
-      "id": "r4-q1-answer",
+      "id": "r4-answers-intro",
+      "type": "info",
+      "title": "Answers of Round 4"
+    },
+    {
+      "id": "r4-a1",
       "type": "answer",
-      "round": 4,
       "questionRefId": "r4-q1",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r4-q2-answer",
+      "id": "r4-a2",
       "type": "answer",
-      "round": 4,
       "questionRefId": "r4-q2",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r4-q3-answer",
+      "id": "r4-a3",
       "type": "answer",
-      "round": 4,
       "questionRefId": "r4-q3",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r4-q4-answer",
+      "id": "r4-a4",
       "type": "answer",
-      "round": 4,
       "questionRefId": "r4-q4",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r4-q5-answer",
+      "id": "r4-a5",
       "type": "answer",
-      "round": 4,
       "questionRefId": "r4-q5",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r4-q6-answer",
+      "id": "r4-a6",
       "type": "answer",
-      "round": 4,
       "questionRefId": "r4-q6",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r4-q7-answer",
+      "id": "r4-a7",
       "type": "answer",
-      "round": 4,
       "questionRefId": "r4-q7",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r4-q8-answer",
+      "id": "r4-a8",
       "type": "answer",
-      "round": 4,
       "questionRefId": "r4-q8",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r4-q9-answer",
+      "id": "r4-a9",
       "type": "answer",
-      "round": 4,
       "questionRefId": "r4-q9",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r4-q10-answer",
+      "id": "r4-a10",
       "type": "answer",
-      "round": 4,
       "questionRefId": "r4-q10",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r4-bonus1-answer",
-      "type": "answer",
-      "round": 4,
-      "questionRefId": "r4-bonus1",
-      "title": "Bonus Answer",
-      "correctAnswerText": "'You Oughta Know' by Alanis Morissette"
-    },
-    {
-      "id": "r4-bonus2-answer",
-      "type": "answer",
-      "round": 4,
-      "questionRefId": "r4-bonus2",
-      "title": "Bonus Answer",
-      "correctAnswerText": "Silent Night"
-    },
-    {
-      "id": "r4-end",
+      "id": "round4-end",
       "type": "info",
       "title": "End of Round 4",
-      "subtitle": "Get ready for the next round!"
-    },
-    {
-      "id": "break-4",
-      "type": "info",
-      "title": "BREAK TIME",
-      "subtitle": "Grab a drink and get ready for Round 5!"
+      "subtitle": "Get ready for Round 5!"
     },
     {
       "id": "round5-intro",
@@ -1172,14 +1176,14 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 1,
-      "questionText": "Kirsten Dunst stars as a high-school cheerleader in what 2000 movie?",
+      "questionText": "What is the name of Anna Vissi's debut album, released in 1977?",
       "options": [
-        "Crossroads",
-        "17 Again",
-        "A Cinderella Story",
-        "Bring It On"
+        "Anna Vissi",
+        "Nai",
+        "As Kanoume Apopse Mia Arxi",
+        "Kitrino Galazio"
       ],
-      "correctOptionIndex": 3,
+      "correctOptionIndex": 2,
       "timerSeconds": 30
     },
     {
@@ -1187,14 +1191,14 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 2,
-      "questionText": "In \"Back to the Future\" what speed does the DeLorean need to reach<br />to travel through time?",
+      "questionText": "In the 2000s series 'Gossip Girl', what is the name of the bar/cafe that the girls frequent?",
       "options": [
-        "88 mph",
-        "77 mph",
-        "99 mph",
-        "55 mph"
+        "Milky",
+        "Chocolat",
+        "Cream",
+        "Butter"
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 3,
       "timerSeconds": 30
     },
     {
@@ -1202,12 +1206,12 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 3,
-      "questionText": "Released in 1978, what arcade game caused a coin shortage in Japan<br />due to its popularity?",
+      "questionText": "Which 90s TV show featured the first prime-time lesbian kiss on American television?",
       "options": [
-        "Pac-Man",
-        "Space Invaders",
-        "Asteroids",
-        "Galaxian"
+        "Ellen",
+        "Roseanne",
+        "Will & Grace",
+        "Dawson's Creek"
       ],
       "correctOptionIndex": 1,
       "timerSeconds": 30
@@ -1217,14 +1221,14 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 4,
-      "questionText": "Hungry Like the Wolf' was a hit song for which British new wave band in 1982?",
+      "questionText": "What does the phrase 'Hakuna Matata' mean in the Lion King (1994)?",
       "options": [
-        "Duran Duran",
-        "The Cure",
-        "Tears for Fears",
-        "The Police"
+        "Be Happy",
+        "Be Calm",
+        "No Worries",
+        "No Problems"
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 2,
       "timerSeconds": 30
     },
     {
@@ -1232,14 +1236,14 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 5,
-      "questionText": "Which French designer introduced 'New Look' in 1947,<br />revolutionizing women's fashion in the 1950s?",
+      "questionText": "In professional tennis, which ATP Masters tournament is often referred to as the \"fifth Grand Slam\"?",
       "options": [
-        "Coco Chanel",
-        "Pierre Cardin",
-        "Christian Dior",
-        "Yves Saint Laurent"
+        "Indian Wells Open",
+        "Miami Open",
+        "Monte-Carlo Masters",
+        "The Madrid Open"
       ],
-      "correctOptionIndex": 2,
+      "correctOptionIndex": 0,
       "timerSeconds": 30
     },
     {
@@ -1247,14 +1251,14 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 6,
-      "questionText": "Which Greek musician wrote the beloved song 'Frankosiriani'",
+      "questionText": "Which women's magazine was founded by Helen Gurley Brown in 1965?",
       "options": [
-        "Vassilis Tsitsanis",
-        "Giorgos Zampetas",
-        "Manolis Chiotis",
-        "Markos Vamvakaris"
+        "Cosmopolitan",
+        "Glamour",
+        "Vogue",
+        "Elle"
       ],
-      "correctOptionIndex": 3,
+      "correctOptionIndex": 0,
       "timerSeconds": 30
     },
     {
@@ -1262,14 +1266,14 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 7,
-      "questionText": "Released in 1996, what virtual pet toy required constant care and attention?",
+      "questionText": "In the original Miami Vice TV series what was the name of Crockett's pet alligator?",
       "options": [
-        "Furby",
-        "Tamagotchi",
-        "Digimon",
-        "Giga Pet"
+        "Sonny",
+        "Gator",
+        "Elvis",
+        "Kiddo"
       ],
-      "correctOptionIndex": 1,
+      "correctOptionIndex": 2,
       "timerSeconds": 30
     },
     {
@@ -1277,14 +1281,14 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 8,
-      "questionText": "Which psychedelic rock band produced the 1967 hit \"Somebody to Love\"?",
+      "questionText": "Who released the hit rap song 'Gangster's Paradise' in 1995?",
       "options": [
-        "The Velvet Underground",
-        "The Rolling Stones",
-        "The Doors",
-        "Jefferson Airplane"
+        "Ice Cube",
+        "Coolio",
+        "Jay-Z",
+        "LL Cool J"
       ],
-      "correctOptionIndex": 3,
+      "correctOptionIndex": 1,
       "timerSeconds": 30
     },
     {
@@ -1292,14 +1296,14 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 9,
-      "questionText": "Which dance move, popularized by Soulja Boy in 2007,<br />became a viral phenomenon?",
+      "questionText": "What is the name of the trilogy by Suzanne Collins, first published in 2008?",
       "options": [
-        "Crank That",
-        "The Dougie",
-        "Harlem Shake",
-        "The Cupid Shuffle"
+        "Maze Runner",
+        "The Girl with the Dragon Tattoo",
+        "The Hunger Games",
+        "Mortal Instruments"
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 2,
       "timerSeconds": 30
     },
     {
@@ -1307,37 +1311,15 @@
       "type": "question-mcq",
       "round": 5,
       "questionNumber": 10,
-      "questionText": "What was the name of the first web browser with a graphical interface,<br />released in 1993?",
+      "questionText": "In the TV series \"Lost\",<br>what was the name of the fictional airline whose flight crashed on the island?",
       "options": [
-        "Netscape",
-        "Internet Explorer",
-        "Mosaic",
-        "Opera"
+        "Oceanic Airlines",
+        "Pacific Airlines",
+        "Global Airlines",
+        "Ajira Airways"
       ],
-      "correctOptionIndex": 2,
+      "correctOptionIndex": 0,
       "timerSeconds": 30
-    },
-    {
-      "id": "r5-bonus1",
-      "type": "question-free-text",
-      "round": 5,
-      "questionNumber": "Bonus 1",
-      "questionText": "When it comes to sex, I'm similar to the thriller in Manila.<br />Honeys call me Bigga the condom filler.<br />Whether it's stiff tongue or stiff dick.<br />Biggie squeeze it to make shit fit, now check this shit",
-      "correctAnswerText": "'One More Chance' OR 'Old Thing Back' by Notorious B.I.G.",
-      "timerSeconds": 30,
-      "pointsAvailable": 2,
-      "instructions": "Write the song name and artist\n1 point each!"
-    },
-    {
-      "id": "r5-bonus2",
-      "type": "question-free-text",
-      "round": 5,
-      "questionNumber": "Bonus 2",
-      "questionText": "What did my true love send to me, on the seventh day of Christmas?",
-      "correctAnswerText": "Seven swans a-swimming",
-      "timerSeconds": 30,
-      "pointsAvailable": 2,
-      "instructions": "Write the answer!\n2 points!"
     },
     {
       "id": "r5-collection",
@@ -1346,230 +1328,293 @@
       "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
     },
     {
-      "id": "r5-q1-answer",
+      "id": "r5-answers-intro",
+      "type": "info",
+      "title": "Answers of Round 5"
+    },
+    {
+      "id": "r5-a1",
       "type": "answer",
-      "round": 5,
       "questionRefId": "r5-q1",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r5-q2-answer",
+      "id": "r5-a2",
       "type": "answer",
-      "round": 5,
       "questionRefId": "r5-q2",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r5-q3-answer",
+      "id": "r5-a3",
       "type": "answer",
-      "round": 5,
       "questionRefId": "r5-q3",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r5-q4-answer",
+      "id": "r5-a4",
       "type": "answer",
-      "round": 5,
       "questionRefId": "r5-q4",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r5-q5-answer",
+      "id": "r5-a5",
       "type": "answer",
-      "round": 5,
       "questionRefId": "r5-q5",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r5-q6-answer",
+      "id": "r5-a6",
       "type": "answer",
-      "round": 5,
       "questionRefId": "r5-q6",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r5-q7-answer",
+      "id": "r5-a7",
       "type": "answer",
-      "round": 5,
       "questionRefId": "r5-q7",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r5-q8-answer",
+      "id": "r5-a8",
       "type": "answer",
-      "round": 5,
       "questionRefId": "r5-q8",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r5-q9-answer",
+      "id": "r5-a9",
       "type": "answer",
-      "round": 5,
       "questionRefId": "r5-q9",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r5-q10-answer",
+      "id": "r5-a10",
       "type": "answer",
-      "round": 5,
       "questionRefId": "r5-q10",
-      "title": "Answer",
-      "correctAnswerText": ""
+      "title": "Answer"
     },
     {
-      "id": "r5-bonus1-answer",
-      "type": "answer",
-      "round": 5,
-      "questionRefId": "r5-bonus1",
-      "title": "Bonus Answer",
-      "correctAnswerText": "'One More Chance' OR 'Old Thing Back' by Notorious B.I.G."
-    },
-    {
-      "id": "r5-bonus2-answer",
-      "type": "answer",
-      "round": 5,
-      "questionRefId": "r5-bonus2",
-      "title": "Bonus Answer",
-      "correctAnswerText": "Seven swans a-swimming"
-    },
-    {
-      "id": "r5-end",
+      "id": "round5-end",
       "type": "info",
       "title": "End of Round 5",
-      "subtitle": "Get ready for the next round!"
-    },
-    {
-      "id": "break-5",
-      "type": "info",
-      "title": "BREAK TIME",
-      "subtitle": "Grab a drink and get ready for Round 6!"
+      "subtitle": "Get ready for the final round — Videos!"
     },
     {
       "id": "round6-intro",
       "type": "round-intro",
       "round": 6,
       "title": "Round 6",
-      "subtitle": "(audio round)",
-      "instructions": "Make sure you've written your team name on the answer sheet!"
+      "subtitle": "(video round)",
+      "instructions": "Watch each clip and guess the movie (and director where asked)!"
     },
     {
-      "id": "r6-q1",
-      "type": "question-audio",
+      "id": "r6-q1-question",
+      "type": "video-clip",
       "round": 6,
       "questionNumber": 1,
-      "questionText": "Listen carefully!\nName the song or sound",
-      "audioSrc": "media/audio-placeholder-1.mp3",
-      "autoplay": true,
-      "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "questionText": "Guess the TV/Movie (2 points)"
     },
     {
-      "id": "r6-q2",
-      "type": "question-audio",
+      "id": "r6-q1-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r6-q1.mp4"
+    },
+    {
+      "id": "r6-q1-timer",
+      "type": "video-clip-timer",
+      "round": 6,
+      "questionNumber": 1,
+      "questionText": "Guess the TV/Movie (2 points)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Lady And The Tramp"
+    },
+    {
+      "id": "r6-q2-question",
+      "type": "video-clip",
       "round": 6,
       "questionNumber": 2,
-      "questionText": "Listen carefully!\nName the song or sound",
-      "audioSrc": "media/audio-placeholder-2.mp3",
-      "autoplay": true,
-      "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "questionText": "Guess the TV/Movie and director (1 point each)"
     },
     {
-      "id": "r6-q3",
-      "type": "question-audio",
+      "id": "r6-q2-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r6-q2.mp4"
+    },
+    {
+      "id": "r6-q2-timer",
+      "type": "video-clip-timer",
+      "round": 6,
+      "questionNumber": 2,
+      "questionText": "Guess the TV/Movie and director (1 point each)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Psycho / Alfred Hitchcock"
+    },
+    {
+      "id": "r6-q3-question",
+      "type": "video-clip",
       "round": 6,
       "questionNumber": 3,
-      "questionText": "Listen carefully!\nName the song or sound",
-      "audioSrc": "media/audio-placeholder-3.mp3",
-      "autoplay": true,
-      "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "questionText": "Guess the TV/Movie and director (1 point each)"
     },
     {
-      "id": "r6-q4",
-      "type": "question-audio",
+      "id": "r6-q3-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r6-q3.mp4"
+    },
+    {
+      "id": "r6-q3-timer",
+      "type": "video-clip-timer",
+      "round": 6,
+      "questionNumber": 3,
+      "questionText": "Guess the TV/Movie and director (1 point each)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Taxi Driver / Martin Scorsese"
+    },
+    {
+      "id": "r6-q4-question",
+      "type": "video-clip",
       "round": 6,
       "questionNumber": 4,
-      "questionText": "Listen carefully!\nName the song or sound",
-      "audioSrc": "media/audio-placeholder-4.mp3",
-      "autoplay": true,
-      "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "questionText": "Guess the TV/Movie and director (1 point each)"
     },
     {
-      "id": "r6-q5",
-      "type": "question-audio",
+      "id": "r6-q4-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r6-q4.mp4"
+    },
+    {
+      "id": "r6-q4-timer",
+      "type": "video-clip-timer",
+      "round": 6,
+      "questionNumber": 4,
+      "questionText": "Guess the TV/Movie and director (1 point each)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Indiana Jones and the Last Crusade / Steven Spielberg"
+    },
+    {
+      "id": "r6-q5-question",
+      "type": "video-clip",
       "round": 6,
       "questionNumber": 5,
-      "questionText": "Listen carefully!\nName the song or sound",
-      "audioSrc": "media/audio-placeholder-5.mp3",
-      "autoplay": true,
-      "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "questionText": "Guess the TV/Movie (2 points)"
     },
     {
-      "id": "r6-q6",
-      "type": "question-audio",
+      "id": "r6-q5-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r6-q5.mp4"
+    },
+    {
+      "id": "r6-q5-timer",
+      "type": "video-clip-timer",
+      "round": 6,
+      "questionNumber": 5,
+      "questionText": "Guess the TV/Movie (2 points)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Death Becomes Her"
+    },
+    {
+      "id": "r6-q6-question",
+      "type": "video-clip",
       "round": 6,
       "questionNumber": 6,
-      "questionText": "Listen carefully!\nName the song or sound",
-      "audioSrc": "media/audio-placeholder-6.mp3",
-      "autoplay": true,
-      "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "questionText": "Guess the TV/Movie (2 points)"
     },
     {
-      "id": "r6-q7",
-      "type": "question-audio",
+      "id": "r6-q6-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r6-q6.mp4"
+    },
+    {
+      "id": "r6-q6-timer",
+      "type": "video-clip-timer",
+      "round": 6,
+      "questionNumber": 6,
+      "questionText": "Guess the TV/Movie (2 points)",
+      "timerSeconds": 30,
+      "correctAnswerText": "The Royal Tenenbaums"
+    },
+    {
+      "id": "r6-q7-question",
+      "type": "video-clip",
       "round": 6,
       "questionNumber": 7,
-      "questionText": "Listen carefully!\nName the song or sound",
-      "audioSrc": "media/audio-placeholder-7.mp3",
-      "autoplay": true,
-      "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "questionText": "Guess the TV/Movie (2 points)"
     },
     {
-      "id": "r6-q8",
-      "type": "question-audio",
+      "id": "r6-q7-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r6-q7.mp4"
+    },
+    {
+      "id": "r6-q7-timer",
+      "type": "video-clip-timer",
+      "round": 6,
+      "questionNumber": 7,
+      "questionText": "Guess the TV/Movie (2 points)",
+      "timerSeconds": 30,
+      "correctAnswerText": "The Goonies"
+    },
+    {
+      "id": "r6-q8-question",
+      "type": "video-clip",
       "round": 6,
       "questionNumber": 8,
-      "questionText": "Listen carefully!\nName the song or sound",
-      "audioSrc": "media/audio-placeholder-8.mp3",
-      "autoplay": true,
-      "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "questionText": "Guess the TV/Movie and director (1 point each)"
     },
     {
-      "id": "r6-q9",
-      "type": "question-audio",
+      "id": "r6-q8-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r6-q8.mp4"
+    },
+    {
+      "id": "r6-q8-timer",
+      "type": "video-clip-timer",
+      "round": 6,
+      "questionNumber": 8,
+      "questionText": "Guess the TV/Movie and director (1 point each)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Πολίτικη Κουζίνα (A Touch of Spice)<br>Τάσος Μπουλμέτης (Tassos Boulmetis)"
+    },
+    {
+      "id": "r6-q9-question",
+      "type": "video-clip",
       "round": 6,
       "questionNumber": 9,
-      "questionText": "Listen carefully!\nName the song or sound",
-      "audioSrc": "media/audio-placeholder-9.mp3",
-      "autoplay": true,
-      "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "questionText": "Guess the TV/Movie (2 points)"
     },
     {
-      "id": "r6-q10",
-      "type": "question-audio",
+      "id": "r6-q9-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r6-q9.mp4"
+    },
+    {
+      "id": "r6-q9-timer",
+      "type": "video-clip-timer",
+      "round": 6,
+      "questionNumber": 9,
+      "questionText": "Guess the TV/Movie (2 points)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Knocked Up"
+    },
+    {
+      "id": "r6-q10-question",
+      "type": "video-clip",
       "round": 6,
       "questionNumber": 10,
-      "questionText": "Listen carefully!\nName the song or sound",
-      "audioSrc": "media/audio-placeholder-10.mp3",
-      "autoplay": true,
+      "questionText": "Guess the TV/Movie (2 points)"
+    },
+    {
+      "id": "r6-q10-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r6-q10.mp4"
+    },
+    {
+      "id": "r6-q10-timer",
+      "type": "video-clip-timer",
+      "round": 6,
+      "questionNumber": 10,
+      "questionText": "Guess the TV/Movie (2 points)",
       "timerSeconds": 30,
-      "correctAnswerText": "[To be filled]"
+      "correctAnswerText": "Toy Story 3 (Toy Story for 1 point)"
     },
     {
       "id": "r6-collection",
@@ -1578,98 +1623,82 @@
       "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
     },
     {
-      "id": "r6-q1-answer",
-      "type": "answer",
-      "round": 6,
-      "questionRefId": "r6-q1",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "id": "r6-answers-intro",
+      "type": "info",
+      "title": "Answers of Round 6"
     },
     {
-      "id": "r6-q2-answer",
+      "id": "r6-a1",
       "type": "answer",
-      "round": 6,
-      "questionRefId": "r6-q2",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r6-q1-timer",
+      "title": "Answer"
     },
     {
-      "id": "r6-q3-answer",
+      "id": "r6-a2",
       "type": "answer",
-      "round": 6,
-      "questionRefId": "r6-q3",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r6-q2-timer",
+      "title": "Answer"
     },
     {
-      "id": "r6-q4-answer",
+      "id": "r6-a3",
       "type": "answer",
-      "round": 6,
-      "questionRefId": "r6-q4",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r6-q3-timer",
+      "title": "Answer"
     },
     {
-      "id": "r6-q5-answer",
+      "id": "r6-a4",
       "type": "answer",
-      "round": 6,
-      "questionRefId": "r6-q5",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r6-q4-timer",
+      "title": "Answer"
     },
     {
-      "id": "r6-q6-answer",
+      "id": "r6-a5",
       "type": "answer",
-      "round": 6,
-      "questionRefId": "r6-q6",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r6-q5-timer",
+      "title": "Answer"
     },
     {
-      "id": "r6-q7-answer",
+      "id": "r6-a6",
       "type": "answer",
-      "round": 6,
-      "questionRefId": "r6-q7",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r6-q6-timer",
+      "title": "Answer"
     },
     {
-      "id": "r6-q8-answer",
+      "id": "r6-a7",
       "type": "answer",
-      "round": 6,
-      "questionRefId": "r6-q8",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r6-q7-timer",
+      "title": "Answer"
     },
     {
-      "id": "r6-q9-answer",
+      "id": "r6-a8",
       "type": "answer",
-      "round": 6,
-      "questionRefId": "r6-q9",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r6-q8-timer",
+      "title": "Answer"
     },
     {
-      "id": "r6-q10-answer",
+      "id": "r6-a9",
       "type": "answer",
-      "round": 6,
-      "questionRefId": "r6-q10",
-      "title": "Answer",
-      "correctAnswerText": "[To be filled]"
+      "questionRefId": "r6-q9-timer",
+      "title": "Answer"
     },
     {
-      "id": "r6-end",
+      "id": "r6-a10",
+      "type": "answer",
+      "questionRefId": "r6-q10-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "round6-end",
       "type": "info",
       "title": "End of Round 6",
-      "subtitle": "Get ready for the next round!"
+      "subtitle": "That's all the rounds!<br>Time to find out who won..."
     },
     {
-      "id": "thank-you",
-      "type": "thank-you",
-      "title": "THANK YOU ALL",
-      "subtitle": "FOR COMING",
-      "message": "Quiz Night #4\nAntonakis Music Hall",
-      "logoImage": "media/logo.png"
+      "id": "grading",
+      "type": "info",
+      "image": "logo.jpg",
+      "fullscreenImage": true,
+      "title": "Please wait while we grade your answers..."
     }
   ]
 }

@@ -410,6 +410,18 @@ body {
     overflow: hidden;
 }
 
+/* Position title at bottom when fullscreen image is present */
+.info-slide:has(.slide-image.fullscreen) .slide-title {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    text-align: center;
+    margin: 0;
+    padding: 0 2rem;
+}
+
 /* ===== Thank You Slide ===== */
 .thank-you-slide .slide-title {
     font-size: 5rem;
@@ -545,4 +557,76 @@ body {
         font-size: 1rem;
         line-height: 1.6;
     }
+}
+
+/* ===== Picture Slides ===== */
+.picture-question-slide {
+    position: relative;
+}
+
+.picture-fullscreen-slide {
+    padding: 0;
+    background-color: #000000;
+}
+
+.fullscreen-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #000000;
+}
+
+.picture-timer-slide {
+    position: relative;
+    padding: 0;
+    background-color: #000000;
+}
+
+.picture-timer-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.picture-timer-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.8rem 1.5rem;
+    background: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.picture-timer-header {
+    color: var(--accent-color, #ff6b6b);
+}
+
+/* ===== Video Clip Slides ===== */
+.video-clip-slide,
+.video-clip-timer-slide {
+    position: relative;
+}
+
+.video-clip-question {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    line-height: 1.3;
+    max-width: 90%;
+}
+
+.video-fullscreen-slide {
+    padding: 0;
+    background-color: #000000;
+}
+
+.fullscreen-video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #000000;
 }

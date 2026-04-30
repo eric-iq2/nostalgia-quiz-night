@@ -242,6 +242,24 @@ function renderCurrentSlide() {
         case 'question-audio':
             renderQuestionAudio(slide);
             break;
+        case 'picture-question':
+            renderPictureQuestion(slide);
+            break;
+        case 'picture-fullscreen':
+            renderPictureFullscreen(slide);
+            break;
+        case 'picture-timer':
+            renderPictureTimer(slide);
+            break;
+        case 'video-clip':
+            renderVideoClip(slide);
+            break;
+        case 'video-fullscreen':
+            renderVideoFullscreen(slide);
+            break;
+        case 'video-clip-timer':
+            renderVideoClipTimer(slide);
+            break;
         case 'answer':
             renderAnswer(slide);
             break;
@@ -409,27 +427,38 @@ function renderQuestionAudio(slide) {
     const questionText = createElement('div', 'question-text', slide.questionText);
     container.appendChild(questionText);
 
-    // Audio player container
-    const audioContainer = createElement('div', 'audio-player');
-    const audio = document.createElement('audio');
-    audio.controls = true;
-    audio.src = slide.audioSrc;
-
-    audio.addEventListener('error', () => {
-        const warning = createElement('div', 'media-warning',
-            `Could not load audio: ${slide.audioSrc}`);
-        audioContainer.appendChild(warning);
-    });
-
-    // Autoplay if allowed and user has interacted
-    if (slide.autoplay && state.hasUserInteracted) {
-        audio.play().catch(err => {
-            console.warn('Autoplay failed:', err);
-        });
+    // Show subtitle if provided
+    if (slide.subtitle) {
+        const subtitle = createElement('div', 'question-subtitle', slide.subtitle);
+        container.appendChild(subtitle);
     }
 
-    audioContainer.appendChild(audio);
-    container.appendChild(audioContainer);
+    // Audio element
+    if (slide.audioSrc) {
+        const audio = document.createElement('audio');
+        audio.className = 'question-audio';
+        audio.controls = true;
+        audio.src = slide.audioSrc;
+
+        if (slide.loop) {
+            audio.loop = true;
+        }
+
+        audio.addEventListener('error', () => {
+            const warning = createElement('div', 'media-warning',
+                `Could not load audio: ${slide.audioSrc}`);
+            container.appendChild(warning);
+        });
+
+        if (state.hasUserInteracted) {
+            audio.play().catch(err => {
+                console.warn('Autoplay failed:', err);
+            });
+        }
+
+        container.appendChild(audio);
+    }
+
     elements.slideRoot.appendChild(container);
 
     // Timer will start on first key press (no auto-start)
@@ -447,6 +476,13 @@ function renderAnswer(slide) {
         container.appendChild(warning);
         elements.slideRoot.appendChild(container);
         return;
+    }
+
+    // Show question number header
+    if (questionSlide.questionNumber) {
+        const header = createElement('div', 'question-header',
+            `Question ${questionSlide.questionNumber}`);
+        container.appendChild(header);
     }
 
     // Show answer title
@@ -582,6 +618,157 @@ function renderThankYou(slide) {
     }
 
     elements.slideRoot.appendChild(container);
+}
+
+function renderPictureQuestion(slide) {
+    const container = createSlideContainer('picture-question-slide');
+
+    if (slide.questionNumber) {
+        const header = createElement('div', 'question-header',
+            `Question ${slide.questionNumber}`);
+        container.appendChild(header);
+    }
+
+    const questionText = createElement('div', 'video-clip-question',
+        slide.questionText || 'Identify what you see in the picture');
+    container.appendChild(questionText);
+
+    if (slide.instructions) {
+        const instructions = createElement('p', 'slide-instructions', slide.instructions);
+        container.appendChild(instructions);
+    }
+
+    elements.slideRoot.appendChild(container);
+}
+
+function renderPictureFullscreen(slide) {
+    const container = createSlideContainer('picture-fullscreen-slide');
+
+    const img = document.createElement('img');
+    img.className = 'fullscreen-picture';
+    img.src = slide.image;
+    img.alt = slide.altText || 'Quiz picture';
+
+    img.addEventListener('error', () => {
+        const warning = createElement('div', 'media-warning',
+            `Could not load image: ${slide.image}`);
+        container.appendChild(warning);
+    });
+
+    container.appendChild(img);
+    elements.slideRoot.appendChild(container);
+}
+
+function renderPictureTimer(slide) {
+    const container = createSlideContainer('picture-timer-slide');
+
+    // Image takes up most of the space
+    if (slide.image) {
+        const img = document.createElement('img');
+        img.className = 'picture-timer-image';
+        img.src = slide.image;
+        img.alt = slide.altText || 'Quiz picture';
+        img.addEventListener('error', () => {
+            const warning = createElement('div', 'media-warning',
+                `Could not load image: ${slide.image}`);
+            container.appendChild(warning);
+        });
+        container.appendChild(img);
+    }
+
+    // Question text overlay at the bottom
+    const overlay = createElement('div', 'picture-timer-overlay', '');
+    if (slide.questionNumber) {
+        const header = createElement('span', 'picture-timer-header',
+            `Q${slide.questionNumber}: `);
+        overlay.appendChild(header);
+    }
+    const questionText = document.createTextNode(
+        slide.questionText || 'Identify what you see in the picture');
+    overlay.appendChild(questionText);
+    container.appendChild(overlay);
+
+    elements.slideRoot.appendChild(container);
+}
+
+function renderVideoClip(slide) {
+    const container = createSlideContainer('video-clip-slide');
+
+    // Question header (e.g., "Question 1")
+    if (slide.questionNumber) {
+        const header = createElement('div', 'question-header',
+            `Question ${slide.questionNumber}`);
+        container.appendChild(header);
+    }
+
+    // Question text
+    const questionText = createElement('div', 'video-clip-question',
+        slide.questionText || 'Name the TV/Movie from the clip');
+    container.appendChild(questionText);
+
+    // Instructions
+    if (slide.instructions) {
+        const instructions = createElement('p', 'slide-instructions', slide.instructions);
+        container.appendChild(instructions);
+    }
+
+    elements.slideRoot.appendChild(container);
+}
+
+function renderVideoFullscreen(slide) {
+    const container = createSlideContainer('video-fullscreen-slide');
+
+    // Video element
+    const video = document.createElement('video');
+    video.className = 'fullscreen-video';
+    video.controls = false;
+    video.src = slide.videoSrc;
+
+    if (slide.loop) {
+        video.loop = true;
+    }
+
+    video.addEventListener('error', () => {
+        const warning = createElement('div', 'media-warning',
+            `Could not load video: ${slide.videoSrc}`);
+        container.appendChild(warning);
+    });
+
+    // Autoplay if allowed and user has interacted
+    if (state.hasUserInteracted) {
+        video.play().catch(err => {
+            console.warn('Autoplay failed:', err);
+        });
+    }
+
+    container.appendChild(video);
+    elements.slideRoot.appendChild(container);
+}
+
+function renderVideoClipTimer(slide) {
+    const container = createSlideContainer('video-clip-timer-slide');
+
+    // Question header (e.g., "Question 1")
+    if (slide.questionNumber) {
+        const header = createElement('div', 'question-header',
+            `Question ${slide.questionNumber}`);
+        container.appendChild(header);
+    }
+
+    // Question text
+    const questionText = createElement('div', 'video-clip-question',
+        slide.questionText || 'Name the TV/Movie from the clip');
+    container.appendChild(questionText);
+
+    // Instructions
+    if (slide.instructions) {
+        const instructions = createElement('p', 'slide-instructions', slide.instructions);
+        container.appendChild(instructions);
+    }
+
+    elements.slideRoot.appendChild(container);
+
+    // Timer will start on first key press (no auto-start)
 }
 
 // ===== Question Timer Logic =====
@@ -766,7 +953,9 @@ function isQuestionSlide(slide) {
         slide.type === 'question-mcq' ||
         slide.type === 'question-free-text' ||
         slide.type === 'question-video' ||
-        slide.type === 'question-audio'
+        slide.type === 'question-audio' ||
+        slide.type === 'video-clip-timer' ||
+        slide.type === 'picture-timer'
     );
 }
 

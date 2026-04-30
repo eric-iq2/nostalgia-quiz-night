@@ -1,0 +1,42 @@
+{
+  "description": "Example of the 3-slide video clip pattern",
+  "example_slides": [
+    {
+      "comment": "SLIDE 1: Question only - shows the question text",
+      "id": "video-q1-question",
+      "type": "video-clip",
+      "questionNumber": 1,
+      "questionText": "Name the TV/Movie from the clip"
+    },
+    {
+      "comment": "SLIDE 2: Video only - fullscreen video playback with NO controls",
+      "id": "video-q1-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/your-video-clip.mp4"
+    },
+    {
+      "comment": "SLIDE 3: Question with countdown timer - shows question again with 30sec timer",
+      "id": "video-q1-timer",
+      "type": "video-clip-timer",
+      "questionNumber": 1,
+      "questionText": "Name the TV/Movie from the clip",
+      "timerSeconds": 30
+    },
+    {
+      "comment": "Answer slide - references the timer slide",
+      "id": "video-q1-answer",
+      "type": "answer",
+      "questionRefId": "video-q1-timer",
+      "title": "Answer"
+    }
+  ],
+  "notes": [
+    "The 3-slide pattern ensures:",
+    "1. Slide 1 (video-clip): Shows only the question - no video, no timer",
+    "2. Slide 2 (video-fullscreen): Shows only the video - fullscreen, no controls, no question",
+    "3. Slide 3 (video-clip-timer): Shows only the question with countdown - no video",
+    "",
+    "To use this in your quiz, replace the current Round 3 'question-video' slides",
+    "with this 3-slide pattern for each video question."
+  ]
+}

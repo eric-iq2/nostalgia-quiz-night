@@ -1,0 +1,1846 @@
+{
+  "settings": {
+    "title": "Noche de Quiz #4",
+    "venue": "Sala de Música Antonakis",
+    "defaultQuestionDurationSec": 35,
+    "countdownAudio": "media/countdown.mp3",
+    "theme": {
+      "backgroundColor": "#1a1a2e",
+      "textColor": "#ffffff",
+      "accentColor": "#ffcc00",
+      "secondaryAccent": "#ff6b6b",
+      "fontFamily": "Graphik-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    }
+  },
+  "slides": [
+    {
+      "id": "welcome",
+      "type": "info",
+      "image": "logo.jpg",
+      "fullscreenImage": true
+    },
+    {
+      "id": "final-3rd",
+      "type": "info",
+      "title": "3er Lugar",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>THE VICTORIOUS B.I.G.</div><div style='font-size: 2em; margin-top: 0.5em;'>61 puntos</div></div>"
+    },
+    {
+      "id": "final-2nd",
+      "type": "info",
+      "title": "2do Lugar",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>ARAGORN'S BROKEN TOE</div><div style='font-size: 2em; margin-top: 0.5em;'>64 puntos</div></div>"
+    },
+    {
+      "id": "final-1st",
+      "type": "info",
+      "title": "1er Lugar",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>SOUP OF THE DAY</div><div style='font-size: 2em; margin-top: 0.5em;'>74 puntos</div></div>"
+    },
+    {
+      "id": "final-rest",
+      "type": "info",
+      "title": "Todos los Demás Equipos",
+      "htmlContent": "<div style='text-align: center; font-size: 1.8em; line-height: 1.6;'><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE VAGABONDS STRIKE BACK</span> — 60</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE HO HO HO HOPELESS</span> — 60</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>WEIRD VIBES</span> — 59</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>5 RICHTER</span> — 58</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>MOUFLON MILKERS</span> — 58</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>LETS GET QUIZICAL</span> — 58</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>CHRISTOU FAMILY</span> — 57</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>2 BRUNETTES 1 GINGER</span> — 57</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>QUIZ PRO QUO</span> — 57</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>HARRY'S ANGELS</span> — 55</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>DUTCH SQUAD</span> — 55</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE BOOMBASTICKS</span> — 51</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>SKANTZOCHOIROI</span> — 51</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>LACHMATJUN</span> — 50</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>QUIZTOPHER COLOMBUS</span> — 50</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>5 KEO & 1 CARLSBERG</span> — 47</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>WOKE AGENDA</span> — 38</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE BEGINNERS</span> — 31</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>HALLOUMI MIT BREDWART</span> — 31</div></div>"
+    },
+    {
+      "id": "welcome-2",
+      "type": "info",
+      "image": "welcome.jpg",
+      "fullscreenImage": true
+    },
+    {
+      "id": "prize-5",
+      "type": "info",
+      "title": "Premio #5",
+      "htmlContent": "<div class='prize-single'><h2>Entradas de Cine Gratis</h2><p class='prize-subtext'>por <em>Pantheon Cinema</em></p></div>"
+    },
+    {
+      "id": "prize-4",
+      "type": "info",
+      "title": "Premio #4",
+      "htmlContent": "<div class='prize-single'><h2>Paquetes de 4 <br />Kombuchas de Varios Sabores</h2><div class='prize-value'>(valor €14 cada uno)</div><p class='prize-subtext'>por <em>Mikro Kombucha</em></p><div class='prize-list prize-list-small'>Limón, Jengibre, Cúrcuma<br>Mezcla de Tres Lúpulos<br>Pomelo<br>Lavanda Hibisco Miel</div></div>"
+    },
+    {
+      "id": "prize-3",
+      "type": "info",
+      "title": "Premio #3",
+      "htmlContent": "<div class='prize-single'><h2>Bolsas de Regalos</h2><div class='prize-value'>(valor €25 cada una)</div><p class='prize-subtext'>por <em>Tryfon Tseriotis</em></p><div class='prize-list prize-list-small'>2 Cadbury Fingers<br>1 Kettle Cooked chips<br>2 McVities Digestive<br>2 Balconi Waffles<br>1 McVities Billions Gold Wafer<br>1 Nexba Kombucha<br>1 Milka Chocolate<br>2 McVities Tazas de Edición Limitada</div></div>"
+    },
+    {
+      "id": "prize-2",
+      "type": "info",
+      "title": "Premio #2",
+      "htmlContent": "<div class='prize-single'><h2>Velas Artesanales</h2><div class='prize-value'>(valor €30 cada una)</div><p class='prize-subtext'>de <em>Hippie Candles by Gloria</em></p></div>"
+    },
+    {
+      "id": "prize-1",
+      "type": "info",
+      "title": "Premio #1",
+      "htmlContent": "<div class='prize-single'><h2>Cestas de Navidad</h2><div class='prize-value'>(valor €55 cada una)</div><div class='prize-list prize-list-small'>Botella de vino de <em>Laiko Cosmos</em><br>Botella de vino de <em>Xinaris</em><br>Queso Brie<br>Frutos secos de Amalia<br>Vale de <em>Misfit Union Kitchen</em><br />(cualquier bandeja de su elección)</div></div>"
+    },
+    {
+      "id": "round1-intro",
+      "type": "round-intro",
+      "round": 1,
+      "title": "Ronda 1",
+      "subtitle": "(ronda de opción múltiple)",
+      "instructions": "¡Asegúrese de haber escrito el nombre de su equipo en la hoja de respuestas!"
+    },
+    {
+      "id": "r1-q1",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 1,
+      "questionText": "¿Cómo se llamó el concierto benéfico para el alivio de la hambruna africana celebrado en 1985?",
+      "options": [
+        "Band Aid",
+        "Live Aid",
+        "Africa Aid",
+        "Make Poverty History"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q2",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 2,
+      "questionText": "¿Quién era conocida como 'La Bomba Brasileña' en el Hollywood de los años 50?",
+      "options": [
+        "Rita Hayworth",
+        "Sophia Loren",
+        "Carmen Miranda",
+        "Gina Lollobrigida"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q3",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 3,
+      "questionText": "¿Qué actriz griega ganó el premio a Mejor Actriz en Cannes en 1960 por 'Never on Sunday'?",
+      "options": [
+        "Aliki Vougiouklaki",
+        "Melina Mercouri",
+        "Irene Papas",
+        "Katina Paxinou"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q4",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 4,
+      "questionText": "¿Qué banda o artista ha ganado más Grammys de todos los tiempos con 35?",
+      "options": [
+        "Beyonce",
+        "Stevie Wonder",
+        "Michael Jackson",
+        "Vanilla Ice"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q5",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 5,
+      "questionText": "¿Qué equipo inesperado ganó el Campeonato de Europa de Fútbol UEFA 2004?",
+      "options": [
+        "Dinamarca",
+        "Países Bajos",
+        "Grecia",
+        "Portugal"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q6",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 6,
+      "questionText": "Populares en los años 80, ¿cómo se llamaban los zapatos de goma coloridos con agujeros?",
+      "options": [
+        "Jellies",
+        "Crocs",
+        "Plastics",
+        "Rubber Ducks"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q7",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 7,
+      "questionText": "La amada canción 'My Sweet Lord' fue lanzada por qué artista en 1970?",
+      "options": [
+        "John Lennon",
+        "Neil Young",
+        "Paul McCartney",
+        "George Harrison"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q8",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 8,
+      "questionText": "¿Cuál fue la película de mayor recaudación de los años 90?",
+      "options": [
+        "Jurassic Park",
+        "Home Alone",
+        "The Lion King",
+        "Titanic"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q9",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 9,
+      "questionText": "¿Cuál es ampliamente considerado el primer videojuego de todos los tiempos?",
+      "options": [
+        "Pong",
+        "Tennis for Two",
+        "Spacewar",
+        "Checkers"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q10",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 10,
+      "questionText": "'In The Air Tonight' es una de las canciones emblemáticas de qué artista?",
+      "options": [
+        "Sting",
+        "Bryan Adams",
+        "George Michael",
+        "Phil Collins"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-bonus-intro",
+      "type": "info",
+      "title": "¡Ronda Bonus! ¡2x Puntos!",
+      "subtitle": "(complete el espacio en blanco)"
+    },
+    {
+      "id": "r1-bonus1",
+      "type": "question-free-text",
+      "round": 1,
+      "questionNumber": "Bonus 1",
+      "questionText": "Trabajo toda la noche, trabajo todo el día, para pagar las cuentas que tengo que pagar. ¿No es triste?<br />Y aún así nunca parece quedar un solo centavo para mí. Qué lástima.",
+      "correctAnswerText": "'Money Money Money' por Abba",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "¡Escriba el nombre de la canción y el artista!\n¡1 punto cada uno!"
+    },
+    {
+      "id": "r1-bonus2",
+      "type": "question-free-text",
+      "round": 1,
+      "questionNumber": "Bonus 2",
+      "questionText": "Además de Rudolph, ¿puedes nombrar 2 de los otros renos de Santa?<br />(1 punto por reno)",
+      "correctAnswerText": "Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, Blitzen",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "¡Escriba la respuesta!\n¡2 puntos!"
+    },
+    {
+      "id": "r1-collection",
+      "type": "info",
+      "title": "Fin de la Ronda 1",
+      "subtitle": "¡Completen sus respuestas ya que pasaremos a recogerlas todas ahora mismo!"
+    },
+    {
+      "id": "r1-q1-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q1",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q2-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q2",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q3-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q3",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q4-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q4",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q5-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q5",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q6-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q6",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q7-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q7",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q8-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q8",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q9-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q9",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q10-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q10",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-bonus1-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-bonus1",
+      "title": "Respuesta Bonus",
+      "correctAnswerText": "'Money Money Money' por Abba"
+    },
+    {
+      "id": "r1-bonus2-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-bonus2",
+      "title": "Respuesta Bonus",
+      "correctAnswerText": "Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, Blitzen"
+    },
+    {
+      "id": "r1-end",
+      "type": "info",
+      "title": "Fin de la Ronda 1",
+      "subtitle": "¡Prepárense para la siguiente ronda!"
+    },
+    {
+      "id": "break-1",
+      "type": "info",
+      "title": "TIEMPO DE DESCANSO",
+      "subtitle": "¡Tomen una bebida y prepárense para la Ronda 2!"
+    },
+    {
+      "id": "round2-intro",
+      "type": "round-intro",
+      "round": 2,
+      "title": "Ronda 2",
+      "subtitle": "(ronda de opción múltiple)",
+      "instructions": "¡Asegúrese de haber escrito el nombre de su equipo en la hoja de respuestas!"
+    },
+    {
+      "id": "r2-q1",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 1,
+      "questionText": "¿Qué día de concientización ambiental se celebró por primera vez el 22 de abril de 1970?",
+      "options": [
+        "Día del Planeta",
+        "Día de la Naturaleza",
+        "Día de la Tierra",
+        "Día del Juicio Final"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q2",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 2,
+      "questionText": "¿Qué comedia romántica de los 90 presentaba a Meg Ryan y Tom Hanks como amigos por correspondencia?",
+      "options": [
+        "Sleepless in Seattle",
+        "You've Got Mail",
+        "When Harry Met Sally",
+        "Addicted to Love"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q3",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 3,
+      "questionText": "¿En qué ciudad alemana solían tocar The Beatles en clubes, antes de hacerse famosos?",
+      "options": [
+        "Berlín",
+        "Hamburgo",
+        "Frankfurt",
+        "Múnich"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q4",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 4,
+      "questionText": "¿Qué cantante griega representó a Luxemburgo en Eurovisión 1972 con 'Après Toi'?",
+      "options": [
+        "Nana Mouskouri",
+        "Demis Roussos",
+        "Vicky Leandros",
+        "Marinella"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q5",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 5,
+      "questionText": "Nombre del cantante que tocó 27 instrumentos diferentes en su álbum debut 'For You'.",
+      "options": [
+        "Lenny Kravitz",
+        "Frank Zappa",
+        "Stevie Wonder",
+        "Prince"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q6",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 6,
+      "questionText": "¿Qué pionero del rock 'n' roll de 1959 tuvo éxitos con \"Whole Lotta Shakin'\" y \"Great Balls Of Fire\"?",
+      "options": [
+        "Jerry Lee Lewis",
+        "Chuck Berry",
+        "Little Richard",
+        "Buddy Holly"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q7",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 7,
+      "questionText": "¿Cuál es la novela final de la 'Saga Crepúsculo' de Stephenie Meyer?",
+      "options": [
+        "Breaking Dawn",
+        "New Moon",
+        "Eclipse",
+        "Twilight"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q8",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 8,
+      "questionText": "¿Cuál de las siguientes animaciones de Pixar fue la primera en lanzarse en los años 2000?",
+      "options": [
+        "Cars",
+        "Finding Nemo",
+        "Monsters Inc",
+        "The Incredibles"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q9",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 9,
+      "questionText": "¿Qué diseñadora británica es reconocida por popularizar la minifalda en los años 60?",
+      "options": [
+        "Vivienne Westwood",
+        "Mary Quant",
+        "Twiggy",
+        "Jean Shrimpton"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q10",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 10,
+      "questionText": "¿Qué compositor griego ganó un Oscar por la banda sonora de 'Carros de Fuego' en 1982?",
+      "options": [
+        "Yanni",
+        "Manos Hatzidakis",
+        "Mikis Theodorakis",
+        "Vangelis"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-bonus-intro",
+      "type": "info",
+      "title": "¡Ronda Bonus! ¡2x Puntos!",
+      "subtitle": "(complete el espacio en blanco)"
+    },
+    {
+      "id": "r2-bonus1",
+      "type": "question-free-text",
+      "round": 2,
+      "questionNumber": "Bonus 1",
+      "questionText": "Antes de que entraras en mi vida, te extrañaba tanto.<br />Te extrañaba tanto. Te extrañaba tanto tanto.",
+      "correctAnswerText": "'Call Me Maybe' por Carly Rae Jepsen",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "¡Escriba el nombre de la canción y el artista!\n¡1 punto cada uno!"
+    },
+    {
+      "id": "r2-bonus2",
+      "type": "question-free-text",
+      "round": 2,
+      "questionNumber": "Bonus 2",
+      "questionText": "En Harry Potter, ¿qué personaje dice que nunca tiene suficientes calcetines,<br />porque la gente siempre le regala libros para Navidad?",
+      "correctAnswerText": "Profesor Dumbledore",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "¡Escriba la respuesta!\n¡2 puntos!"
+    },
+    {
+      "id": "r2-collection",
+      "type": "info",
+      "title": "Fin de la Ronda 2",
+      "subtitle": "¡Completen sus respuestas ya que pasaremos a recogerlas todas ahora mismo!"
+    },
+    {
+      "id": "r2-q1-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q1",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q2-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q2",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q3-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q3",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q4-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q4",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q5-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q5",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q6-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q6",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q7-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q7",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q8-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q8",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q9-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q9",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q10-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q10",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-bonus1-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-bonus1",
+      "title": "Respuesta Bonus",
+      "correctAnswerText": "'Call Me Maybe' por Carly Rae Jepsen"
+    },
+    {
+      "id": "r2-bonus2-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-bonus2",
+      "title": "Respuesta Bonus",
+      "correctAnswerText": "Profesor Dumbledore"
+    },
+    {
+      "id": "r2-end",
+      "type": "info",
+      "title": "Fin de la Ronda 2",
+      "subtitle": "¡Prepárense para la siguiente ronda!"
+    },
+    {
+      "id": "break-2",
+      "type": "info",
+      "title": "TIEMPO DE DESCANSO",
+      "subtitle": "¡Tomen una bebida y prepárense para la Ronda 3!"
+    },
+    {
+      "id": "round3-intro",
+      "type": "round-intro",
+      "round": 3,
+      "title": "Ronda 3",
+      "subtitle": "(ronda de video)",
+      "instructions": "¡Asegúrese de haber escrito el nombre de su equipo en la hoja de respuestas!"
+    },
+    {
+      "id": "r3-q1-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 1,
+      "questionText": "Nombra la Película del clip"
+    },
+    {
+      "id": "r3-q1-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q1.mp4"
+    },
+    {
+      "id": "r3-q1-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 1,
+      "questionText": "Nombra la Película del clip",
+      "timerSeconds": 30,
+      "correctAnswerText": "Arthur Christmas"
+    },
+    {
+      "id": "r3-q2-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 2,
+      "questionText": "Nombra la Película del clip"
+    },
+    {
+      "id": "r3-q2-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q2.mp4"
+    },
+    {
+      "id": "r3-q2-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 2,
+      "questionText": "Nombra la Película del clip",
+      "timerSeconds": 30,
+      "correctAnswerText": "Bridesmaids"
+    },
+    {
+      "id": "r3-q3-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 3,
+      "questionText": "Nombra la Película del clip"
+    },
+    {
+      "id": "r3-q3-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q3.mp4"
+    },
+    {
+      "id": "r3-q3-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 3,
+      "questionText": "Nombra la Película del clip",
+      "timerSeconds": 30,
+      "correctAnswerText": "Gone With the Wind / Lo que el viento se llevó"
+    },
+    {
+      "id": "r3-q4-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 4,
+      "questionText": "Nombra la Película del clip"
+    },
+    {
+      "id": "r3-q4-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q4.mp4"
+    },
+    {
+      "id": "r3-q4-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 4,
+      "questionText": "Nombra la Película del clip",
+      "timerSeconds": 30,
+      "correctAnswerText": "Blade Runner"
+    },
+    {
+      "id": "r3-q5-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 5,
+      "questionText": "Nombra la Película del clip"
+    },
+    {
+      "id": "r3-q5-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q5.mp4"
+    },
+    {
+      "id": "r3-q5-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 5,
+      "questionText": "Nombra la Película del clip",
+      "timerSeconds": 30,
+      "correctAnswerText": "Inglorious Basterds / Malditos Bastardos"
+    },
+    {
+      "id": "r3-q6-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 6,
+      "questionText": "Nombra la Película del clip"
+    },
+    {
+      "id": "r3-q6-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q6.mp4"
+    },
+    {
+      "id": "r3-q6-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 6,
+      "questionText": "Nombra la Película del clip",
+      "timerSeconds": 30,
+      "correctAnswerText": "Eternity and a Day / Μια αιωνιότητα και μια μέρα"
+    },
+    {
+      "id": "r3-q7-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 7,
+      "questionText": "Nombra la Película del clip"
+    },
+    {
+      "id": "r3-q7-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q7.mp4"
+    },
+    {
+      "id": "r3-q7-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 7,
+      "questionText": "Nombra la Película del clip",
+      "timerSeconds": 30,
+      "correctAnswerText": "Mean Girls / Chicas Pesadas"
+    },
+    {
+      "id": "r3-q8-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 8,
+      "questionText": "Nombra la Película del clip"
+    },
+    {
+      "id": "r3-q8-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q8.mp4"
+    },
+    {
+      "id": "r3-q8-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 8,
+      "questionText": "Nombra la Película del clip",
+      "timerSeconds": 30,
+      "correctAnswerText": "Blazing Saddles"
+    },
+    {
+      "id": "r3-q9-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 9,
+      "questionText": "Nombra la Película del clip"
+    },
+    {
+      "id": "r3-q9-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q9.mp4"
+    },
+    {
+      "id": "r3-q9-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 9,
+      "questionText": "Nombra la Película del clip",
+      "timerSeconds": 30,
+      "correctAnswerText": "Prince of Egypt / El Príncipe de Egipto"
+    },
+    {
+      "id": "r3-q10-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 10,
+      "questionText": "Nombra la Película del clip"
+    },
+    {
+      "id": "r3-q10-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q10.mp4"
+    },
+    {
+      "id": "r3-q10-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 10,
+      "questionText": "Nombra la Película del clip",
+      "timerSeconds": 30,
+      "correctAnswerText": "When Harry Met Sally / Cuando Harry conoció a Sally"
+    },
+    {
+      "id": "r3-collection",
+      "type": "info",
+      "title": "Fin de la Ronda 3",
+      "subtitle": "¡Completen sus respuestas ya que pasaremos a recogerlas todas ahora mismo!"
+    },
+    {
+      "id": "r3-q1-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q1-timer",
+      "title": "Respuesta",
+      "correctAnswerText": "Arthur Christmas"
+    },
+    {
+      "id": "r3-q2-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q2-timer",
+      "title": "Respuesta",
+      "correctAnswerText": "Bridesmaids"
+    },
+    {
+      "id": "r3-q3-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q3-timer",
+      "title": "Respuesta",
+      "correctAnswerText": "Gone With the Wind"
+    },
+    {
+      "id": "r3-q4-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q4-timer",
+      "title": "Respuesta",
+      "correctAnswerText": "Blade Runner"
+    },
+    {
+      "id": "r3-q5-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q5-timer",
+      "title": "Respuesta",
+      "correctAnswerText": "Inglorious Basterds"
+    },
+    {
+      "id": "r3-q6-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q6-timer",
+      "title": "Respuesta",
+      "correctAnswerText": "Eternity and a Day"
+    },
+    {
+      "id": "r3-q7-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q7-timer",
+      "title": "Respuesta",
+      "correctAnswerText": "Mean Girls"
+    },
+    {
+      "id": "r3-q8-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q8-timer",
+      "title": "Respuesta",
+      "correctAnswerText": "Blazing Saddles"
+    },
+    {
+      "id": "r3-q9-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q9-timer",
+      "title": "Respuesta",
+      "correctAnswerText": "Prince of Egypt"
+    },
+    {
+      "id": "r3-q10-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q10-timer",
+      "title": "Respuesta",
+      "correctAnswerText": "When Harry Met Sally"
+    },
+    {
+      "id": "r3-end",
+      "type": "info",
+      "title": "Fin de la Ronda 3",
+      "subtitle": "¡Prepárense para la siguiente ronda!"
+    },
+    {
+      "id": "break-3",
+      "type": "info",
+      "title": "DESCANSO LARGO",
+      "subtitle": "Medio Tiempo"
+    },
+    {
+      "id": "halftime-intro",
+      "type": "info",
+      "title": "La puntuación hasta ahora para la primera mitad es...",
+      "subtitle": "*redoble de tambores*"
+    },
+    {
+      "id": "halftime-5th",
+      "type": "info",
+      "title": "5to Lugar",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>THE VAGABONDS STRIKE BACK</div><div style='font-size: 2em; margin-top: 0.5em;'>33 puntos</div></div>"
+    },
+    {
+      "id": "halftime-4th",
+      "type": "info",
+      "title": "4to Lugar",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>5 RICHTER</div><div style='font-size: 2em; margin-top: 0.5em;'>34 puntos</div></div>"
+    },
+    {
+      "id": "halftime-3rd",
+      "type": "info",
+      "title": "3er Lugar",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>CHRISTOU FAMILY</div><div style='font-size: 2em; margin-top: 0.5em;'>35 puntos</div></div>"
+    },
+    {
+      "id": "halftime-2nd",
+      "type": "info",
+      "title": "2do Lugar",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>ARAGORN'S BROKEN TOE</div><div style='font-size: 2em; margin-top: 0.5em;'>39 puntos</div></div>"
+    },
+    {
+      "id": "halftime-1st",
+      "type": "info",
+      "title": "1er Lugar",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>SOUP OF THE DAY</div><div style='font-size: 2em; margin-top: 0.5em;'>43 puntos</div></div>"
+    },
+    {
+      "id": "halftime-rest",
+      "type": "info",
+      "title": "Todos los Demás Equipos",
+      "htmlContent": "<div style='text-align: center; font-size: 1.8em; line-height: 1.6;'><div style='margin: 0.3em;'><span style='color: #ffcc00;'>2 BRUNETTES 1 GINGER</span> — 35</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>HARRY'S ANGELS</span> — 34</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE HO HO HO HOPELESS</span> — 33</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>WEIRD VIBES</span> — 33</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>QUIZ PRO QUO</span> — 32</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>MOUFLON MILKERS</span> — 31</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>LETS GET QUIZICAL</span> — 31</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE VICTORIOUS B.I.G.</span> — 31</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE BOOMBASTICKS</span> — 29</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>LACHMATJUN</span> — 28</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>DUTCH SQUAD</span> — 28</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>SKANTZOCHOIROI</span> — 25</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>QUIZTOPHER COLOMBUS</span> — 25</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>5 KEO & 1 CARLSBERG</span> — 22</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>WOKE AGENDA</span> — 20</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE BEGINNERS</span> — 17</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>HALLOUMI MIT BREDWART</span> — 16</div></div>"
+    },
+    {
+      "id": "round4-intro",
+      "type": "round-intro",
+      "round": 4,
+      "title": "Ronda 4",
+      "subtitle": "(ronda de opción múltiple)",
+      "instructions": "¡Asegúrese de haber escrito el nombre de su equipo en la hoja de respuestas!"
+    },
+    {
+      "id": "r4-q1",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 1,
+      "questionText": "¿En qué película encontrarías al guerrero griego Aquiles?",
+      "options": [
+        "300",
+        "Clash Of The Titans",
+        "The Odyssey",
+        "Troy"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q2",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 2,
+      "questionText": "¿Los anuncios de siluetas de qué reproductor de MP3 se volvieron icónicos en los años 2000?",
+      "options": [
+        "Zune",
+        "iPod",
+        "Creative Zen",
+        "Sony Walkman"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q3",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 3,
+      "questionText": "¿En qué álbum de Michael Jackson aparece la canción 'Man in the Mirror'?",
+      "options": [
+        "Bad",
+        "Thriller",
+        "Off the Wall",
+        "Dangerous"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q4",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 4,
+      "questionText": "Nombra al autor de la 'Generación Beat' que escribió 'El Almuerzo Desnudo' en 1959.",
+      "options": [
+        "Jack Kerouac",
+        "Allen Ginsberg",
+        "William S. Burroughs",
+        "Diane di Prima"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q5",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 5,
+      "questionText": "¿Cuál salió primero?",
+      "options": [
+        "PlayStation",
+        "Nintendo 64",
+        "Xbox",
+        "Sega Saturn"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q6",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 6,
+      "questionText": "¿El eslogan de qué película es 'Son jóvenes, están enamorados y matan gente'?",
+      "options": [
+        "Natural Born Killers",
+        "True Romance",
+        "Bonnie & Clyde",
+        "Thelma & Louise"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q7",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 7,
+      "questionText": "¿Qué cantante griega interpretó 'My Number One' ganando Eurovisión en 2005?",
+      "options": [
+        "Elena Paparizou",
+        "Eleni Foureira",
+        "Despina Vandi",
+        "Kalomoira"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q8",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 8,
+      "questionText": "¿Qué tipo de falda, nombrada por una raza de perro, era popular entre los adolescentes en los años 50?",
+      "options": [
+        "Falda Spaniel",
+        "Falda Chihuahua",
+        "Falda Beagle",
+        "Falda Poodle"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q9",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 9,
+      "questionText": "¿Cuántos episodios de la exitosa sitcom británica 'Fawlty Towers' se hicieron en total?",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q10",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 10,
+      "questionText": "Creado en 1966, ¿qué simulaba famosamente el programa informático 'ELIZA'?",
+      "options": [
+        "Un jugador de ajedrez",
+        "Un psicoterapeuta",
+        "Un matemático",
+        "Un traductor"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-bonus-intro",
+      "type": "info",
+      "title": "¡Ronda Bonus! ¡2x Puntos!",
+      "subtitle": "(complete el espacio en blanco)"
+    },
+    {
+      "id": "r4-bonus1",
+      "type": "question-free-text",
+      "round": 4,
+      "questionNumber": "Bonus 1",
+      "questionText": "Fue una bofetada lo rápido que fui reemplazada.<br />¿Y estás pensando en mí cuando te acuestas con ella?",
+      "correctAnswerText": "'You Oughta Know' por Alanis Morissette",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "¡Escriba el nombre de la canción y el artista!\n¡1 punto cada uno!"
+    },
+    {
+      "id": "r4-bonus2",
+      "type": "question-free-text",
+      "round": 4,
+      "questionNumber": "Bonus 2",
+      "questionText": "¿Qué villancico fue declarado patrimonio cultural inmaterial por la UNESCO?",
+      "correctAnswerText": "Silent Night / Noche de Paz",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "¡Escriba la respuesta!\n¡2 puntos!"
+    },
+    {
+      "id": "r4-collection",
+      "type": "info",
+      "title": "Fin de la Ronda 4",
+      "subtitle": "¡Completen sus respuestas ya que pasaremos a recogerlas todas ahora mismo!"
+    },
+    {
+      "id": "r4-q1-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q1",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q2-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q2",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q3-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q3",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q4-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q4",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q5-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q5",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q6-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q6",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q7-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q7",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q8-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q8",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q9-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q9",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q10-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q10",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-bonus1-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-bonus1",
+      "title": "Respuesta Bonus",
+      "correctAnswerText": "'You Oughta Know' por Alanis Morissette"
+    },
+    {
+      "id": "r4-bonus2-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-bonus2",
+      "title": "Respuesta Bonus",
+      "correctAnswerText": "Silent Night"
+    },
+    {
+      "id": "r4-end",
+      "type": "info",
+      "title": "Fin de la Ronda 4",
+      "subtitle": "¡Prepárense para la siguiente ronda!"
+    },
+    {
+      "id": "break-4",
+      "type": "info",
+      "title": "TIEMPO DE DESCANSO",
+      "subtitle": "¡Tomen una bebida y prepárense para la Ronda 5!"
+    },
+    {
+      "id": "round5-intro",
+      "type": "round-intro",
+      "round": 5,
+      "title": "Ronda 5",
+      "subtitle": "(ronda de opción múltiple)",
+      "instructions": "¡Asegúrese de haber escrito el nombre de su equipo en la hoja de respuestas!"
+    },
+    {
+      "id": "r5-q1",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 1,
+      "questionText": "Kirsten Dunst protagoniza como porrista de secundaria en qué película del 2000?",
+      "options": [
+        "Crossroads",
+        "17 Again",
+        "A Cinderella Story",
+        "Bring It On"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q2",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 2,
+      "questionText": "En \"Back to the Future\" ¿qué velocidad necesita alcanzar el DeLorean<br />para viajar a través del tiempo?",
+      "options": [
+        "88 mph",
+        "77 mph",
+        "99 mph",
+        "55 mph"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q3",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 3,
+      "questionText": "Lanzado en 1978, ¿qué juego de arcade causó escasez de monedas en Japón<br />debido a su popularidad?",
+      "options": [
+        "Pac-Man",
+        "Space Invaders",
+        "Asteroids",
+        "Galaxian"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q4",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 4,
+      "questionText": "'Hungry Like the Wolf' fue un éxito para qué banda británica de new wave en 1982?",
+      "options": [
+        "Duran Duran",
+        "The Cure",
+        "Tears for Fears",
+        "The Police"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q5",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 5,
+      "questionText": "¿Qué diseñador francés introdujo el 'New Look' en 1947,<br />revolucionando la moda femenina de los años 50?",
+      "options": [
+        "Coco Chanel",
+        "Pierre Cardin",
+        "Christian Dior",
+        "Yves Saint Laurent"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q6",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 6,
+      "questionText": "¿Qué músico griego escribió la querida canción 'Frankosiriani'?",
+      "options": [
+        "Vassilis Tsitsanis",
+        "Giorgos Zampetas",
+        "Manolis Chiotis",
+        "Markos Vamvakaris"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q7",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 7,
+      "questionText": "Lanzado en 1996, ¿qué juguete de mascota virtual requería cuidado y atención constante?",
+      "options": [
+        "Furby",
+        "Tamagotchi",
+        "Digimon",
+        "Giga Pet"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q8",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 8,
+      "questionText": "¿Qué banda de rock psicodélico produjo el éxito de 1967 \"Somebody to Love\"?",
+      "options": [
+        "The Velvet Underground",
+        "The Rolling Stones",
+        "The Doors",
+        "Jefferson Airplane"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q9",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 9,
+      "questionText": "¿Qué movimiento de baile, popularizado por Soulja Boy en 2007,<br />se convirtió en un fenómeno viral?",
+      "options": [
+        "Crank That",
+        "The Dougie",
+        "Harlem Shake",
+        "The Cupid Shuffle"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q10",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 10,
+      "questionText": "¿Cuál fue el nombre del primer navegador web con interfaz gráfica,<br />lanzado en 1993?",
+      "options": [
+        "Netscape",
+        "Internet Explorer",
+        "Mosaic",
+        "Opera"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-bonus-intro",
+      "type": "info",
+      "title": "¡Ronda Bonus! ¡2x Puntos!",
+      "subtitle": "(complete el espacio en blanco)"
+    },
+    {
+      "id": "r5-bonus1",
+      "type": "question-free-text",
+      "round": 5,
+      "questionNumber": "Bonus 1",
+      "questionText": "Cuando se trata de sexo, soy similar al thriller en Manila.<br />Las chicas me llaman Bigga el llenador de condones.<br />Ya sea lengua rígida o pene rígido.<br />Biggie lo aprieta para que encaje, ahora mira esto",
+      "correctAnswerText": "'One More Chance' O 'Old Thing Back' por Notorious B.I.G.",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "¡Escriba el nombre de la canción y el artista!\n¡1 punto cada uno!"
+    },
+    {
+      "id": "r5-bonus2",
+      "type": "question-free-text",
+      "round": 5,
+      "questionNumber": "Bonus 2",
+      "questionText": "¿Qué me envió mi verdadero amor, el séptimo día de Navidad?",
+      "correctAnswerText": "Siete cisnes nadando",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "¡Escriba la respuesta!\n¡2 puntos!"
+    },
+    {
+      "id": "r5-collection",
+      "type": "info",
+      "title": "Fin de la Ronda 5",
+      "subtitle": "¡Completen sus respuestas ya que pasaremos a recogerlas todas ahora mismo!"
+    },
+    {
+      "id": "r5-q1-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q1",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q2-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q2",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q3-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q3",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q4-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q4",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q5-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q5",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q6-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q6",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q7-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q7",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q8-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q8",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q9-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q9",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q10-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q10",
+      "title": "Respuesta",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-bonus1-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-bonus1",
+      "title": "Respuesta Bonus",
+      "correctAnswerText": "'One More Chance' O 'Old Thing Back' por Notorious B.I.G."
+    },
+    {
+      "id": "r5-bonus2-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-bonus2",
+      "title": "Respuesta Bonus",
+      "correctAnswerText": "Seven swans a-swimming"
+    },
+    {
+      "id": "r5-end",
+      "type": "info",
+      "title": "Fin de la Ronda 5",
+      "subtitle": "¡Prepárense para la siguiente ronda!"
+    },
+    {
+      "id": "break-5",
+      "type": "info",
+      "title": "TIEMPO DE DESCANSO",
+      "subtitle": "¡Tomen una bebida y prepárense para la Ronda 6!"
+    },
+    {
+      "id": "round6-intro",
+      "type": "round-intro",
+      "round": 6,
+      "title": "Ronda 6",
+      "subtitle": "(ronda de audio)",
+      "instructions": "¡Asegúrese de haber escrito el nombre de su equipo en la hoja de respuestas!"
+    },
+    {
+      "id": "r6-q1",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 1,
+      "questionText": "Nombra la Canción y el Programa/Película",
+      "subtitle": "(1 punto cada uno)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Where Everybody Knows Your Name\" — Programa de TV Cheers"
+    },
+    {
+      "id": "r6-q2",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 2,
+      "questionText": "Nombra el programa y el compositor",
+      "subtitle": "(1 punto cada uno)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Programa de TV Gossip Girl (compuesto por los Transcenders)"
+    },
+    {
+      "id": "r6-q3",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 3,
+      "questionText": "Nombra el sonido",
+      "subtitle": "(2 puntos)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Anuncio Directo de Gun\""
+    },
+    {
+      "id": "r6-q4",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 4,
+      "questionText": "Nombra la Canción (o compositor) y el Programa/Película",
+      "subtitle": "(1 punto cada uno)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Theme from ER\" — compuesto por James Newton Howard"
+    },
+    {
+      "id": "r6-q5",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 5,
+      "questionText": "Nombra el sonido",
+      "subtitle": "(2 puntos)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Candy Crush Saga (juego)"
+    },
+    {
+      "id": "r6-q6",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 6,
+      "questionText": "Nombra la Canción (o compositor) y el Programa/Película",
+      "subtitle": "(1 punto cada uno)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Tema de Seinfeld — compuesto por Jonathan Wolff"
+    },
+    {
+      "id": "r6-q7",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 7,
+      "questionText": "Nombra la Canción y el Programa/Película",
+      "subtitle": "(1 punto cada uno)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Promontory\" (arreglo de \"The Gael\") — de The Last of the Mohicans"
+    },
+    {
+      "id": "r6-q8",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 8,
+      "questionText": "Nombra la Canción (o compositor) y el Programa/Película",
+      "subtitle": "(1 punto cada uno)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Tema de Sex and the City — compuesto por Douglas J. Cuomo"
+    },
+    {
+      "id": "r6-q9",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 9,
+      "questionText": "Nombra la Canción (o artista/banda) y el Programa/Película",
+      "subtitle": "(1 punto cada uno)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Sto Para Pente\" edición CY por Constantinos Christoforou"
+    },
+    {
+      "id": "r6-q10",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 10,
+      "questionText": "Nombra la Canción y el artista/banda",
+      "subtitle": "(1 punto cada uno)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Merry Xmas Everybody\" — por Slade"
+    },
+    {
+      "id": "r6-collection",
+      "type": "info",
+      "title": "Fin de la Ronda 6",
+      "subtitle": "¡Completen sus respuestas ya que pasaremos a recogerlas todas ahora mismo!"
+    },
+    {
+      "id": "r6-q1-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q1",
+      "title": "Respuesta"
+    },
+    {
+      "id": "r6-q2-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q2",
+      "title": "Respuesta"
+    },
+    {
+      "id": "r6-q3-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q3",
+      "title": "Respuesta"
+    },
+    {
+      "id": "r6-q4-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q4",
+      "title": "Respuesta"
+    },
+    {
+      "id": "r6-q5-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q5",
+      "title": "Respuesta"
+    },
+    {
+      "id": "r6-q6-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q6",
+      "title": "Respuesta"
+    },
+    {
+      "id": "r6-q7-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q7",
+      "title": "Respuesta"
+    },
+    {
+      "id": "r6-q8-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q8",
+      "title": "Respuesta"
+    },
+    {
+      "id": "r6-q9-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q9",
+      "title": "Respuesta"
+    },
+    {
+      "id": "r6-q10-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q10",
+      "title": "Respuesta"
+    },
+    {
+      "id": "r6-end",
+      "type": "info",
+      "title": "Fin de la Ronda 6",
+      "subtitle": "¡Esa fue la última ronda!"
+    },
+    {
+      "id": "grading",
+      "type": "info",
+      "image": "logo.jpg",
+      "fullscreenImage": true,
+      "title": "Por favor esperen mientras calificamos sus respuestas..."
+    },
+    {
+      "id": "thank-you",
+      "type": "thank-you",
+      "title": "GRACIAS A TODOS",
+      "subtitle": "por venir a la 4ta Noche de Quiz Nostalgia\nesperamos que hayan pasado un tiempo fantástico",
+      "message": "Noche de Quiz #4\nSala de Música Antonakis",
+      "logoImage": "media/logo.png"
+    }
+  ]
+}

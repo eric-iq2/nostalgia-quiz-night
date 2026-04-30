@@ -1,0 +1,1846 @@
+{
+  "settings": {
+    "title": "Quiz Night #4",
+    "venue": "Antonakis Music Hall",
+    "defaultQuestionDurationSec": 35,
+    "countdownAudio": "media/countdown.mp3",
+    "theme": {
+      "backgroundColor": "#1a1a2e",
+      "textColor": "#ffffff",
+      "accentColor": "#ffcc00",
+      "secondaryAccent": "#ff6b6b",
+      "fontFamily": "Graphik-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    }
+  },
+  "slides": [
+    {
+      "id": "welcome",
+      "type": "info",
+      "image": "logo.jpg",
+      "fullscreenImage": true
+    },
+    {
+      "id": "final-3rd",
+      "type": "info",
+      "title": "3η Θέση",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>THE VICTORIOUS B.I.G.</div><div style='font-size: 2em; margin-top: 0.5em;'>61 πόντοι</div></div>"
+    },
+    {
+      "id": "final-2nd",
+      "type": "info",
+      "title": "2η Θέση",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>ARAGORN'S BROKEN TOE</div><div style='font-size: 2em; margin-top: 0.5em;'>64 πόντοι</div></div>"
+    },
+    {
+      "id": "final-1st",
+      "type": "info",
+      "title": "1η Θέση",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>SOUP OF THE DAY</div><div style='font-size: 2em; margin-top: 0.5em;'>74 πόντοι</div></div>"
+    },
+    {
+      "id": "final-rest",
+      "type": "info",
+      "title": "Όλες οι Άλλες Ομάδες",
+      "htmlContent": "<div style='text-align: center; font-size: 1.8em; line-height: 1.6;'><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE VAGABONDS STRIKE BACK</span> — 60</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE HO HO HO HOPELESS</span> — 60</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>WEIRD VIBES</span> — 59</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>5 RICHTER</span> — 58</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>MOUFLON MILKERS</span> — 58</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>LETS GET QUIZICAL</span> — 58</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>CHRISTOU FAMILY</span> — 57</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>2 BRUNETTES 1 GINGER</span> — 57</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>QUIZ PRO QUO</span> — 57</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>HARRY'S ANGELS</span> — 55</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>DUTCH SQUAD</span> — 55</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE BOOMBASTICKS</span> — 51</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>SKANTZOCHOIROI</span> — 51</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>LACHMATJUN</span> — 50</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>QUIZTOPHER COLOMBUS</span> — 50</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>5 KEO & 1 CARLSBERG</span> — 47</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>WOKE AGENDA</span> — 38</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE BEGINNERS</span> — 31</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>HALLOUMI MIT BREDWART</span> — 31</div></div>"
+    },
+    {
+      "id": "welcome-2",
+      "type": "info",
+      "image": "welcome.jpg",
+      "fullscreenImage": true
+    },
+    {
+      "id": "prize-5",
+      "type": "info",
+      "title": "Έπαθλο #5",
+      "htmlContent": "<div class='prize-single'><h2>Δωρεάν Εισιτήρια Κινηματογράφου</h2><p class='prize-subtext'>από το <em>Pantheon Cinema</em></p></div>"
+    },
+    {
+      "id": "prize-4",
+      "type": "info",
+      "title": "Έπαθλο #4",
+      "htmlContent": "<div class='prize-single'><h2>Πακέτα 4 <br />Κομπούχα Πολλαπλών Γεύσεων</h2><div class='prize-value'>(αξίας €14 το καθένα)</div><p class='prize-subtext'>από το <em>Mikro Kombucha</em></p><div class='prize-list prize-list-small'>Λεμόνι, Τζίντζερ, Κουρκουμάς<br>Μείγμα Τριών Χοπς<br>Γκρέιπφρουτ<br>Λεβάντα Ιβίσκος Μέλι</div></div>"
+    },
+    {
+      "id": "prize-3",
+      "type": "info",
+      "title": "Έπαθλο #3",
+      "htmlContent": "<div class='prize-single'><h2>Δωροσακούλες</h2><div class='prize-value'>(αξίας €25 η καθεμία)</div><p class='prize-subtext'>από τον <em>Τρύφωνα Τσεριώτη</em></p><div class='prize-list prize-list-small'>2 Cadbury Fingers<br>1 Kettle Cooked chips<br>2 McVities Digestive<br>2 Balconi Waffles<br>1 McVities Billions Gold Wafer<br>1 Nexba Kombucha<br>1 Milka Chocolate<br>2 McVities Limited Edition Mugs</div></div>"
+    },
+    {
+      "id": "prize-2",
+      "type": "info",
+      "title": "Έπαθλο #2",
+      "htmlContent": "<div class='prize-single'><h2>Χειροποίητα Κεριά</h2><div class='prize-value'>(αξίας €30 το καθένα)</div><p class='prize-subtext'>από τα <em>Hippie Candles by Gloria</em></p></div>"
+    },
+    {
+      "id": "prize-1",
+      "type": "info",
+      "title": "Έπαθλο #1",
+      "htmlContent": "<div class='prize-single'><h2>Χριστουγεννιάτικα Καλάθια Δώρων</h2><div class='prize-value'>(αξίας €55 το καθένα)</div><div class='prize-list prize-list-small'>Μπουκάλι κρασί από το <em>Λαϊκό Κόσμο</em><br>Μπουκάλι κρασί από τον <em>Ξινάρη</em><br>Τυρί Μπρι<br>Ξηροί Καρποί από την Αμαλία<br>Κουπόνι από το <em>Misfit Union Kitchen</em><br />(οποιοδήποτε Πλατό της επιλογής σας)</div></div>"
+    },
+    {
+      "id": "round1-intro",
+      "type": "round-intro",
+      "round": 1,
+      "title": "Γύρος 1",
+      "subtitle": "(γύρος πολλαπλών επιλογών)",
+      "instructions": "Βεβαιωθείτε ότι έχετε γράψει το όνομα της ομάδας σας στο φύλλο απαντήσεων!"
+    },
+    {
+      "id": "r1-q1",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 1,
+      "questionText": "Ποιο ήταν το όνομα της φιλανθρωπικής συναυλίας για την ανακούφιση της πείνας στην Αφρική που πραγματοποιήθηκε το 1985;",
+      "options": [
+        "Band Aid",
+        "Live Aid",
+        "Africa Aid",
+        "Make Poverty History"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q2",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 2,
+      "questionText": "Ποια ήταν γνωστή ως 'Η Βραζιλιάνα Βόμβα' στο Χόλιγουντ της δεκαετίας του 1950;",
+      "options": [
+        "Rita Hayworth",
+        "Sophia Loren",
+        "Carmen Miranda",
+        "Gina Lollobrigida"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q3",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 3,
+      "questionText": "Ποια Ελληνίδα ηθοποιός κέρδισε το βραβείο Καλύτερης Ηθοποιού στις Κάννες το 1960 για την ταινία 'Ποτέ την Κυριακή';",
+      "options": [
+        "Αλίκη Βουγιουκλάκη",
+        "Μελίνα Μερκούρη",
+        "Ειρήνη Παππά",
+        "Κατίνα Παξινού"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q4",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 4,
+      "questionText": "Ποιο συγκρότημα ή καλλιτέχνης έχει κερδίσει τα περισσότερα Grammy όλων των εποχών με 35;",
+      "options": [
+        "Beyonce",
+        "Stevie Wonder",
+        "Michael Jackson",
+        "Vanilla Ice"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q5",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 5,
+      "questionText": "Ποια ομάδα-έκπληξη κέρδισε το UEFA Euro 2004;",
+      "options": [
+        "Δανία",
+        "Ολλανδία",
+        "Ελλάδα",
+        "Πορτογαλία"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q6",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 6,
+      "questionText": "Δημοφιλή στη δεκαετία του '80, πώς ονομάζονταν τα πολύχρωμα καουτσούκ παπούτσια με τρύπες;",
+      "options": [
+        "Jellies",
+        "Crocs",
+        "Plastics",
+        "Rubber Ducks"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q7",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 7,
+      "questionText": "Το αγαπημένο τραγούδι 'My Sweet Lord' κυκλοφόρησε από ποιον καλλιτέχνη το 1970;",
+      "options": [
+        "John Lennon",
+        "Neil Young",
+        "Paul McCartney",
+        "George Harrison"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q8",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 8,
+      "questionText": "Ποια ήταν η ταινία με τα περισσότερα έσοδα της δεκαετίας του 1990;",
+      "options": [
+        "Jurassic Park",
+        "Home Alone",
+        "The Lion King",
+        "Titanic"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q9",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 9,
+      "questionText": "Ποιο θεωρείται ευρέως το πρώτο βιντεοπαιχνίδι όλων των εποχών;",
+      "options": [
+        "Pong",
+        "Tennis for Two",
+        "Spacewar",
+        "Checkers"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q10",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 10,
+      "questionText": "Το 'In The Air Tonight' είναι ένα από τα χαρακτηριστικά τραγούδια ποιου καλλιτέχνη;",
+      "options": [
+        "Sting",
+        "Bryan Adams",
+        "George Michael",
+        "Phil Collins"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-bonus-intro",
+      "type": "info",
+      "title": "Μπόνους Γύρος! 2x Πόντοι!",
+      "subtitle": "(συμπληρώστε το κενό)"
+    },
+    {
+      "id": "r1-bonus1",
+      "type": "question-free-text",
+      "round": 1,
+      "questionNumber": "Μπόνους 1",
+      "questionText": "I work all night, I work all day, to pay the bills I have to pay. Ain't It Sad?<br />And still there never seems to be a single penny left for me. That's too bad.",
+      "correctAnswerText": "'Money Money Money' by Abba",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "Γράψτε το όνομα του τραγουδιού και τον καλλιτέχνη\n1 πόντος ο καθένας!"
+    },
+    {
+      "id": "r1-bonus2",
+      "type": "question-free-text",
+      "round": 1,
+      "questionNumber": "Μπόνους 2",
+      "questionText": "Εκτός από τον Rudolph, μπορείτε να ονομάσετε 2 από τα άλλα ελάφια του Άγιου Βασίλη;<br />(1 πόντος ανά ελάφι)",
+      "correctAnswerText": "Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, Blitzen",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "Γράψτε την απάντηση!\n2 πόντοι!"
+    },
+    {
+      "id": "r1-collection",
+      "type": "info",
+      "title": "Τέλος Γύρου 1",
+      "subtitle": "Παρακαλώ ολοκληρώστε τις απαντήσεις σας καθώς θα περάσουμε να τις μαζέψουμε τώρα!"
+    },
+    {
+      "id": "r1-q1-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q1",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q2-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q2",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q3-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q3",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q4-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q4",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q5-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q5",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q6-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q6",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q7-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q7",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q8-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q8",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q9-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q9",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-q10-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-q10",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r1-bonus1-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-bonus1",
+      "title": "Απάντηση Μπόνους",
+      "correctAnswerText": "'Money Money Money' by Abba"
+    },
+    {
+      "id": "r1-bonus2-answer",
+      "type": "answer",
+      "round": 1,
+      "questionRefId": "r1-bonus2",
+      "title": "Απάντηση Μπόνους",
+      "correctAnswerText": "Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, Blitzen"
+    },
+    {
+      "id": "r1-end",
+      "type": "info",
+      "title": "Τέλος Γύρου 1",
+      "subtitle": "Ετοιμαστείτε για τον επόμενο γύρο!"
+    },
+    {
+      "id": "break-1",
+      "type": "info",
+      "title": "ΩΡΑ ΔΙΑΛΕΙΜΜΑΤΟΣ",
+      "subtitle": "Πάρτε ένα ποτό και ετοιμαστείτε για τον Γύρο 2!"
+    },
+    {
+      "id": "round2-intro",
+      "type": "round-intro",
+      "round": 2,
+      "title": "Γύρος 2",
+      "subtitle": "(γύρος πολλαπλών επιλογών)",
+      "instructions": "Βεβαιωθείτε ότι έχετε γράψει το όνομα της ομάδας σας στο φύλλο απαντήσεων!"
+    },
+    {
+      "id": "r2-q1",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 1,
+      "questionText": "Ποια ημέρα περιβαλλοντικής ευαισθητοποίησης γιορτάστηκε για πρώτη φορά στις 22 Απριλίου 1970;",
+      "options": [
+        "Ημέρα του Πλανήτη",
+        "Ημέρα της Φύσης",
+        "Ημέρα της Γης",
+        "Ημέρα της Καταστροφής"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q2",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 2,
+      "questionText": "Ποια ρομαντική κωμωδία της δεκαετίας του '90 παρουσίαζε τους Meg Ryan και Tom Hanks ως φίλους δι' αλληλογραφίας;",
+      "options": [
+        "Sleepless in Seattle",
+        "You've Got Mail",
+        "When Harry Met Sally",
+        "Addicted to Love"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q3",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 3,
+      "questionText": "Σε ποια γερμανική πόλη έπαιζαν συχνά οι Beatles σε κλαμπ, πριν γίνουν διάσημοι;",
+      "options": [
+        "Βερολίνο",
+        "Αμβούργο",
+        "Φρανκφούρτη",
+        "Μόναχο"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q4",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 4,
+      "questionText": "Ποια Ελληνίδα τραγουδίστρια εκπροσώπησε το Λουξεμβούργο στη Eurovision 1972 με το 'Après Toi';",
+      "options": [
+        "Νάνα Μούσχουρη",
+        "Ντέμης Ρούσσος",
+        "Βίκυ Λέανδρος",
+        "Μαρινέλλα"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q5",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 5,
+      "questionText": "Ονομάστε τον τραγουδιστή που έπαιξε 27 διαφορετικά όργανα στο ντεμπούτο άλμπουμ του 'For You'.",
+      "options": [
+        "Lenny Kravitz",
+        "Frank Zappa",
+        "Stevie Wonder",
+        "Prince"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q6",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 6,
+      "questionText": "Ποιος πρωτοπόρος του rock 'n' roll του 1959 είχε επιτυχίες με τα \"Whole Lotta Shakin'\" και \"Great Balls Of Fire\";",
+      "options": [
+        "Jerry Lee Lewis",
+        "Chuck Berry",
+        "Little Richard",
+        "Buddy Holly"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q7",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 7,
+      "questionText": "Ποιο είναι το τελευταίο μυθιστόρημα στη σειρά 'Twilight' της Stephenie Meyer;",
+      "options": [
+        "Breaking Dawn",
+        "New Moon",
+        "Eclipse",
+        "Twilight"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q8",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 8,
+      "questionText": "Ποια από τις ακόλουθες ταινίες κινουμένων σχεδίων της Pixar ήταν η πρώτη που κυκλοφόρησε τη δεκαετία του 2000;",
+      "options": [
+        "Cars",
+        "Finding Nemo",
+        "Monsters Inc",
+        "The Incredibles"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q9",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 9,
+      "questionText": "Ποια Βρετανίδα σχεδιάστρια μόδας πιστώνεται με τη δημοτικοποίηση της μίνι φούστας στη δεκαετία του 1960;",
+      "options": [
+        "Vivienne Westwood",
+        "Mary Quant",
+        "Twiggy",
+        "Jean Shrimpton"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-q10",
+      "type": "question-mcq",
+      "round": 2,
+      "questionNumber": 10,
+      "questionText": "Ποιος Έλληνας συνθέτης κέρδισε Όσκαρ για τη μουσική του 'Chariots of Fire' το 1982;",
+      "options": [
+        "Γιάννης",
+        "Μάνος Χατζιδάκις",
+        "Μίκης Θεοδωράκης",
+        "Βαγγέλης"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r2-bonus-intro",
+      "type": "info",
+      "title": "Μπόνους Γύρος! 2x Πόντοι!",
+      "subtitle": "(συμπληρώστε το κενό)"
+    },
+    {
+      "id": "r2-bonus1",
+      "type": "question-free-text",
+      "round": 2,
+      "questionNumber": "Μπόνους 1",
+      "questionText": "Before you came into my life, I missed you so bad.<br />I missed you so bad. I missed you so so bad.",
+      "correctAnswerText": "'Call Me Maybe' by Carly Rae Jepsen",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "Γράψτε το όνομα του τραγουδιού και τον καλλιτέχνη\n1 πόντος ο καθένας!"
+    },
+    {
+      "id": "r2-bonus2",
+      "type": "question-free-text",
+      "round": 2,
+      "questionNumber": "Μπόνους 2",
+      "questionText": "Στο Harry Potter, ποιος χαρακτήρας λέει ότι δεν έχει ποτέ αρκετές κάλτσες,<br />γιατί οι άνθρωποι του αγοράζουν πάντα βιβλία για τα Χριστούγεννα;",
+      "correctAnswerText": "Καθηγητής Dumbledore",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "Γράψτε την απάντηση!\n2 πόντοι!"
+    },
+    {
+      "id": "r2-collection",
+      "type": "info",
+      "title": "Τέλος Γύρου 2",
+      "subtitle": "Παρακαλώ ολοκληρώστε τις απαντήσεις σας καθώς θα περάσουμε να τις μαζέψουμε τώρα!"
+    },
+    {
+      "id": "r2-q1-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q1",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q2-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q2",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q3-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q3",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q4-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q4",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q5-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q5",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q6-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q6",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q7-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q7",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q8-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q8",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q9-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q9",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-q10-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-q10",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r2-bonus1-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-bonus1",
+      "title": "Απάντηση Μπόνους",
+      "correctAnswerText": "'Call Me Maybe' by Carly Rae Jepsen"
+    },
+    {
+      "id": "r2-bonus2-answer",
+      "type": "answer",
+      "round": 2,
+      "questionRefId": "r2-bonus2",
+      "title": "Απάντηση Μπόνους",
+      "correctAnswerText": "Καθηγητής Dumbledore"
+    },
+    {
+      "id": "r2-end",
+      "type": "info",
+      "title": "Τέλος Γύρου 2",
+      "subtitle": "Ετοιμαστείτε για τον επόμενο γύρο!"
+    },
+    {
+      "id": "break-2",
+      "type": "info",
+      "title": "ΩΡΑ ΔΙΑΛΕΙΜΜΑΤΟΣ",
+      "subtitle": "Πάρτε ένα ποτό και ετοιμαστείτε για τον Γύρο 3!"
+    },
+    {
+      "id": "round3-intro",
+      "type": "round-intro",
+      "round": 3,
+      "title": "Γύρος 3",
+      "subtitle": "(γύρος βίντεο)",
+      "instructions": "Βεβαιωθείτε ότι έχετε γράψει το όνομα της ομάδας σας στο φύλλο απαντήσεων!"
+    },
+    {
+      "id": "r3-q1-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 1,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ"
+    },
+    {
+      "id": "r3-q1-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q1.mp4"
+    },
+    {
+      "id": "r3-q1-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 1,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ",
+      "timerSeconds": 30,
+      "correctAnswerText": "Arthur Christmas"
+    },
+    {
+      "id": "r3-q2-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 2,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ"
+    },
+    {
+      "id": "r3-q2-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q2.mp4"
+    },
+    {
+      "id": "r3-q2-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 2,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ",
+      "timerSeconds": 30,
+      "correctAnswerText": "Bridesmaids"
+    },
+    {
+      "id": "r3-q3-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 3,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ"
+    },
+    {
+      "id": "r3-q3-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q3.mp4"
+    },
+    {
+      "id": "r3-q3-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 3,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ",
+      "timerSeconds": 30,
+      "correctAnswerText": "Gone With the Wind / Οσα Παίρνει ο Άνεμος"
+    },
+    {
+      "id": "r3-q4-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 4,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ"
+    },
+    {
+      "id": "r3-q4-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q4.mp4"
+    },
+    {
+      "id": "r3-q4-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 4,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ",
+      "timerSeconds": 30,
+      "correctAnswerText": "Blade Runner"
+    },
+    {
+      "id": "r3-q5-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 5,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ"
+    },
+    {
+      "id": "r3-q5-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q5.mp4"
+    },
+    {
+      "id": "r3-q5-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 5,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ",
+      "timerSeconds": 30,
+      "correctAnswerText": "Inglorious Basterds"
+    },
+    {
+      "id": "r3-q6-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 6,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ"
+    },
+    {
+      "id": "r3-q6-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q6.mp4"
+    },
+    {
+      "id": "r3-q6-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 6,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ",
+      "timerSeconds": 30,
+      "correctAnswerText": "Eternity and a Day / Μια αιωνιότητα και μια μέρα"
+    },
+    {
+      "id": "r3-q7-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 7,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ"
+    },
+    {
+      "id": "r3-q7-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q7.mp4"
+    },
+    {
+      "id": "r3-q7-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 7,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ",
+      "timerSeconds": 30,
+      "correctAnswerText": "Mean Girls"
+    },
+    {
+      "id": "r3-q8-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 8,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ"
+    },
+    {
+      "id": "r3-q8-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q8.mp4"
+    },
+    {
+      "id": "r3-q8-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 8,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ",
+      "timerSeconds": 30,
+      "correctAnswerText": "Blazing Saddles"
+    },
+    {
+      "id": "r3-q9-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 9,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ"
+    },
+    {
+      "id": "r3-q9-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q9.mp4"
+    },
+    {
+      "id": "r3-q9-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 9,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ",
+      "timerSeconds": 30,
+      "correctAnswerText": "Prince of Egypt / Ο Πρίγκιπας της Αιγύπτου"
+    },
+    {
+      "id": "r3-q10-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 10,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ"
+    },
+    {
+      "id": "r3-q10-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q10.mp4"
+    },
+    {
+      "id": "r3-q10-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 10,
+      "questionText": "Ονομάστε την Ταινία από το κλιπ",
+      "timerSeconds": 30,
+      "correctAnswerText": "When Harry Met Sally"
+    },
+    {
+      "id": "r3-collection",
+      "type": "info",
+      "title": "Τέλος Γύρου 3",
+      "subtitle": "Παρακαλώ ολοκληρώστε τις απαντήσεις σας καθώς θα περάσουμε να τις μαζέψουμε τώρα!"
+    },
+    {
+      "id": "r3-q1-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q1-timer",
+      "title": "Απάντηση",
+      "correctAnswerText": "Arthur Christmas"
+    },
+    {
+      "id": "r3-q2-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q2-timer",
+      "title": "Απάντηση",
+      "correctAnswerText": "Bridesmaids"
+    },
+    {
+      "id": "r3-q3-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q3-timer",
+      "title": "Απάντηση",
+      "correctAnswerText": "Gone With the Wind / Οσα Παίρνει ο Άνεμος"
+    },
+    {
+      "id": "r3-q4-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q4-timer",
+      "title": "Απάντηση",
+      "correctAnswerText": "Blade Runner"
+    },
+    {
+      "id": "r3-q5-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q5-timer",
+      "title": "Απάντηση",
+      "correctAnswerText": "Inglorious Basterds"
+    },
+    {
+      "id": "r3-q6-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q6-timer",
+      "title": "Απάντηση",
+      "correctAnswerText": "Eternity and a Day / Μια αιωνιότητα και μια μέρα"
+    },
+    {
+      "id": "r3-q7-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q7-timer",
+      "title": "Απάντηση",
+      "correctAnswerText": "Mean Girls"
+    },
+    {
+      "id": "r3-q8-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q8-timer",
+      "title": "Απάντηση",
+      "correctAnswerText": "Blazing Saddles"
+    },
+    {
+      "id": "r3-q9-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q9-timer",
+      "title": "Απάντηση",
+      "correctAnswerText": "Prince of Egypt / Ο Πρίγκιπας της Αιγύπτου"
+    },
+    {
+      "id": "r3-q10-answer",
+      "type": "answer",
+      "round": 3,
+      "questionRefId": "r3-q10-timer",
+      "title": "Απάντηση",
+      "correctAnswerText": "When Harry Met Sally"
+    },
+    {
+      "id": "r3-end",
+      "type": "info",
+      "title": "Τέλος Γύρου 3",
+      "subtitle": "Ετοιμαστείτε για τον επόμενο γύρο!"
+    },
+    {
+      "id": "break-3",
+      "type": "info",
+      "title": "ΜΕΓΑΛΟ ΔΙΑΛΕΙΜΜΑ",
+      "subtitle": "Ημίχρονο"
+    },
+    {
+      "id": "halftime-intro",
+      "type": "info",
+      "title": "Η βαθμολογία μέχρι στιγμής για το πρώτο ημίχρονο είναι...",
+      "subtitle": "*ντραμς ρολ*"
+    },
+    {
+      "id": "halftime-5th",
+      "type": "info",
+      "title": "5η Θέση",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>THE VAGABONDS STRIKE BACK</div><div style='font-size: 2em; margin-top: 0.5em;'>33 πόντοι</div></div>"
+    },
+    {
+      "id": "halftime-4th",
+      "type": "info",
+      "title": "4η Θέση",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>5 RICHTER</div><div style='font-size: 2em; margin-top: 0.5em;'>34 πόντοι</div></div>"
+    },
+    {
+      "id": "halftime-3rd",
+      "type": "info",
+      "title": "3η Θέση",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>CHRISTOU FAMILY</div><div style='font-size: 2em; margin-top: 0.5em;'>35 πόντοι</div></div>"
+    },
+    {
+      "id": "halftime-2nd",
+      "type": "info",
+      "title": "2η Θέση",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>ARAGORN'S BROKEN TOE</div><div style='font-size: 2em; margin-top: 0.5em;'>39 πόντοι</div></div>"
+    },
+    {
+      "id": "halftime-1st",
+      "type": "info",
+      "title": "1η Θέση",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em;'><div style='font-size: 1.5em; font-weight: bold; color: #ffcc00;'>SOUP OF THE DAY</div><div style='font-size: 2em; margin-top: 0.5em;'>43 πόντοι</div></div>"
+    },
+    {
+      "id": "halftime-rest",
+      "type": "info",
+      "title": "Όλες οι Άλλες Ομάδες",
+      "htmlContent": "<div style='text-align: center; font-size: 1.8em; line-height: 1.6;'><div style='margin: 0.3em;'><span style='color: #ffcc00;'>2 BRUNETTES 1 GINGER</span> — 35</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>HARRY'S ANGELS</span> — 34</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE HO HO HO HOPELESS</span> — 33</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>WEIRD VIBES</span> — 33</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>QUIZ PRO QUO</span> — 32</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>MOUFLON MILKERS</span> — 31</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>LETS GET QUIZICAL</span> — 31</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE VICTORIOUS B.I.G.</span> — 31</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE BOOMBASTICKS</span> — 29</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>LACHMATJUN</span> — 28</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>DUTCH SQUAD</span> — 28</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>SKANTZOCHOIROI</span> — 25</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>QUIZTOPHER COLOMBUS</span> — 25</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>5 KEO & 1 CARLSBERG</span> — 22</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>WOKE AGENDA</span> — 20</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>THE BEGINNERS</span> — 17</div><div style='margin: 0.3em;'><span style='color: #ffcc00;'>HALLOUMI MIT BREDWART</span> — 16</div></div>"
+    },
+    {
+      "id": "round4-intro",
+      "type": "round-intro",
+      "round": 4,
+      "title": "Γύρος 4",
+      "subtitle": "(γύρος πολλαπλών επιλογών)",
+      "instructions": "Βεβαιωθείτε ότι έχετε γράψει το όνομα της ομάδας σας στο φύλλο απαντήσεων!"
+    },
+    {
+      "id": "r4-q1",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 1,
+      "questionText": "Σε ποια ταινία θα βρείτε τον Έλληνα πολεμιστή Αχιλλέα;",
+      "options": [
+        "300",
+        "Clash Of The Titans",
+        "The Odyssey",
+        "Troy"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q2",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 2,
+      "questionText": "Ποιου MP3 player οι διαφημίσεις με σιλουέτες έγιναν εμβληματικές τη δεκαετία του 2000;",
+      "options": [
+        "Zune",
+        "iPod",
+        "Creative Zen",
+        "Sony Walkman"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q3",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 3,
+      "questionText": "Σε ποιο άλμπουμ του Michael Jackson εμφανίζεται το τραγούδι 'Man in the Mirror';",
+      "options": [
+        "Bad",
+        "Thriller",
+        "Off the Wall",
+        "Dangerous"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q4",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 4,
+      "questionText": "Ονομάστε τον συγγραφέα της 'Beat Generation' που έγραψε το 'Naked Lunch' το 1959.",
+      "options": [
+        "Jack Kerouac",
+        "Allen Ginsberg",
+        "William S. Burroughs",
+        "Diane di Prima"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q5",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 5,
+      "questionText": "Ποιο ήρθε πρώτο;",
+      "options": [
+        "PlayStation",
+        "Nintendo 64",
+        "Xbox",
+        "Sega Saturn"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q6",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 6,
+      "questionText": "Ποιας ταινίας το σλόγκαν είναι 'They're young, they're in love, and they kill people';",
+      "options": [
+        "Natural Born Killers",
+        "True Romance",
+        "Bonnie & Clyde",
+        "Thelma & Louise"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q7",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 7,
+      "questionText": "Ποια Ελληνίδα τραγουδίστρια ερμήνευσε το 'My Number One' κερδίζοντας τη Eurovision το 2005;",
+      "options": [
+        "Έλενα Παπαρίζου",
+        "Ελένη Φουρέιρα",
+        "Δέσποινα Βανδή",
+        "Καλομοίρα"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q8",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 8,
+      "questionText": "Τι είδους φούστα, που πήρε το όνομά της από μια φυλή σκύλου, ήταν δημοφιλής με τους εφήβους τη δεκαετία του 1950;",
+      "options": [
+        "Spaniel skirt",
+        "Chihuahua skirt",
+        "Beagle skirt",
+        "Poodle skirt"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q9",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 9,
+      "questionText": "Πόσα επεισόδια της επιτυχημένης βρετανικής κωμικής σειράς 'Fawlty Towers' γυρίστηκαν συνολικά;",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q10",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 10,
+      "questionText": "Δημιουργημένο το 1966, τι προσομοίωνε το διάσημο πρόγραμμα υπολογιστή 'ELIZA';",
+      "options": [
+        "Έναν παίκτη σκάκι",
+        "Έναν ψυχοθεραπευτή",
+        "Έναν μαθηματικό",
+        "Έναν μεταφραστή"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-bonus-intro",
+      "type": "info",
+      "title": "Μπόνους Γύρος! 2x Πόντοι!",
+      "subtitle": "(συμπληρώστε το κενό)"
+    },
+    {
+      "id": "r4-bonus1",
+      "type": "question-free-text",
+      "round": 4,
+      "questionNumber": "Μπόνους 1",
+      "questionText": "It was a slap in the face how quickly I was replaced.<br />And are you thinkin' of me when you fuck her?",
+      "correctAnswerText": "'You Oughta Know' by Alanis Morissette",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "Γράψτε το όνομα του τραγουδιού και τον καλλιτέχνη\n1 πόντος ο καθένας!"
+    },
+    {
+      "id": "r4-bonus2",
+      "type": "question-free-text",
+      "round": 4,
+      "questionNumber": "Μπόνους 2",
+      "questionText": "Ποιο χριστουγεννιάτικο κάλαντο κηρύχθηκε άυλη πολιτιστική κληρονομιά από την UNESCO;",
+      "correctAnswerText": "Silent Night / Άγια Νύχτα",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "Γράψτε την απάντηση!\n2 πόντοι!"
+    },
+    {
+      "id": "r4-collection",
+      "type": "info",
+      "title": "Τέλος Γύρου 4",
+      "subtitle": "Παρακαλώ ολοκληρώστε τις απαντήσεις σας καθώς θα περάσουμε να τις μαζέψουμε τώρα!"
+    },
+    {
+      "id": "r4-q1-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q1",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q2-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q2",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q3-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q3",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q4-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q4",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q5-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q5",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q6-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q6",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q7-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q7",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q8-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q8",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q9-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q9",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-q10-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-q10",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r4-bonus1-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-bonus1",
+      "title": "Απάντηση Μπόνους",
+      "correctAnswerText": "'You Oughta Know' by Alanis Morissette"
+    },
+    {
+      "id": "r4-bonus2-answer",
+      "type": "answer",
+      "round": 4,
+      "questionRefId": "r4-bonus2",
+      "title": "Απάντηση Μπόνους",
+      "correctAnswerText": "Silent Night / Άγια Νύχτα"
+    },
+    {
+      "id": "r4-end",
+      "type": "info",
+      "title": "Τέλος Γύρου 4",
+      "subtitle": "Ετοιμαστείτε για τον επόμενο γύρο!"
+    },
+    {
+      "id": "break-4",
+      "type": "info",
+      "title": "ΩΡΑ ΔΙΑΛΕΙΜΜΑΤΟΣ",
+      "subtitle": "Πάρτε ένα ποτό και ετοιμαστείτε για τον Γύρο 5!"
+    },
+    {
+      "id": "round5-intro",
+      "type": "round-intro",
+      "round": 5,
+      "title": "Γύρος 5",
+      "subtitle": "(γύρος πολλαπλών επιλογών)",
+      "instructions": "Βεβαιωθείτε ότι έχετε γράψει το όνομα της ομάδας σας στο φύλλο απαντήσεων!"
+    },
+    {
+      "id": "r5-q1",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 1,
+      "questionText": "Η Kirsten Dunst πρωταγωνιστεί ως μαζορέτα γυμνασίου σε ποια ταινία του 2000;",
+      "options": [
+        "Crossroads",
+        "17 Again",
+        "A Cinderella Story",
+        "Bring It On"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q2",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 2,
+      "questionText": "Στο \"Back to the Future\" ποια ταχύτητα πρέπει να φτάσει το DeLorean<br />για να ταξιδέψει στο χρόνο;",
+      "options": [
+        "88 mph",
+        "77 mph",
+        "99 mph",
+        "55 mph"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q3",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 3,
+      "questionText": "Κυκλοφορώντας το 1978, ποιο arcade παιχνίδι προκάλεσε έλλειψη κερμάτων στην Ιαπωνία<br />λόγω της δημοτικότητάς του;",
+      "options": [
+        "Pac-Man",
+        "Space Invaders",
+        "Asteroids",
+        "Galaxian"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q4",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 4,
+      "questionText": "Το 'Hungry Like the Wolf' ήταν επιτυχία για ποιο βρετανικό new wave συγκρότημα το 1982;",
+      "options": [
+        "Duran Duran",
+        "The Cure",
+        "Tears for Fears",
+        "The Police"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q5",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 5,
+      "questionText": "Ποιος Γάλλος σχεδιαστής παρουσίασε το 'New Look' το 1947,<br />επαναστατώντας τη γυναικεία μόδα της δεκαετίας του 1950;",
+      "options": [
+        "Coco Chanel",
+        "Pierre Cardin",
+        "Christian Dior",
+        "Yves Saint Laurent"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q6",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 6,
+      "questionText": "Ποιος Έλληνας μουσικός έγραψε το αγαπημένο τραγούδι 'Φραγκοσυριανή';",
+      "options": [
+        "Βασίλης Τσιτσάνης",
+        "Γιώργος Ζαμπέτας",
+        "Μανώλης Χιώτης",
+        "Μάρκος Βαμβακάρης"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q7",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 7,
+      "questionText": "Κυκλοφορώντας το 1996, ποιο παιχνίδι εικονικού κατοικίδιου απαιτούσε συνεχή φροντίδα και προσοχή;",
+      "options": [
+        "Furby",
+        "Tamagotchi",
+        "Digimon",
+        "Giga Pet"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q8",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 8,
+      "questionText": "Ποιο psychedelic rock συγκρότημα παρήγαγε την επιτυχία του 1967 \"Somebody to Love\";",
+      "options": [
+        "The Velvet Underground",
+        "The Rolling Stones",
+        "The Doors",
+        "Jefferson Airplane"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q9",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 9,
+      "questionText": "Ποια χορευτική κίνηση, που δημοτικοποιήθηκε από τον Soulja Boy το 2007,<br />έγινε viral φαινόμενο;",
+      "options": [
+        "Crank That",
+        "The Dougie",
+        "Harlem Shake",
+        "The Cupid Shuffle"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-q10",
+      "type": "question-mcq",
+      "round": 5,
+      "questionNumber": 10,
+      "questionText": "Ποιο ήταν το όνομα του πρώτου web browser με γραφική διεπαφή,<br />που κυκλοφόρησε το 1993;",
+      "options": [
+        "Netscape",
+        "Internet Explorer",
+        "Mosaic",
+        "Opera"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r5-bonus-intro",
+      "type": "info",
+      "title": "Μπόνους Γύρος! 2x Πόντοι!",
+      "subtitle": "(συμπληρώστε το κενό)"
+    },
+    {
+      "id": "r5-bonus1",
+      "type": "question-free-text",
+      "round": 5,
+      "questionNumber": "Μπόνους 1",
+      "questionText": "When it comes to sex, I'm similar to the thriller in Manila.<br />Honeys call me Bigga the condom filler.<br />Whether it's stiff tongue or stiff dick.<br />Biggie squeeze it to make shit fit, now check this shit",
+      "correctAnswerText": "'One More Chance' OR 'Old Thing Back' by Notorious B.I.G.",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "Γράψτε το όνομα του τραγουδιού και τον καλλιτέχνη\n1 πόντος ο καθένας!"
+    },
+    {
+      "id": "r5-bonus2",
+      "type": "question-free-text",
+      "round": 5,
+      "questionNumber": "Μπόνους 2",
+      "questionText": "Τι μου έστειλε η αληθινή μου αγάπη, την έβδομη ημέρα των Χριστουγέννων;",
+      "correctAnswerText": "Επτά κύκνους που κολυμπούν",
+      "timerSeconds": 30,
+      "pointsAvailable": 2,
+      "instructions": "Γράψτε την απάντηση!\n2 πόντοι!"
+    },
+    {
+      "id": "r5-collection",
+      "type": "info",
+      "title": "Τέλος Γύρου 5",
+      "subtitle": "Παρακαλώ ολοκληρώστε τις απαντήσεις σας καθώς θα περάσουμε να τις μαζέψουμε τώρα!"
+    },
+    {
+      "id": "r5-q1-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q1",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q2-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q2",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q3-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q3",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q4-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q4",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q5-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q5",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q6-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q6",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q7-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q7",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q8-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q8",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q9-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q9",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-q10-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-q10",
+      "title": "Απάντηση",
+      "correctAnswerText": ""
+    },
+    {
+      "id": "r5-bonus1-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-bonus1",
+      "title": "Απάντηση Μπόνους",
+      "correctAnswerText": "'One More Chance' OR 'Old Thing Back' by Notorious B.I.G."
+    },
+    {
+      "id": "r5-bonus2-answer",
+      "type": "answer",
+      "round": 5,
+      "questionRefId": "r5-bonus2",
+      "title": "Απάντηση Μπόνους",
+      "correctAnswerText": "Επτά κύκνους που κολυμπούν"
+    },
+    {
+      "id": "r5-end",
+      "type": "info",
+      "title": "Τέλος Γύρου 5",
+      "subtitle": "Ετοιμαστείτε για τον επόμενο γύρο!"
+    },
+    {
+      "id": "break-5",
+      "type": "info",
+      "title": "ΩΡΑ ΔΙΑΛΕΙΜΜΑΤΟΣ",
+      "subtitle": "Πάρτε ένα ποτό και ετοιμαστείτε για τον Γύρο 6!"
+    },
+    {
+      "id": "round6-intro",
+      "type": "round-intro",
+      "round": 6,
+      "title": "Γύρος 6",
+      "subtitle": "(γύρος ήχου)",
+      "instructions": "Βεβαιωθείτε ότι έχετε γράψει το όνομα της ομάδας σας στο φύλλο απαντήσεων!"
+    },
+    {
+      "id": "r6-q1",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 1,
+      "questionText": "Ονομάστε το Τραγούδι και την Τηλεοπτική Σειρά/Ταινία",
+      "subtitle": "(1 πόντος ο καθένας)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Where Everybody Knows Your Name\" — Τηλεοπτική σειρά Cheers"
+    },
+    {
+      "id": "r6-q2",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 2,
+      "questionText": "Ονομάστε τη σειρά και τον συνθέτη",
+      "subtitle": "(1 πόντος ο καθένας)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Τηλεοπτική σειρά Gossip Girl (σύνθεση των Transcenders)"
+    },
+    {
+      "id": "r6-q3",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 3,
+      "questionText": "Ονομάστε τον ήχο",
+      "subtitle": "(2 πόντοι)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Διαφήμιση Gun Direct\""
+    },
+    {
+      "id": "r6-q4",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 4,
+      "questionText": "Ονομάστε το Τραγούδι (ή συνθέτη) και την Τηλεοπτική Σειρά/Ταινία",
+      "subtitle": "(1 πόντος ο καθένας)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Theme from ER\" — σύνθεση του James Newton Howard"
+    },
+    {
+      "id": "r6-q5",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 5,
+      "questionText": "Ονομάστε τον ήχο",
+      "subtitle": "(2 πόντοι)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Candy Crush Saga (παιχνίδι)"
+    },
+    {
+      "id": "r6-q6",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 6,
+      "questionText": "Ονομάστε το Τραγούδι (ή συνθέτη) και την Τηλεοπτική Σειρά/Ταινία",
+      "subtitle": "(1 πόντος ο καθένας)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Θέμα Seinfeld — σύνθεση του Jonathan Wolff"
+    },
+    {
+      "id": "r6-q7",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 7,
+      "questionText": "Ονομάστε το Τραγούδι και την Τηλεοπτική Σειρά/Ταινία",
+      "subtitle": "(1 πόντος ο καθένας)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Promontory\" (διασκευή του \"The Gael\") — από το The Last of the Mohicans"
+    },
+    {
+      "id": "r6-q8",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 8,
+      "questionText": "Ονομάστε το Τραγούδι (ή συνθέτη) και την Τηλεοπτική Σειρά/Ταινία",
+      "subtitle": "(1 πόντος ο καθένας)",
+      "timerSeconds": 30,
+      "correctAnswerText": "Θέμα Sex and the City — σύνθεση του Douglas J. Cuomo"
+    },
+    {
+      "id": "r6-q9",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 9,
+      "questionText": "Ονομάστε το Τραγούδι (ή καλλιτέχνη/συγκρότημα) και την Τηλεοπτική Σειρά/Ταινία",
+      "subtitle": "(1 πόντος ο καθένας)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Στο Παρά Πέντε\" Κυπριακή έκδοση από τον Κωνσταντίνο Χριστοφόρου"
+    },
+    {
+      "id": "r6-q10",
+      "type": "question-audio",
+      "round": 6,
+      "questionNumber": 10,
+      "questionText": "Ονομάστε το Τραγούδι και τον καλλιτέχνη/συγκρότημα",
+      "subtitle": "(1 πόντος ο καθένας)",
+      "timerSeconds": 30,
+      "correctAnswerText": "\"Merry Xmas Everybody\" — από τους Slade"
+    },
+    {
+      "id": "r6-collection",
+      "type": "info",
+      "title": "Τέλος Γύρου 6",
+      "subtitle": "Παρακαλώ ολοκληρώστε τις απαντήσεις σας καθώς θα περάσουμε να τις μαζέψουμε τώρα!"
+    },
+    {
+      "id": "r6-q1-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q1",
+      "title": "Απάντηση"
+    },
+    {
+      "id": "r6-q2-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q2",
+      "title": "Απάντηση"
+    },
+    {
+      "id": "r6-q3-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q3",
+      "title": "Απάντηση"
+    },
+    {
+      "id": "r6-q4-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q4",
+      "title": "Απάντηση"
+    },
+    {
+      "id": "r6-q5-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q5",
+      "title": "Απάντηση"
+    },
+    {
+      "id": "r6-q6-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q6",
+      "title": "Απάντηση"
+    },
+    {
+      "id": "r6-q7-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q7",
+      "title": "Απάντηση"
+    },
+    {
+      "id": "r6-q8-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q8",
+      "title": "Απάντηση"
+    },
+    {
+      "id": "r6-q9-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q9",
+      "title": "Απάντηση"
+    },
+    {
+      "id": "r6-q10-answer",
+      "type": "answer",
+      "round": 6,
+      "questionRefId": "r6-q10",
+      "title": "Απάντηση"
+    },
+    {
+      "id": "r6-end",
+      "type": "info",
+      "title": "Τέλος Γύρου 6",
+      "subtitle": "Αυτός ήταν ο τελευταίος γύρος!"
+    },
+    {
+      "id": "grading",
+      "type": "info",
+      "image": "logo.jpg",
+      "fullscreenImage": true,
+      "title": "Παρακαλώ περιμένετε ενώ βαθμολογούμε τις απαντήσεις σας..."
+    },
+    {
+      "id": "thank-you",
+      "type": "thank-you",
+      "title": "ΕΥΧΑΡΙΣΤΟΥΜΕ ΟΛΟΥΣ",
+      "subtitle": "για τη 4η Βραδιά Nostalgia Quiz\nελπίζουμε να περάσατε υπέροχα",
+      "message": "Quiz Night #4\nAntonakis Music Hall",
+      "logoImage": "media/logo.png"
+    }
+  ]
+}
