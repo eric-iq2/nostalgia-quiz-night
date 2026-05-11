@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>R3 Question Style Test</title>
+<link rel="stylesheet" href="styles.css?v=test1" />
+<style>
+  body {
+    background: #000; color: #fff; margin: 0;
+    font-family: system-ui, sans-serif;
+    --accent-color: #ffcc00;
+    --secondary-accent: #ff6b6b;
+  }
+  .test-frame {
+    border: 1px solid #333;
+    margin: 2rem auto;
+    padding: 4rem 2rem;
+    max-width: 960px;
+    text-align: center;
+  }
+  .label { color: #888; font-size: 0.8rem; text-align: left; margin-bottom: 1rem; font-family: monospace; }
+</style>
+</head>
+<body>
+
+<div class="test-frame">
+  <div class="label">Standard R3 question (Q3-Q10) — class="video-clip-question"</div>
+  <div class="video-clip-question">
+    <p>Name the artist<br /><span class="q-point">(1 point)</span></p><p>Name the title<br /><span class="q-point">(1 point)</span></p>
+  </div>
+</div>
+
+<div class="test-frame">
+  <div class="label">Eurovision R3 question (Q1, Q2) — has a colored "or"</div>
+  <div class="video-clip-question">
+    <p>Which country was this Eurovision entry from?<br /><span class="q-point">(1 point)</span></p><p>Name the artist <span class="q-or">or</span> the song title<br /><span class="q-point">(1 point)</span></p>
+  </div>
+</div>
+
+</body>
+</html>

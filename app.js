@@ -102,6 +102,9 @@ function applyTheme() {
     if (theme.accentColor) {
         root.style.setProperty('--accent-color', theme.accentColor);
     }
+    if (theme.secondaryAccent) {
+        root.style.setProperty('--secondary-accent', theme.secondaryAccent);
+    }
     if (theme.fontFamily) {
         document.body.style.fontFamily = theme.fontFamily;
     }
@@ -218,6 +221,11 @@ function renderCurrentSlide() {
         showError('No slide to render');
         return;
     }
+
+    // Hard-stop any media still attached from the previous slide
+    // (innerHTML='' alone doesn't reliably stop playback — browsers keep
+    // detached video/audio elements playing in the audio session until GC)
+    stopAllMedia();
 
     // Clear existing content
     elements.slideRoot.innerHTML = '';
@@ -683,8 +691,8 @@ function renderPictureTimer(slide) {
             `Q${slide.questionNumber}: `);
         overlay.appendChild(header);
     }
-    const questionText = document.createTextNode(
-        slide.questionText || 'Identify what you see in the picture');
+    const questionText = document.createElement('span');
+    questionText.innerHTML = slide.questionText || 'Identify what you see in the picture';
     overlay.appendChild(questionText);
     container.appendChild(overlay);
 
@@ -721,7 +729,7 @@ function renderVideoFullscreen(slide) {
     // Video element
     const video = document.createElement('video');
     video.className = 'fullscreen-video';
-    video.controls = false;
+    video.controls = true;
     video.src = slide.videoSrc;
 
     if (slide.loop) {
@@ -963,6 +971,22 @@ function createSlideContainer(className) {
     const container = document.createElement('div');
     container.className = `slide ${className}`;
     return container;
+}
+
+function stopAllMedia() {
+    // Pause every video/audio in the slide root and unload its source.
+    // load() after clearing src forces the buffer to discard, which stops
+    // any audio session that would otherwise persist past detachment.
+    const media = elements.slideRoot.querySelectorAll('video, audio');
+    media.forEach(m => {
+        try {
+            m.pause();
+            m.removeAttribute('src');
+            m.load();
+        } catch (e) {
+            // best-effort; ignore
+        }
+    });
 }
 
 function createElement(tag, className, textContent = '') {

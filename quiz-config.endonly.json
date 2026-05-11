@@ -1,0 +1,122 @@
+{
+  "settings": {
+    "title": "Quiz Night #6",
+    "venue": "Antonakis Music Hall",
+    "defaultQuestionDurationSec": 30,
+    "countdownAudio": "media/countdown.mp3",
+    "theme": {
+      "backgroundColor": "#000000",
+      "textColor": "#ffffff",
+      "accentColor": "#E5EA6F",
+      "secondaryAccent": "#FA1302",
+      "fontFamily": "Graphik-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    }
+  },
+  "slides": [
+    {
+      "id": "welcome",
+      "type": "info",
+      "image": "logo.jpg",
+      "fullscreenImage": true
+    },
+    {
+      "id": "grading",
+      "type": "info",
+      "image": "logo.jpg",
+      "fullscreenImage": true,
+      "title": "Please wait while we grade your answers..."
+    },
+    {
+      "id": "final-5th-place",
+      "type": "info",
+      "title": "5th Place",
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #FA1302; margin-top: 0.5em;'>Prize: Wine Gifts</div><div style='font-size: 0.8em; color: #888;'>by Xinaris Ltd</div></div>"
+    },
+    {
+      "id": "final-5th-team",
+      "type": "info",
+      "title": "5th Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.5em;'><div style='font-size: 1.5em; font-weight: bold; color: #E5EA6F;'>We thought this was bingo</div><div style='font-size: 1em; margin-top: 0.3em;'>100 points</div></div>"
+    },
+    {
+      "id": "final-4th-place",
+      "type": "info",
+      "title": "4th Place",
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #FA1302; margin-top: 0.5em;'>Prize: Vouchers</div><div style='font-size: 0.8em; color: #888;'>for Pantheon Cinema</div></div>"
+    },
+    {
+      "id": "final-4th-team",
+      "type": "info",
+      "title": "4th Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.5em;'><div style='font-size: 1.5em; font-weight: bold; color: #E5EA6F;'>The Hadjis</div><div style='font-size: 1em; margin-top: 0.3em;'>106 points</div></div>"
+    },
+    {
+      "id": "final-3rd-place",
+      "type": "info",
+      "title": "3rd Place",
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #FA1302; margin-top: 0.5em;'>Prize: Vouchers</div><div style='font-size: 0.8em; color: #888;'>for Sarah&rsquo;s Jazz Club</div></div>"
+    },
+    {
+      "id": "final-3rd-team",
+      "type": "info",
+      "title": "3rd Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.5em;'><div style='font-size: 1.5em; font-weight: bold; color: #E5EA6F;'>KENT GALS</div><div style='font-size: 1em; margin-top: 0.3em;'>106 points</div></div>"
+    },
+    {
+      "id": "final-2nd-place",
+      "type": "info",
+      "title": "2nd Place",
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #FA1302; margin-top: 0.5em;'>Prize: &euro;50 Vouchers</div><div style='font-size: 0.8em; color: #888;'>at Interni Moda Bagno</div></div>"
+    },
+    {
+      "id": "final-2nd-team",
+      "type": "info",
+      "title": "2nd Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.5em;'><div style='font-size: 1.5em; font-weight: bold; color: #E5EA6F;'>VISHNU</div><div style='font-size: 1em; margin-top: 0.3em;'>107 points</div></div>"
+    },
+    {
+      "id": "final-1st-place",
+      "type": "info",
+      "title": "1st Place",
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #FA1302; margin-top: 0.5em;'>Prize: Hotel Stays</div><div style='font-size: 0.8em; color: #888;'>at Forest Park Hotel, Troodos &amp; Blue Arches, Lefkara</div></div>"
+    },
+    {
+      "id": "final-1st-team",
+      "type": "info",
+      "title": "1st Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.5em;'><div style='font-size: 1.5em; font-weight: bold; color: #E5EA6F;'>MOMO&rsquo;S</div><div style='font-size: 1em; margin-top: 0.3em;'>116 points</div></div>"
+    },
+    {
+      "id": "final-rest-1",
+      "type": "info",
+      "title": "Positions 6&ndash;9",
+      "htmlContent": "<div style='text-align: center; font-size: 1.6em; line-height: 1.8; color: #ccc;'><div>6. CHEESE &amp; ONION QUIZPS &mdash; 91</div><div>7. THE FAB FIVE! &mdash; 88</div><div>8. NO IDEA &mdash; 78</div><div>9. Patatokrokettes &mdash; 76</div></div>"
+    },
+    {
+      "id": "final-rest-2",
+      "type": "info",
+      "title": "Positions 10&ndash;13",
+      "htmlContent": "<div style='text-align: center; font-size: 1.6em; line-height: 1.8; color: #ccc;'><div>10. LOS MARIACHIS &mdash; 73</div><div>11. FOUR ON ELEVEN &mdash; 73</div><div>12. PGA LADIES &mdash; 69</div><div>13. LEPA BRENA &mdash; 60</div></div>"
+    },
+    {
+      "id": "final-rest-3",
+      "type": "info",
+      "title": "Positions 14&ndash;17",
+      "htmlContent": "<div style='text-align: center; font-size: 1.6em; line-height: 1.8; color: #ccc;'><div>14. Ta kopellia &mdash; 54</div><div>15. ENEO &mdash; 51</div><div>16. CHRAPHNI &mdash; 44</div><div>17. Muskateers &mdash; 40</div></div>"
+    },
+    {
+      "id": "final-end",
+      "type": "info",
+      "title": "THE END",
+      "subtitle": "Congratulations to all teams!"
+    },
+    {
+      "id": "final-thank-you",
+      "type": "thank-you",
+      "title": "THANK YOU ALL",
+      "subtitle": "to the 6th Nostalgia Quiz Night<br>we hope you had a fantastic time",
+      "message": "Quiz Night #6\nAntonakis Music Hall",
+      "logoImage": "logo.jpg"
+    }
+  ]
+}
