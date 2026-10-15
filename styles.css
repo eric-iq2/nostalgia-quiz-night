@@ -176,7 +176,7 @@ body {
 .slide-instructions {
     font-size: 1.8rem;
     margin-top: 2rem;
-    color: var(--accent-color, #E5EA6F);
+    color: var(--accent-color, #2AE2F0);
     font-weight: 600;
     text-align: center;
 }
@@ -214,7 +214,7 @@ body {
     bottom: 3rem;
     right: 3rem;
     background-color: rgba(0, 0, 0, 0.7);
-    color: #E5EA6F;
+    color: #2AE2F0;
     font-size: 2.5rem;
     font-weight: bold;
     padding: 1rem 2rem;
@@ -224,7 +224,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid #E5EA6F;
+    border: 3px solid #2AE2F0;
 }
 
 /* ===== MCQ Options ===== */
@@ -264,8 +264,8 @@ body {
 .times-up-message {
     font-size: 6rem;
     font-weight: bold;
-    color: #FA1302;
-    text-shadow: 0 0 20px rgba(250, 19, 2, 0.5);
+    color: #F05020;
+    text-shadow: 0 0 20px rgba(240, 80, 32, 0.5);
     animation: timesUpPulse 0.5s ease-in-out;
     margin-top: 3rem;
 }
@@ -384,7 +384,7 @@ body {
 
 .leaderboard-rank {
     font-weight: bold;
-    color: #E5EA6F;
+    color: #2AE2F0;
     width: 80px;
 }
 
@@ -439,7 +439,7 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 12vh;
+    bottom: 7vh;
     z-index: 10;
     text-align: center;
     padding: 0 2rem;
@@ -501,18 +501,18 @@ body {
 
 /* ===== Prize Single Slide Styling ===== */
 .prize-single {
-    background: linear-gradient(135deg, rgba(229, 234, 111, 0.15) 0%, rgba(250, 19, 2, 0.15) 100%);
-    border: 3px solid var(--accent-color, #E5EA6F);
+    background: linear-gradient(135deg, rgba(42, 226, 240, 0.15) 0%, rgba(240, 80, 32, 0.15) 100%);
+    border: 3px solid var(--accent-color, #2AE2F0);
     border-radius: 24px;
     padding: 3rem 4rem;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    box-shadow: 0 15px 40px rgba(229, 234, 111, 0.3);
+    box-shadow: 0 15px 40px rgba(42, 226, 240, 0.3);
 }
 
 .prize-single h2 {
-    color: var(--accent-color, #E5EA6F);
+    color: var(--accent-color, #2AE2F0);
     font-size: 3rem;
     margin-bottom: 1.5rem;
     font-weight: bold;
@@ -521,7 +521,7 @@ body {
 }
 
 .prize-value {
-    color: var(--secondary-accent, #FA1302);
+    color: var(--secondary-accent, #F05020);
     font-size: 2rem;
     font-weight: bold;
     margin: 1.5rem 0;
@@ -555,7 +555,7 @@ body {
 }
 
 .prize-single em {
-    color: var(--accent-color, #E5EA6F);
+    color: var(--accent-color, #2AE2F0);
     font-style: normal;
     font-weight: 600;
 }
@@ -636,7 +636,7 @@ body {
 }
 
 .picture-timer-header {
-    color: var(--accent-color, #E5EA6F);
+    color: var(--accent-color, #2AE2F0);
 }
 
 /* ===== Video Clip Slides ===== */
@@ -701,4 +701,23 @@ body {
     font-weight: normal;
     margin-left: 0.35em;
     letter-spacing: 0.01em;
+}
+
+/* ===== Quiz #7: green neon-brick wall (from the 2026 green poster) =====
+   Question/answer slides stay pure black for the projector; the "moment"
+   slides (round intros, end-of-round, reveals, prizes, thank-you) get the wall. */
+.round-intro-slide,
+.info-slide:not(:has(.slide-image.fullscreen)),
+.thank-you-slide {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('media/bg-green-brick.jpg') center / cover no-repeat;
+}
+
+.round-intro-slide .slide-title,
+.thank-you-slide .slide-title {
+    color: #fff;
+    text-shadow: 0 0 8px var(--secondary-accent), 0 0 24px var(--secondary-accent), 0 0 48px rgba(240, 80, 32, 0.6);
+}
+
+.round-intro-slide .slide-instructions {
+    text-shadow: 0 0 10px rgba(42, 226, 240, 0.6);
 }
