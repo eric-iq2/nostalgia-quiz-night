@@ -25,3 +25,5 @@ For the next quiz: copy the current `quiz-config.json` to a new template, swap i
 - **Ties on prize places:** each gets a "Tie for Nth Place! / Sudden death tiebreaker!" slide, and the host runs the sudden death live. Put the winners in `TIE_WINNERS` (rank → team) to add an "Nth Place: winner" slide after each tie.
 - **Resume mid-show:** `START_FROM=halftime python3 build_config.py` (or `=grading`, `=final-1st-winner`, …) drops every slide before that id, so a reload opens there. Run again without it to restore the full show.
 - **Charity slide:** `CHARITY` in `rounds.py`. It's a white full-slide panel with a photo, shown before the prizes.
+
+- **Answer key for the marker:** `python3 answer_key.py ../../quiz-config.json key.html` builds a plain, phone-friendly page of every answer with points per part and what to accept (the `ACCEPT` notes). For #7 it was published as a private artifact and shared with Darya.
