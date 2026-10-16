@@ -27,6 +27,11 @@
       "htmlContent": "<div class='welcome-prompt'>Have a seat, order some drinks<br>and think of a team name!</div>"
     },
     {
+      "id": "charity-voice-for-autism",
+      "type": "info",
+      "htmlContent": "<div style='position: fixed; inset: 0; z-index: 5; background: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1.5vh 2vw; text-align: center;'><img src='media/voice-for-autism-cafe.jpg' alt='' style='max-height: 63vh; max-width: 96vw; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,0.18);'><h1 style='margin: 0.35em 0 0.05em; font-size: 4rem; color: #3D4596;'>Tonight, all net proceeds go to Voice for Autism</h1><p style='margin: 0.3em auto 0; max-width: 92vw; font-size: 2.5rem; line-height: 1.3; color: #333;'>Visit the <strong>True Heart Cafe</strong> in downtown Nicosia, Cyprus&rsquo; first social enterprise giving young people with autism real jobs and training. Every coffee helps!</p></div>"
+    },
+    {
       "id": "prize-5",
       "type": "info",
       "title": "Prize #5",
@@ -54,7 +59,7 @@
       "id": "prize-1",
       "type": "info",
       "title": "Prize #1",
-      "htmlContent": "<div class='prize-single'><h2>Complimentary Table</h2><p class='prize-subtext'>the full cost of your evening covered &mdash;<br>tickets, food &amp; drinks!</p></div>"
+      "htmlContent": "<div class='prize-single'><h2>Complimentary Table</h2><p class='prize-subtext'>the full cost of your evening covered &mdash;<br>tickets, food &amp; drinks!<br><br><strong>+ 2 complimentary sandwich platters</strong><br>by <em>Misfit Union Catering</em> &mdash; worth &euro;70</p></div>"
     },
     {
       "id": "round1-intro",
@@ -765,52 +770,40 @@
       "subtitle": "*drum roll*"
     },
     {
-      "id": "halftime-5th",
-      "type": "info",
-      "title": "5th Place",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
-    },
-    {
       "id": "halftime-4th",
       "type": "info",
-      "title": "4th Place",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
-    },
-    {
-      "id": "halftime-3rd",
-      "type": "info",
-      "title": "3rd Place",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
-    },
-    {
-      "id": "halftime-2nd",
-      "type": "info",
-      "title": "2nd Place",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
+      "title": "Joint 4th Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.6em;'><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>QUIZARD OF OZ</div><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>The Ellen Show</div><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>Attack on Braincells</div><div style='font-size: 0.8em; margin-top: 0.5em; color: #888;'>41 points</div></div>"
     },
     {
       "id": "halftime-1st",
       "type": "info",
-      "title": "1st Place",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
+      "title": "Joint 1st Place",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.6em;'><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>CURLY WURLIES</div><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>Aragorn&#x27;s Broken Toe</div><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>Quizteama Aguilera</div><div style='font-size: 0.8em; margin-top: 0.5em; color: #888;'>42 points</div></div>"
     },
     {
       "id": "halftime-rest-1",
       "type": "info",
-      "title": "Positions 6&ndash;9",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
+      "title": "Positions 7&ndash;11",
+      "htmlContent": "<div style='text-align: center; font-size: 2.5em; line-height: 1.55; color: #ddd;'><div>7. Se7en &middot; 40</div><div>8= The King of Queens &middot; 38</div><div>8= Psorokatti &middot; 38</div><div>10. Man Bite&#x27;s Dog &middot; 37</div><div>11. Lady &amp; The Tramps &middot; 36</div></div>"
     },
     {
       "id": "halftime-rest-2",
       "type": "info",
-      "title": "Positions 10&ndash;13",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
+      "title": "Positions 12&ndash;15",
+      "htmlContent": "<div style='text-align: center; font-size: 2.5em; line-height: 1.55; color: #ddd;'><div>12= WHAT HAVE THE ROMANS GIVEN US? &middot; 35</div><div>12= Quizulicious &middot; 35</div><div>12= 30s &middot; 35</div><div>15= The Fredibles &middot; 34</div><div>15= What&#x27;s the capital of Kuwait? &middot; 34</div><div>15= FRIDAY FREAKS (FFS) &middot; 34</div><div>15= Better late than clever &middot; 34</div></div>"
     },
     {
       "id": "halftime-rest-3",
       "type": "info",
-      "title": "Positions 14&ndash;17",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
+      "title": "Positions 19&ndash;25",
+      "htmlContent": "<div style='text-align: center; font-size: 2.5em; line-height: 1.55; color: #ddd;'><div>19= 3 Olives &amp; 1 Tomato &middot; 33</div><div>19= THE 4-GETFULLS &middot; 33</div><div>19= Tequila Mockingbird &middot; 33</div><div>22. The Witches &middot; 32</div><div>23. Mahale-ballz &middot; 31</div><div>24. Omorfosogo &middot; 29</div><div>25. Only Football Fans &middot; 28</div></div>"
+    },
+    {
+      "id": "halftime-rest-4",
+      "type": "info",
+      "title": "Positions 26&ndash;32",
+      "htmlContent": "<div style='text-align: center; font-size: 2.5em; line-height: 1.55; color: #ddd;'><div>26= Kachow!! &middot; 27</div><div>26= To Soi &middot; 27</div><div>28. KOUTOUROU &middot; 22</div><div>29. Para Pente &middot; 21</div><div>30. The Geordies &middot; 18</div><div>31. Wine Wallopers &middot; 17</div><div>32. SEM&#x27;S (table 28) &middot; 13</div></div>"
     },
     {
       "id": "round4-intro",
@@ -1640,79 +1633,79 @@
       "id": "final-5th-place",
       "type": "info",
       "title": "5th Place",
-      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 2.6em; font-weight: bold; color: #F05020; margin-top: 0.5em;'>Prize: Wine Bottles</div></div>"
+      "htmlContent": "<div style='text-align: center; margin-top: 0.3em; font-size: 2em; line-height: 1.3;'><div style='margin-top: 0.7em;'><div style='font-size: 1.6em; font-weight: bold; color: #F05020;'>5th: Wine Bottles</div></div></div>"
     },
     {
       "id": "final-5th-team",
       "type": "info",
+      "title": "Tie for 5th Place!",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.4em;'><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>The Ellen Show</div><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>Psorokatti</div><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>Man Bite&#x27;s Dog</div><div style='font-size: 0.8em; margin-top: 0.5em; color: #888;'>77 points</div><div style='font-size: 0.9em; margin-top: 0.6em; font-weight: bold; color: #FFFFFF;'>Sudden death tiebreaker!</div></div>"
+    },
+    {
+      "id": "final-5th-winner",
+      "type": "info",
       "title": "5th Place",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
-    },
-    {
-      "id": "final-4th-place",
-      "type": "info",
-      "title": "4th Place",
-      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 2.6em; font-weight: bold; color: #F05020; margin-top: 0.5em;'>Prize: Vouchers</div><div style='font-size: 1.3em; color: #bbb; margin-top: 0.4em;'>for <em>Pantheon Cinema</em> &mdash; worth &euro;10 each</div></div>"
-    },
-    {
-      "id": "final-4th-team",
-      "type": "info",
-      "title": "4th Place",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.4em;'><div style='font-size: 1.5em; font-weight: bold; color: #F05020;'>Man Bite&#x27;s Dog</div><div style='font-size: 0.8em; margin-top: 0.5em; color: #888;'>77 points &middot; won the sudden death</div></div>"
     },
     {
       "id": "final-3rd-place",
       "type": "info",
-      "title": "3rd Place",
-      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 2.6em; font-weight: bold; color: #F05020; margin-top: 0.5em;'>Prize: Vouchers</div><div style='font-size: 1.3em; color: #bbb; margin-top: 0.4em;'>for <em>Ella Music House</em> &mdash; worth &euro;15 each</div></div>"
+      "title": "4th &amp; 3rd Place Prizes",
+      "htmlContent": "<div style='text-align: center; margin-top: 0.3em; font-size: 2em; line-height: 1.3;'><div style='margin-top: 0.7em;'><div style='font-size: 1.6em; font-weight: bold; color: #F05020;'>4th: Vouchers</div><div style='font-size: 1.3em; color: #ccc; margin-top: 0.3em;'>for <em>Pantheon Cinema</em> &mdash; worth &euro;10 each</div></div><div style='margin-top: 0.7em;'><div style='font-size: 1.6em; font-weight: bold; color: #F05020;'>3rd: Vouchers</div><div style='font-size: 1.3em; color: #ccc; margin-top: 0.3em;'>for <em>Ella Music House</em> &mdash; worth &euro;15 each</div></div></div>"
     },
     {
       "id": "final-3rd-team",
       "type": "info",
+      "title": "Tie for 3rd Place!",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.4em;'><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>QUIZARD OF OZ</div><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>Attack on Braincells</div><div style='font-size: 0.8em; margin-top: 0.5em; color: #888;'>79 points</div><div style='font-size: 0.9em; margin-top: 0.6em; font-weight: bold; color: #FFFFFF;'>Sudden death tiebreaker!</div></div>"
+    },
+    {
+      "id": "final-3rd-winner",
+      "type": "info",
       "title": "3rd Place",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
-    },
-    {
-      "id": "final-2nd-place",
-      "type": "info",
-      "title": "2nd Place",
-      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 2.6em; font-weight: bold; color: #F05020; margin-top: 0.5em;'>Prize: Vouchers</div><div style='font-size: 1.3em; color: #bbb; margin-top: 0.4em;'>at <em>Interni Moda Bagno</em> &mdash; worth &euro;50 each</div></div>"
-    },
-    {
-      "id": "final-2nd-team",
-      "type": "info",
-      "title": "2nd Place",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.4em;'><div style='font-size: 1.5em; font-weight: bold; color: #F05020;'>Attack on Braincells</div><div style='font-size: 0.8em; margin-top: 0.5em; color: #888;'>79 points &middot; won the sudden death</div></div>"
     },
     {
       "id": "final-1st-place",
       "type": "info",
-      "title": "1st Place",
-      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 2.6em; font-weight: bold; color: #F05020; margin-top: 0.5em;'>Prize: Complimentary Table</div><div style='font-size: 1.3em; color: #bbb; margin-top: 0.4em;'>the full cost of your evening covered &mdash; tickets, food &amp; drinks!</div></div>"
+      "title": "2nd &amp; 1st Place Prizes",
+      "htmlContent": "<div style='text-align: center; margin-top: 0.3em; font-size: 2em; line-height: 1.3;'><div style='margin-top: 0.7em;'><div style='font-size: 1.6em; font-weight: bold; color: #F05020;'>2nd: Vouchers</div><div style='font-size: 1.3em; color: #ccc; margin-top: 0.3em;'>at <em>Interni Moda Bagno</em> &mdash; worth &euro;50 each</div></div><div style='margin-top: 0.7em;'><div style='font-size: 1.6em; font-weight: bold; color: #F05020;'>1st: Complimentary Table</div><div style='font-size: 1.3em; color: #ccc; margin-top: 0.3em;'>the full cost of your evening covered &mdash; tickets, food &amp; drinks!</div><div style='font-size: 1.3em; color: #ccc; margin-top: 0.3em;'><strong>+ 2 complimentary sandwich platters</strong> by <em>Misfit Union Catering</em> &mdash; worth &euro;70</div></div></div>"
     },
     {
       "id": "final-1st-team",
       "type": "info",
+      "title": "Tie for 1st Place!",
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.4em;'><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>CURLY WURLIES</div><div style='font-size: 1.15em; font-weight: bold; color: #F05020; margin-top: 0.15em;'>Quizteama Aguilera</div><div style='font-size: 0.8em; margin-top: 0.5em; color: #888;'>82 points</div><div style='font-size: 0.9em; margin-top: 0.6em; font-weight: bold; color: #FFFFFF;'>Sudden death tiebreaker!</div></div>"
+    },
+    {
+      "id": "final-1st-winner",
+      "type": "info",
       "title": "1st Place",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
+      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 0.4em;'><div style='font-size: 1.9em; font-weight: bold; color: #F05020;'>CURLY WURLIES</div><div style='font-size: 0.8em; margin-top: 0.5em; color: #888;'>82 points &middot; won the sudden death</div></div>"
     },
     {
       "id": "final-rest-1",
       "type": "info",
-      "title": "Positions 6&ndash;9",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
+      "title": "Positions 8&ndash;11",
+      "htmlContent": "<div style='text-align: center; font-size: 2.5em; line-height: 1.55; color: #ddd;'><div>8. Lady &amp; The Tramps &middot; 75</div><div>9. What&#x27;s the capital of Kuwait? &middot; 74</div><div>10. Se7en &middot; 72</div><div>11. The King of Queens &middot; 70</div></div>"
     },
     {
       "id": "final-rest-2",
       "type": "info",
-      "title": "Positions 10&ndash;13",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
+      "title": "Positions 12&ndash;17",
+      "htmlContent": "<div style='text-align: center; font-size: 2.5em; line-height: 1.55; color: #ddd;'><div>12= Aragorn&#x27;s Broken Toe &middot; 69</div><div>12= WHAT HAVE THE ROMANS GIVEN US? &middot; 69</div><div>12= Quizulicious &middot; 69</div><div>12= Better late than clever &middot; 69</div><div>16. The Witches &middot; 68</div><div>17. 3 Olives &amp; 1 Tomato &middot; 67</div></div>"
     },
     {
       "id": "final-rest-3",
       "type": "info",
-      "title": "Positions 14&ndash;17",
-      "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
+      "title": "Positions 25&ndash;32",
+      "htmlContent": "<div style='text-align: center; font-size: 2.5em; line-height: 1.55; color: #ddd;'><div>25. To Soi &middot; 55</div><div>26. Kachow!! &middot; 53</div><div>27= Omorfosogo &middot; 52</div><div>27= KOUTOUROU &middot; 52</div><div>29. Para Pente &middot; 42</div><div>30. Wine Wallopers &middot; 34</div><div>31. The Geordies &middot; 32</div><div>32. SEM&#x27;S (table 28) &middot; 27</div></div>"
+    },
+    {
+      "id": "final-rest-4",
+      "type": "info",
+      "title": "Positions 25&ndash;32",
+      "htmlContent": "<div style='text-align: center; font-size: 2.5em; line-height: 1.55; color: #ddd;'><div>25. To Soi &middot; 55</div><div>26. Kachow!! &middot; 53</div><div>27= Omorfosogo &middot; 52</div><div>27= KOUTOUROU &middot; 52</div><div>29. Para Pente &middot; 42</div><div>30. Wine Wallopers &middot; 34</div><div>31. The Geordies &middot; 32</div><div>32. SEM&#x27;S (table 28) &middot; 27</div></div>"
     },
     {
       "id": "final-end",

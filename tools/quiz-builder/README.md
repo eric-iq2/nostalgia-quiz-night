@@ -18,3 +18,10 @@ cd tools/quiz-builder && python3 build_config.py   # writes ../../quiz-config.js
   - prize line on the final reveal slides at 2.6em
 
 For the next quiz: copy the current `quiz-config.json` to a new template, swap in the new content in `rounds.py` / `mc.json`, and pick a new `THEME`.
+
+## On the night
+
+- **Scores:** `python3 sheet_scores.py half` (or `final`) copies team names and totals from the sheet's SCORES tab into `rounds.py` (`HALFTIME` / `FINAL`). It needs the service-account key and `google-api-python-client`. The builder ranks teams competition-style (1=, 1=, 3…). Tied teams share one reveal slide, and position lists never split a tie across slides.
+- **Ties on prize places:** each gets a "Tie for Nth Place! / Sudden death tiebreaker!" slide, and the host runs the sudden death live. Put the winners in `TIE_WINNERS` (rank → team) to add an "Nth Place: winner" slide after each tie.
+- **Resume mid-show:** `START_FROM=halftime python3 build_config.py` (or `=grading`, `=final-1st-winner`, …) drops every slide before that id, so a reload opens there. Run again without it to restore the full show.
+- **Charity slide:** `CHARITY` in `rounds.py`. It's a white full-slide panel with a photo, shown before the prizes.

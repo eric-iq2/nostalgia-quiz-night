@@ -2,3 +2,4 @@
 *.bak
 media/*-full.mp3
 media/*-full.mp4
+__pycache__/

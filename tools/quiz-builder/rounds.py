@@ -8,8 +8,19 @@ PRIZES = [
     ("Vouchers", "for <em>Pantheon Cinema</em> &mdash; worth &euro;10 each"),
     ("Vouchers", "for <em>Ella Music House</em> &mdash; worth &euro;15 each"),
     ("Vouchers", "at <em>Interni Moda Bagno</em> &mdash; worth &euro;50 each"),
-    ("Complimentary Table", "the full cost of your evening covered &mdash;<br>tickets, food &amp; drinks!"),
+    ("Complimentary Table", "the full cost of your evening covered &mdash;<br>tickets, food &amp; drinks!<br><br><strong>+ 2 complimentary sandwich platters</strong><br>by <em>Misfit Union Catering</em> &mdash; worth &euro;70"),
 ]
+
+# Charity slide shown before the prizes (2026-10-16): Quiz #7 is a fundraiser for Voice for Autism.
+# White background so the cafe photo sits cleanly; image from voiceforautism.org/the-cafe/
+CHARITY = {
+    "image": "media/voice-for-autism-cafe.jpg",
+    "heading": "Tonight, all net proceeds go to Voice for Autism",
+    "lines": [  # the thank-you is said by Chris, the host, so it's not on the slide
+        "Visit the <strong>True Heart Cafe</strong> in downtown Nicosia, Cyprus&rsquo; first social enterprise "
+        "giving young people with autism real jobs and training. Every coffee helps!",
+    ],
+}
 
 ARTIST_TITLE_MV = [("Name the artist", 1), ("Name the title", 1)]
 
@@ -79,3 +90,78 @@ R6 = [
     {"parts": MOVIE, "answer": "Mrs. Doubtfire", "note": "(1993) Robin Williams"},
     {"parts": MOVIE, "answer": "Ghost", "note": "(1990) Patrick Swayze &amp; Demi Moore"},
 ]
+
+
+# Half-time scores (R1+R2+R3) from the '#7 SCORES' tab, 2026-10-16. Sheet order; the builder ranks them.
+HALFTIME = [  # from the '#7 SCORES' tab via sheet_scores.py
+    ('Se7en', 40),
+    ('QUIZARD OF OZ', 41),
+    ('3 Olives & 1 Tomato', 33),
+    ('Wine Wallopers', 17),
+    ('The King of Queens', 38),
+    ('The Fredibles', 34),
+    ('CURLY WURLIES', 42),
+    ('The Geordies', 18),
+    ('Omorfosogo', 29),
+    ('The Ellen Show', 41),
+    ("Aragorn's Broken Toe", 42),
+    ('Quizteama Aguilera', 42),
+    ('WHAT HAVE THE ROMANS GIVEN US?', 35),
+    ('Kachow!!', 27),
+    ('KOUTOUROU', 22),
+    ('Psorokatti', 38),
+    ('Only Football Fans', 28),
+    ('THE 4-GETFULLS', 33),
+    ("What's the capital of Kuwait?", 34),
+    ('Para Pente', 21),
+    ('Quizulicious', 35),
+    ('FRIDAY FREAKS (FFS)', 34),
+    ('Attack on Braincells', 41),
+    ('Better late than clever', 34),
+    ("Man Bite's Dog", 37),
+    ('Mahale-ballz', 31),
+    ('Tequila Mockingbird', 33),
+    ('The Witches', 32),
+    ('Lady & The Tramps', 36),
+    ("SEM'S (table 28)", 13),
+    ('30s', 35),
+    ('To Soi', 27),
+]
+
+FINAL = [  # from the '#7 SCORES' tab via sheet_scores.py
+    ('Se7en', 72),
+    ('QUIZARD OF OZ', 79),
+    ('3 Olives & 1 Tomato', 67),
+    ('Wine Wallopers', 34),
+    ('The King of Queens', 70),
+    ('The Fredibles', 64),
+    ('CURLY WURLIES', 82),
+    ('The Geordies', 32),
+    ('Omorfosogo', 52),
+    ('The Ellen Show', 77),
+    ("Aragorn's Broken Toe", 69),
+    ('Quizteama Aguilera', 82),
+    ('WHAT HAVE THE ROMANS GIVEN US?', 69),
+    ('Kachow!!', 53),
+    ('KOUTOUROU', 52),
+    ('Psorokatti', 77),
+    ('Only Football Fans', 57),
+    ('THE 4-GETFULLS', 63),
+    ("What's the capital of Kuwait?", 74),
+    ('Para Pente', 42),
+    ('Quizulicious', 69),
+    ('FRIDAY FREAKS (FFS)', 66),
+    ('Attack on Braincells', 79),
+    ('Better late than clever', 69),
+    ("Man Bite's Dog", 77),
+    ('Mahale-ballz', 66),
+    ('Tequila Mockingbird', 60),
+    ('The Witches', 68),
+    ('Lady & The Tramps', 75),
+    ("SEM'S (table 28)", 27),
+    ('30s', 64),
+    ('To Soi', 55),
+]
+
+# Sudden-death winners decided live on the night (rank of the tie -> winning team)
+TIE_WINNERS = {1: "CURLY WURLIES", 3: "Attack on Braincells", 5: "Man Bite's Dog"}
