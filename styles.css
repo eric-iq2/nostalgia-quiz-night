@@ -701,6 +701,7 @@ body {
     font-weight: normal;
     margin-left: 0.35em;
     letter-spacing: 0.01em;
+    white-space: nowrap;
 }
 
 /* ===== Quiz #7: green neon-brick wall (from the 2026 green poster) =====

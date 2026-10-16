@@ -30,105 +30,328 @@
       "id": "prize-5",
       "type": "info",
       "title": "Prize #5",
-      "htmlContent": "<div class='prize-single'><h2>TBC</h2><p class='prize-subtext'></p></div>"
+      "htmlContent": "<div class='prize-single'><h2>Wine Bottles</h2></div>"
     },
     {
       "id": "prize-4",
       "type": "info",
       "title": "Prize #4",
-      "htmlContent": "<div class='prize-single'><h2>TBC</h2><p class='prize-subtext'></p></div>"
+      "htmlContent": "<div class='prize-single'><h2>Vouchers</h2><p class='prize-subtext'>for <em>Pantheon Cinema</em> &mdash; worth &euro;10 each</p></div>"
     },
     {
       "id": "prize-3",
       "type": "info",
       "title": "Prize #3",
-      "htmlContent": "<div class='prize-single'><h2>TBC</h2><p class='prize-subtext'></p></div>"
+      "htmlContent": "<div class='prize-single'><h2>Vouchers</h2><p class='prize-subtext'>for <em>Ella Music House</em> &mdash; worth &euro;15 each</p></div>"
     },
     {
       "id": "prize-2",
       "type": "info",
       "title": "Prize #2",
-      "htmlContent": "<div class='prize-single'><h2>TBC</h2><p class='prize-subtext'></p></div>"
+      "htmlContent": "<div class='prize-single'><h2>Vouchers</h2><p class='prize-subtext'>at <em>Interni Moda Bagno</em> &mdash; worth &euro;50 each</p></div>"
     },
     {
       "id": "prize-1",
       "type": "info",
       "title": "Prize #1",
-      "htmlContent": "<div class='prize-single'><h2>TBC</h2><p class='prize-subtext'></p></div>"
+      "htmlContent": "<div class='prize-single'><h2>Complimentary Table</h2><p class='prize-subtext'>the full cost of your evening covered &mdash;<br>tickets, food &amp; drinks!</p></div>"
     },
     {
-      "id": "r1-todo",
+      "id": "round1-intro",
+      "type": "round-intro",
+      "round": 1,
+      "title": "Round 1",
+      "subtitle": "(multiple choice)",
+      "instructions": "Make sure you&rsquo;ve written your team name on the answer sheet!"
+    },
+    {
+      "id": "r1-q1",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 1,
+      "questionText": "<p>Which Spanish duo released the worldwide hit ‘Macarena’ in 1993?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Gipsy Kings",
+        "Los del Río",
+        "Enrique Iglesias",
+        "Ricky Martin"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q2",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 2,
+      "questionText": "<p>Which 1964 film starring Anthony Quinn made the ‘Sirtaki’ dance world-famous?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Zorba the Greek",
+        "Never on Sunday",
+        "Topkapi",
+        "The Guns of Navarone"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q3",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 3,
+      "questionText": "<p>Which female band sang ‘Independent Women’ for the ‘Charlie’s Angels’ soundtrack?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "TLC",
+        "En Vogue",
+        "Destiny’s Child",
+        "Salt-N-Pepa"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q4",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 4,
+      "questionText": "<p>What is the nickname of Sonic the Hedgehog’s two-tailed fox sidekick?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Knuckles",
+        "Shadow",
+        "Tails",
+        "Amy"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q5",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 5,
+      "questionText": "<p>Which singer represented Greece at Eurovision in both 2004 and 2009?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Antonis Remos",
+        "Giorgos Mazonakis",
+        "Anna Vissi",
+        "Sakis Rouvas"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q6",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 6,
+      "questionText": "<p>On Sept. 11, 2001, Michael Jackson reportedly had a morning meeting in NYC, but he overslept! Where was it?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "The Pentagon",
+        "Empire State Building",
+        "The White House",
+        "One of the Twin Towers"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q7",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 7,
+      "questionText": "<p>The Rubik’s Cube was invented in 1974 by an architect from which country?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Hungary",
+        "Czechoslovakia",
+        "Poland",
+        "Cyprus"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q8",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 8,
+      "questionText": "<p>In which year was the first Apple iPhone released?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "2000",
+        "2003",
+        "2005",
+        "2007"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q9",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 9,
+      "questionText": "<p>In the 1998 movie ‘The Big Lebowski’, what is Walter’s constant justification for his aggression?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "His job",
+        "His religion",
+        "His time in Vietnam",
+        "Shut Up, Donny"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-q10",
+      "type": "question-mcq",
+      "round": 1,
+      "questionNumber": 10,
+      "questionText": "<p>What is the name of the cafe in Nicosia that ‘Voice For Autism’ NGO established in 2026, which is the first social enterprise that employs 18 people with disabilities?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Blue Heart Cafe",
+        "White Heart Cafe",
+        "Big Heart Cafe",
+        "True Heart Cafe"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r1-collection",
       "type": "info",
-      "title": "⚠ Round 1 — multiple-choice questions not added yet",
-      "subtitle": "Placeholder: this slide must not appear on the night"
+      "title": "End of Round 1",
+      "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
+    },
+    {
+      "id": "r1-answers-intro",
+      "type": "info",
+      "title": "Answers of Round 1"
+    },
+    {
+      "id": "r1-a1",
+      "type": "answer",
+      "questionRefId": "r1-q1",
+      "title": "Answer"
+    },
+    {
+      "id": "r1-a2",
+      "type": "answer",
+      "questionRefId": "r1-q2",
+      "title": "Answer"
+    },
+    {
+      "id": "r1-a3",
+      "type": "answer",
+      "questionRefId": "r1-q3",
+      "title": "Answer"
+    },
+    {
+      "id": "r1-a4",
+      "type": "answer",
+      "questionRefId": "r1-q4",
+      "title": "Answer"
+    },
+    {
+      "id": "r1-a5",
+      "type": "answer",
+      "questionRefId": "r1-q5",
+      "title": "Answer"
+    },
+    {
+      "id": "r1-a6",
+      "type": "answer",
+      "questionRefId": "r1-q6",
+      "title": "Answer"
+    },
+    {
+      "id": "r1-a7",
+      "type": "answer",
+      "questionRefId": "r1-q7",
+      "title": "Answer"
+    },
+    {
+      "id": "r1-a8",
+      "type": "answer",
+      "questionRefId": "r1-q8",
+      "title": "Answer"
+    },
+    {
+      "id": "r1-a9",
+      "type": "answer",
+      "questionRefId": "r1-q9",
+      "title": "Answer"
+    },
+    {
+      "id": "r1-a10",
+      "type": "answer",
+      "questionRefId": "r1-q10",
+      "title": "Answer"
     },
     {
       "id": "round2-intro",
       "type": "round-intro",
       "round": 2,
       "title": "Round 2",
-      "subtitle": "(sounds round)",
-      "instructions": "Listen to each sound — name the song, show, movie, advert, or item you hear."
+      "subtitle": "(sounds)",
+      "instructions": "Listen to each sound — name the song, show, movie, advert, or item you hear"
     },
     {
       "id": "r2-q1",
       "type": "question-audio",
       "round": 2,
       "questionNumber": 1,
-      "questionText": "<p>Name the movie<br /><span class=\"q-point\">(1 point)</span></p><p>Name the narrator<br /><span class=\"q-point\">(1 point)</span></p>",
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
       "audioSrc": "media/r2-q1.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "The Shawshank Redemption — Morgan Freeman<br /><span class=\"answer-note\">(1994)</span>"
+      "correctAnswerText": "Marvin Gaye — ‘Sexual Healing’<br /><span class=\"answer-note\">1982</span>"
     },
     {
       "id": "r2-q2",
       "type": "question-audio",
       "round": 2,
       "questionNumber": 2,
-      "questionText": "<p>Name the sound<br /><span class=\"q-point\">(2 points)</span></p>",
+      "questionText": "<p>Name the sound <span class=\"q-warn\">(be specific)</span><br /><span class=\"q-point\">(2 points)</span></p>",
       "audioSrc": "media/r2-q2.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "Dial-up internet modem connecting<br /><span class=\"answer-note\">56k modem, 1990s</span>"
+      "correctAnswerText": "Windows XP + shutting down<br /><span class=\"answer-note\">(2001) Microsoft Windows XP shutdown sound</span>"
     },
     {
       "id": "r2-q3",
       "type": "question-audio",
       "round": 2,
       "questionNumber": 3,
-      "questionText": "<p>Name the movie<br /><span class=\"q-point\">(2 points)</span></p>",
+      "questionText": "<p>Name the movie<br /><span class=\"q-point\">(1 point)</span></p><p>Name the song<br /><span class=\"q-point\">(1 point)</span></p>",
       "audioSrc": "media/r2-q3.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "Rocky<br /><span class=\"answer-note\">(1976) ‘Gonna Fly Now’ by Bill Conti</span>"
+      "correctAnswerText": "Rocky — ‘Gonna Fly Now’<br /><span class=\"answer-note\">(1976)</span>"
     },
     {
       "id": "r2-q4",
       "type": "question-audio",
       "round": 2,
       "questionNumber": 4,
-      "questionText": "<p>Name the video game<br /><span class=\"q-point\">(2 points)</span></p>",
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
       "audioSrc": "media/r2-q4.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "World of Warcraft<br /><span class=\"answer-note\">(2004) login screen music, ‘Legends of Azeroth’</span>"
+      "correctAnswerText": "Macklemore &amp; Ryan Lewis — ‘Thrift Shop’<br /><span class=\"answer-note\">2012</span>"
     },
     {
       "id": "r2-q5",
       "type": "question-audio",
       "round": 2,
       "questionNumber": 5,
-      "questionText": "<p>Name the sound<br /><span class=\"q-point\">(2 points)</span></p>",
+      "questionText": "<p>Name the video game<br /><span class=\"q-point\">(2 points)</span></p>",
       "audioSrc": "media/r2-q5.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "Windows XP shutting down<br /><span class=\"answer-note\">(2001) Microsoft Windows XP shutdown sound</span>"
+      "correctAnswerText": "World of Warcraft<br /><span class=\"answer-note\">(2004) login screen music, ‘Legends of Azeroth’</span>"
     },
     {
       "id": "r2-q6",
       "type": "question-audio",
       "round": 2,
       "questionNumber": 6,
-      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "questionText": "<p>Name the movie<br /><span class=\"q-point\">(1 point)</span></p><p>Name the narrator<br /><span class=\"q-point\">(1 point)</span></p>",
       "audioSrc": "media/r2-q6.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "The Beatles — ‘When I’m Sixty-Four’<br /><span class=\"answer-note\">1967</span>"
+      "correctAnswerText": "The Shawshank Redemption — Morgan Freeman<br /><span class=\"answer-note\">(1994)</span>"
     },
     {
       "id": "r2-q7",
@@ -138,17 +361,17 @@
       "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
       "audioSrc": "media/r2-q7.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "Marvin Gaye — ‘Sexual Healing’<br /><span class=\"answer-note\">1982</span>"
+      "correctAnswerText": "The Beatles — ‘When I’m Sixty-Four’<br /><span class=\"answer-note\">1967</span>"
     },
     {
       "id": "r2-q8",
       "type": "question-audio",
       "round": 2,
       "questionNumber": 8,
-      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "questionText": "<p>Name the sound<br /><span class=\"q-point\">(2 points)</span></p>",
       "audioSrc": "media/r2-q8.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "Nina Simone — ‘My Baby Just Cares for Me’<br /><span class=\"answer-note\">1958 (a hit again in 1987 thanks to a Chanel No. 5 advert)</span>"
+      "correctAnswerText": "Dial-up internet modem<br /><span class=\"answer-note\">56k modem, 1990s</span>"
     },
     {
       "id": "r2-q9",
@@ -158,7 +381,7 @@
       "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
       "audioSrc": "media/r2-q9.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "Macklemore &amp; Ryan Lewis — ‘Thrift Shop’<br /><span class=\"answer-note\">2012</span>"
+      "correctAnswerText": "Nina Simone — ‘My Baby Just Cares for Me’<br /><span class=\"answer-note\">1958</span>"
     },
     {
       "id": "r2-q10",
@@ -168,7 +391,7 @@
       "questionText": "<p>Name the TV show<br /><span class=\"q-point\">(2 points)</span></p>",
       "audioSrc": "media/r2-q10.mp3",
       "timerSeconds": 30,
-      "correctAnswerText": "Family Matters<br /><span class=\"answer-note\">(1989–1998) theme ‘As Days Go By’</span>"
+      "correctAnswerText": "Family Matters<br /><span class=\"answer-note\">(1989–1998)</span>"
     },
     {
       "id": "r2-collection",
@@ -242,16 +465,298 @@
       "title": "Answer"
     },
     {
-      "id": "r3-todo",
+      "id": "round3-intro",
+      "type": "round-intro",
+      "round": 3,
+      "title": "Round 3",
+      "subtitle": "(music videos)",
+      "instructions": "Watch each clip and name the artist and song"
+    },
+    {
+      "id": "r3-q1-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 1,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r3-q1-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q1.mp4"
+    },
+    {
+      "id": "r3-q1-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 1,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "timerSeconds": 30,
+      "correctAnswerText": "The Buggles — ‘Video Killed the Radio Star’<br /><span class=\"answer-note\">1979 (the first video ever played on MTV, 1981)</span>"
+    },
+    {
+      "id": "r3-q2-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 2,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r3-q2-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q2.mp4"
+    },
+    {
+      "id": "r3-q2-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 2,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "timerSeconds": 30,
+      "correctAnswerText": "Beastie Boys — ‘Sabotage’<br /><span class=\"answer-note\">1994, directed by Spike Jonze</span>"
+    },
+    {
+      "id": "r3-q3-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 3,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r3-q3-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q3.mp4"
+    },
+    {
+      "id": "r3-q3-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 3,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "timerSeconds": 30,
+      "correctAnswerText": "Sinéad O’Connor — ‘Nothing Compares 2 U’<br /><span class=\"answer-note\">1990, written by Prince</span>"
+    },
+    {
+      "id": "r3-q4-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 4,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r3-q4-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q4.mp4"
+    },
+    {
+      "id": "r3-q4-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 4,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "timerSeconds": 30,
+      "correctAnswerText": "Dire Straits — ‘Money for Nothing’<br /><span class=\"answer-note\">1985</span>"
+    },
+    {
+      "id": "r3-q5-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 5,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r3-q5-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q5.mp4"
+    },
+    {
+      "id": "r3-q5-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 5,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "timerSeconds": 30,
+      "correctAnswerText": "Jamiroquai — ‘Virtual Insanity’<br /><span class=\"answer-note\">1996</span>"
+    },
+    {
+      "id": "r3-q6-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 6,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r3-q6-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q6.mp4"
+    },
+    {
+      "id": "r3-q6-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 6,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "timerSeconds": 30,
+      "correctAnswerText": "Δέσποινα Βανδή (Despina Vandi) — ‘Γεια’ (‘Gia’)<br /><span class=\"answer-note\">2001</span>"
+    },
+    {
+      "id": "r3-q7-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 7,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r3-q7-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q7.mp4"
+    },
+    {
+      "id": "r3-q7-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 7,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "timerSeconds": 30,
+      "correctAnswerText": "Lady Gaga — ‘Bad Romance’<br /><span class=\"answer-note\">2009</span>"
+    },
+    {
+      "id": "r3-q8-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 8,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r3-q8-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q8.mp4"
+    },
+    {
+      "id": "r3-q8-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 8,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "timerSeconds": 30,
+      "correctAnswerText": "Katy Perry — ‘Roar’<br /><span class=\"answer-note\">2013</span>"
+    },
+    {
+      "id": "r3-q9-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 9,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r3-q9-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q9.mp4"
+    },
+    {
+      "id": "r3-q9-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 9,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "timerSeconds": 30,
+      "correctAnswerText": "Metallica — ‘I Disappear’<br /><span class=\"answer-note\">2000, from the Mission: Impossible 2 soundtrack</span>"
+    },
+    {
+      "id": "r3-q10-question",
+      "type": "video-clip",
+      "round": 3,
+      "questionNumber": 10,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r3-q10-play",
+      "type": "video-fullscreen",
+      "videoSrc": "media/r3-q10.mp4"
+    },
+    {
+      "id": "r3-q10-timer",
+      "type": "video-clip-timer",
+      "round": 3,
+      "questionNumber": 10,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the title<br /><span class=\"q-point\">(1 point)</span></p>",
+      "timerSeconds": 30,
+      "correctAnswerText": "George Michael — ‘Freedom! ’90’<br /><span class=\"answer-note\">1990, supermodels lip-syncing</span>"
+    },
+    {
+      "id": "r3-collection",
       "type": "info",
-      "title": "⚠ Round 3 — music videos not added yet",
-      "subtitle": "Placeholder: this slide must not appear on the night"
+      "title": "End of Round 3",
+      "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
+    },
+    {
+      "id": "r3-answers-intro",
+      "type": "info",
+      "title": "Answers of Round 3"
+    },
+    {
+      "id": "r3-a1",
+      "type": "answer",
+      "questionRefId": "r3-q1-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r3-a2",
+      "type": "answer",
+      "questionRefId": "r3-q2-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r3-a3",
+      "type": "answer",
+      "questionRefId": "r3-q3-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r3-a4",
+      "type": "answer",
+      "questionRefId": "r3-q4-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r3-a5",
+      "type": "answer",
+      "questionRefId": "r3-q5-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r3-a6",
+      "type": "answer",
+      "questionRefId": "r3-q6-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r3-a7",
+      "type": "answer",
+      "questionRefId": "r3-q7-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r3-a8",
+      "type": "answer",
+      "questionRefId": "r3-q8-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r3-a9",
+      "type": "answer",
+      "questionRefId": "r3-q9-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r3-a10",
+      "type": "answer",
+      "questionRefId": "r3-q10-timer",
+      "title": "Answer"
     },
     {
       "id": "halftime",
       "type": "info",
-      "title": "LONG BREAK",
-      "subtitle": "Half Time"
+      "title": "HALF TIME BREAK"
     },
     {
       "id": "halftime-intro",
@@ -308,24 +813,540 @@
       "htmlContent": "<div style='text-align: center; font-size: 3em; margin-top: 1em; color: #888;'>TBC</div>"
     },
     {
-      "id": "r4-todo",
-      "type": "info",
-      "title": "⚠ Round 4 — multiple-choice questions not added yet",
-      "subtitle": "Placeholder: this slide must not appear on the night"
+      "id": "round4-intro",
+      "type": "round-intro",
+      "round": 4,
+      "title": "Round 4",
+      "subtitle": "(multiple choice)",
+      "instructions": "Make sure you&rsquo;ve written your team name on the answer sheet!"
     },
     {
-      "id": "r5-todo",
+      "id": "r4-q1",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 1,
+      "questionText": "<p>Demis Roussos and Vangelis were both members of which Greek 60s/70s band?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Aphrodite’s Child",
+        "The Forminx",
+        "Socrates Drank the Conium",
+        "The Charms"
+      ],
+      "correctOptionIndex": 0,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q2",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 2,
+      "questionText": "<p>In ‘The Matrix’ (1999), which colour pill does Neo take?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Blue",
+        "Green",
+        "Red",
+        "White"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q3",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 3,
+      "questionText": "<p>In Pixar’s movie ‘Monsters, Inc.’, what was the main job of monsters Sulley and Mike?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Cleaning doors",
+        "Collecting screams",
+        "Guarding the gates of Monster World",
+        "Driving the school bus"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q4",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 4,
+      "questionText": "<p>Which romantic drama film starred Ryan Gosling and Rachel McAdams as young lovers?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "La La Land",
+        "A Walk to Remember",
+        "The Vow",
+        "The Notebook"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q5",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 5,
+      "questionText": "<p>Which feminine hygiene product ad campaign featured the phrase “Have a happy period”?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Tampax",
+        "Kotex",
+        "Always",
+        "Playtex"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q6",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 6,
+      "questionText": "<p>Queen’s Freddie Mercury was born on which island?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Madagascar",
+        "Zanzibar",
+        "Mauritius",
+        "Malta"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q7",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 7,
+      "questionText": "<p>In the TV show ‘The Sopranos’, what is the name of the strip club Tony runs his business from?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Satriale’s",
+        "Bada Bing!",
+        "Vesuvio",
+        "The Crazy Horse"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q8",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 8,
+      "questionText": "<p>Who became the first human in space in 1961?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Neil Armstrong",
+        "John Glenn",
+        "Alan Shepard",
+        "Yuri Gagarin"
+      ],
+      "correctOptionIndex": 3,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q9",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 9,
+      "questionText": "<p>In which year did Cyprus first compete in the Eurovision Song Contest?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "1974",
+        "1981",
+        "1986",
+        "1991"
+      ],
+      "correctOptionIndex": 1,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-q10",
+      "type": "question-mcq",
+      "round": 4,
+      "questionNumber": 10,
+      "questionText": "<p>Dolly the sheep, the first mammal cloned from an adult cell, was born in which country in 1996?<br /><span class=\"q-point\">(1 point)</span></p>",
+      "options": [
+        "Japan",
+        "Switzerland",
+        "Scotland",
+        "Cyprus"
+      ],
+      "correctOptionIndex": 2,
+      "timerSeconds": 30
+    },
+    {
+      "id": "r4-collection",
       "type": "info",
-      "title": "⚠ Round 5 — pictures not added yet",
-      "subtitle": "Placeholder: this slide must not appear on the night"
+      "title": "End of Round 4",
+      "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
+    },
+    {
+      "id": "r4-answers-intro",
+      "type": "info",
+      "title": "Answers of Round 4"
+    },
+    {
+      "id": "r4-a1",
+      "type": "answer",
+      "questionRefId": "r4-q1",
+      "title": "Answer"
+    },
+    {
+      "id": "r4-a2",
+      "type": "answer",
+      "questionRefId": "r4-q2",
+      "title": "Answer"
+    },
+    {
+      "id": "r4-a3",
+      "type": "answer",
+      "questionRefId": "r4-q3",
+      "title": "Answer"
+    },
+    {
+      "id": "r4-a4",
+      "type": "answer",
+      "questionRefId": "r4-q4",
+      "title": "Answer"
+    },
+    {
+      "id": "r4-a5",
+      "type": "answer",
+      "questionRefId": "r4-q5",
+      "title": "Answer"
+    },
+    {
+      "id": "r4-a6",
+      "type": "answer",
+      "questionRefId": "r4-q6",
+      "title": "Answer"
+    },
+    {
+      "id": "r4-a7",
+      "type": "answer",
+      "questionRefId": "r4-q7",
+      "title": "Answer"
+    },
+    {
+      "id": "r4-a8",
+      "type": "answer",
+      "questionRefId": "r4-q8",
+      "title": "Answer"
+    },
+    {
+      "id": "r4-a9",
+      "type": "answer",
+      "questionRefId": "r4-q9",
+      "title": "Answer"
+    },
+    {
+      "id": "r4-a10",
+      "type": "answer",
+      "questionRefId": "r4-q10",
+      "title": "Answer"
+    },
+    {
+      "id": "round5-intro",
+      "type": "round-intro",
+      "round": 5,
+      "title": "Round 5",
+      "subtitle": "(album covers)",
+      "instructions": "Name the artist and the album for each cover"
+    },
+    {
+      "id": "r5-q1-question",
+      "type": "picture-question",
+      "round": 5,
+      "questionNumber": 1,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r5-q1-show",
+      "type": "picture-fullscreen",
+      "image": "media/r5-q1.jpg"
+    },
+    {
+      "id": "r5-q1-timer",
+      "type": "picture-timer",
+      "round": 5,
+      "questionNumber": 1,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>",
+      "image": "media/r5-q1.jpg",
+      "timerSeconds": 30,
+      "correctAnswerText": "Moby — ‘Play’<br /><span class=\"answer-note\">1999</span>"
+    },
+    {
+      "id": "r5-q2-question",
+      "type": "picture-question",
+      "round": 5,
+      "questionNumber": 2,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r5-q2-show",
+      "type": "picture-fullscreen",
+      "image": "media/r5-q2.jpg"
+    },
+    {
+      "id": "r5-q2-timer",
+      "type": "picture-timer",
+      "round": 5,
+      "questionNumber": 2,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>",
+      "image": "media/r5-q2.jpg",
+      "timerSeconds": 30,
+      "correctAnswerText": "Rihanna — ‘Good Girl Gone Bad’<br /><span class=\"answer-note\">2007</span>"
+    },
+    {
+      "id": "r5-q3-question",
+      "type": "picture-question",
+      "round": 5,
+      "questionNumber": 3,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r5-q3-show",
+      "type": "picture-fullscreen",
+      "image": "media/r5-q3.jpg"
+    },
+    {
+      "id": "r5-q3-timer",
+      "type": "picture-timer",
+      "round": 5,
+      "questionNumber": 3,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>",
+      "image": "media/r5-q3.jpg",
+      "timerSeconds": 30,
+      "correctAnswerText": "Oasis — ‘Definitely Maybe’<br /><span class=\"answer-note\">1994</span>"
+    },
+    {
+      "id": "r5-q4-question",
+      "type": "picture-question",
+      "round": 5,
+      "questionNumber": 4,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r5-q4-show",
+      "type": "picture-fullscreen",
+      "image": "media/r5-q4.jpg"
+    },
+    {
+      "id": "r5-q4-timer",
+      "type": "picture-timer",
+      "round": 5,
+      "questionNumber": 4,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>",
+      "image": "media/r5-q4.jpg",
+      "timerSeconds": 30,
+      "correctAnswerText": "The Beatles — ‘Revolver’<br /><span class=\"answer-note\">1966</span>"
+    },
+    {
+      "id": "r5-q5-question",
+      "type": "picture-question",
+      "round": 5,
+      "questionNumber": 5,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r5-q5-show",
+      "type": "picture-fullscreen",
+      "image": "media/r5-q5.jpg"
+    },
+    {
+      "id": "r5-q5-timer",
+      "type": "picture-timer",
+      "round": 5,
+      "questionNumber": 5,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>",
+      "image": "media/r5-q5.jpg",
+      "timerSeconds": 30,
+      "correctAnswerText": "Coldplay — ‘Parachutes’<br /><span class=\"answer-note\">2000</span>"
+    },
+    {
+      "id": "r5-q6-question",
+      "type": "picture-question",
+      "round": 5,
+      "questionNumber": 6,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r5-q6-show",
+      "type": "picture-fullscreen",
+      "image": "media/r5-q6.jpg"
+    },
+    {
+      "id": "r5-q6-timer",
+      "type": "picture-timer",
+      "round": 5,
+      "questionNumber": 6,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>",
+      "image": "media/r5-q6.jpg",
+      "timerSeconds": 30,
+      "correctAnswerText": "Taylor Swift — ‘Fearless’<br /><span class=\"answer-note\">2008</span>"
+    },
+    {
+      "id": "r5-q7-question",
+      "type": "picture-question",
+      "round": 5,
+      "questionNumber": 7,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r5-q7-show",
+      "type": "picture-fullscreen",
+      "image": "media/r5-q7.jpg"
+    },
+    {
+      "id": "r5-q7-timer",
+      "type": "picture-timer",
+      "round": 5,
+      "questionNumber": 7,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>",
+      "image": "media/r5-q7.jpg",
+      "timerSeconds": 30,
+      "correctAnswerText": "Alanis Morissette — ‘Jagged Little Pill’<br /><span class=\"answer-note\">1995</span>"
+    },
+    {
+      "id": "r5-q8-question",
+      "type": "picture-question",
+      "round": 5,
+      "questionNumber": 8,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r5-q8-show",
+      "type": "picture-fullscreen",
+      "image": "media/r5-q8.jpg"
+    },
+    {
+      "id": "r5-q8-timer",
+      "type": "picture-timer",
+      "round": 5,
+      "questionNumber": 8,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>",
+      "image": "media/r5-q8.jpg",
+      "timerSeconds": 30,
+      "correctAnswerText": "U2 — ‘The Joshua Tree’<br /><span class=\"answer-note\">1987</span>"
+    },
+    {
+      "id": "r5-q9-question",
+      "type": "picture-question",
+      "round": 5,
+      "questionNumber": 9,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r5-q9-show",
+      "type": "picture-fullscreen",
+      "image": "media/r5-q9.jpg"
+    },
+    {
+      "id": "r5-q9-timer",
+      "type": "picture-timer",
+      "round": 5,
+      "questionNumber": 9,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>",
+      "image": "media/r5-q9.jpg",
+      "timerSeconds": 30,
+      "correctAnswerText": "Gorillaz — ‘Demon Days’<br /><span class=\"answer-note\">2005</span>"
+    },
+    {
+      "id": "r5-q10-question",
+      "type": "picture-question",
+      "round": 5,
+      "questionNumber": 10,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>"
+    },
+    {
+      "id": "r5-q10-show",
+      "type": "picture-fullscreen",
+      "image": "media/r5-q10.jpg"
+    },
+    {
+      "id": "r5-q10-timer",
+      "type": "picture-timer",
+      "round": 5,
+      "questionNumber": 10,
+      "questionText": "<p>Name the artist<br /><span class=\"q-point\">(1 point)</span></p><p>Name the album<br /><span class=\"q-point\">(1 point)</span></p>",
+      "image": "media/r5-q10.jpg",
+      "timerSeconds": 30,
+      "correctAnswerText": "Iron Maiden — ‘Best of the Beast’<br /><span class=\"answer-note\">1996</span>"
+    },
+    {
+      "id": "r5-collection",
+      "type": "info",
+      "title": "End of Round 5",
+      "subtitle": "Please complete your answers as we will pass by to gather them all right now!"
+    },
+    {
+      "id": "r5-answers-intro",
+      "type": "info",
+      "title": "Answers of Round 5"
+    },
+    {
+      "id": "r5-a1",
+      "type": "answer",
+      "questionRefId": "r5-q1-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r5-a2",
+      "type": "answer",
+      "questionRefId": "r5-q2-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r5-a3",
+      "type": "answer",
+      "questionRefId": "r5-q3-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r5-a4",
+      "type": "answer",
+      "questionRefId": "r5-q4-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r5-a5",
+      "type": "answer",
+      "questionRefId": "r5-q5-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r5-a6",
+      "type": "answer",
+      "questionRefId": "r5-q6-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r5-a7",
+      "type": "answer",
+      "questionRefId": "r5-q7-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r5-a8",
+      "type": "answer",
+      "questionRefId": "r5-q8-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r5-a9",
+      "type": "answer",
+      "questionRefId": "r5-q9-timer",
+      "title": "Answer"
+    },
+    {
+      "id": "r5-a10",
+      "type": "answer",
+      "questionRefId": "r5-q10-timer",
+      "title": "Answer"
     },
     {
       "id": "round6-intro",
       "type": "round-intro",
       "round": 6,
       "title": "Round 6",
-      "subtitle": "(video round)",
-      "instructions": "Watch each clip and name the movie."
+      "subtitle": "(video)",
+      "instructions": "Watch each clip and name the movie"
     },
     {
       "id": "r6-q1-question",
@@ -619,7 +1640,7 @@
       "id": "final-5th-place",
       "type": "info",
       "title": "5th Place",
-      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #F05020; margin-top: 0.5em;'>Prize: TBC</div></div>"
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 2.6em; font-weight: bold; color: #F05020; margin-top: 0.5em;'>Prize: Wine Bottles</div></div>"
     },
     {
       "id": "final-5th-team",
@@ -631,7 +1652,7 @@
       "id": "final-4th-place",
       "type": "info",
       "title": "4th Place",
-      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #F05020; margin-top: 0.5em;'>Prize: TBC</div></div>"
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 2.6em; font-weight: bold; color: #F05020; margin-top: 0.5em;'>Prize: Vouchers</div><div style='font-size: 1.3em; color: #bbb; margin-top: 0.4em;'>for <em>Pantheon Cinema</em> &mdash; worth &euro;10 each</div></div>"
     },
     {
       "id": "final-4th-team",
@@ -643,7 +1664,7 @@
       "id": "final-3rd-place",
       "type": "info",
       "title": "3rd Place",
-      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #F05020; margin-top: 0.5em;'>Prize: TBC</div></div>"
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 2.6em; font-weight: bold; color: #F05020; margin-top: 0.5em;'>Prize: Vouchers</div><div style='font-size: 1.3em; color: #bbb; margin-top: 0.4em;'>for <em>Ella Music House</em> &mdash; worth &euro;15 each</div></div>"
     },
     {
       "id": "final-3rd-team",
@@ -655,7 +1676,7 @@
       "id": "final-2nd-place",
       "type": "info",
       "title": "2nd Place",
-      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #F05020; margin-top: 0.5em;'>Prize: TBC</div></div>"
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 2.6em; font-weight: bold; color: #F05020; margin-top: 0.5em;'>Prize: Vouchers</div><div style='font-size: 1.3em; color: #bbb; margin-top: 0.4em;'>at <em>Interni Moda Bagno</em> &mdash; worth &euro;50 each</div></div>"
     },
     {
       "id": "final-2nd-team",
@@ -667,7 +1688,7 @@
       "id": "final-1st-place",
       "type": "info",
       "title": "1st Place",
-      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 1.2em; color: #F05020; margin-top: 0.5em;'>Prize: TBC</div></div>"
+      "htmlContent": "<div style='text-align: center; margin-top: 1em;'><div style='font-size: 2.6em; font-weight: bold; color: #F05020; margin-top: 0.5em;'>Prize: Complimentary Table</div><div style='font-size: 1.3em; color: #bbb; margin-top: 0.4em;'>the full cost of your evening covered &mdash; tickets, food &amp; drinks!</div></div>"
     },
     {
       "id": "final-1st-team",
