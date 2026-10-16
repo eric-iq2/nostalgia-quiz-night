@@ -1,0 +1,206 @@
+{
+ "R1": [
+  {
+   "q": "Which Spanish duo released the worldwide hit ‘Macarena’ in 1993?",
+   "options": [
+    "Gipsy Kings",
+    "Los del Río",
+    "Enrique Iglesias",
+    "Ricky Martin"
+   ],
+   "correct": 1
+  },
+  {
+   "q": "Which 1964 film starring Anthony Quinn made the ‘Sirtaki’ dance world-famous?",
+   "options": [
+    "Zorba the Greek",
+    "Never on Sunday",
+    "Topkapi",
+    "The Guns of Navarone"
+   ],
+   "correct": 0
+  },
+  {
+   "q": "Which female band sang ‘Independent Women’ for the ‘Charlie’s Angels’ soundtrack?",
+   "options": [
+    "TLC",
+    "En Vogue",
+    "Destiny’s Child",
+    "Salt-N-Pepa"
+   ],
+   "correct": 2
+  },
+  {
+   "q": "What is the nickname of Sonic the Hedgehog’s two-tailed fox sidekick?",
+   "options": [
+    "Knuckles",
+    "Shadow",
+    "Tails",
+    "Amy"
+   ],
+   "correct": 2
+  },
+  {
+   "q": "Which singer represented Greece at Eurovision in both 2004 and 2009?",
+   "options": [
+    "Antonis Remos",
+    "Giorgos Mazonakis",
+    "Anna Vissi",
+    "Sakis Rouvas"
+   ],
+   "correct": 3
+  },
+  {
+   "q": "On Sept. 11, 2001, Michael Jackson reportedly had a morning meeting in NYC, but he overslept! Where was it?",
+   "options": [
+    "The Pentagon",
+    "Empire State Building",
+    "The White House",
+    "One of the Twin Towers"
+   ],
+   "correct": 3
+  },
+  {
+   "q": "The Rubik’s Cube was invented in 1974 by an architect from which country?",
+   "options": [
+    "Hungary",
+    "Czechoslovakia",
+    "Poland",
+    "Cyprus"
+   ],
+   "correct": 0
+  },
+  {
+   "q": "In which year was the first Apple iPhone released?",
+   "options": [
+    "2000",
+    "2003",
+    "2005",
+    "2007"
+   ],
+   "correct": 3
+  },
+  {
+   "q": "In the 1998 movie ‘The Big Lebowski’, what is Walter’s constant justification for his aggression?",
+   "options": [
+    "His job",
+    "His religion",
+    "His time in Vietnam",
+    "Shut Up, Donny"
+   ],
+   "correct": 2
+  },
+  {
+   "q": "What is the name of the cafe in Nicosia that ‘Voice For Autism’ NGO established in 2026, which is the first social enterprise that employs 18 people with disabilities?",
+   "options": [
+    "Blue Heart Cafe",
+    "White Heart Cafe",
+    "Big Heart Cafe",
+    "True Heart Cafe"
+   ],
+   "correct": 3
+  }
+ ],
+ "R4": [
+  {
+   "q": "Demis Roussos and Vangelis were both members of which Greek 60s/70s band?",
+   "options": [
+    "Aphrodite’s Child",
+    "The Forminx",
+    "Socrates Drank the Conium",
+    "The Charms"
+   ],
+   "correct": 0
+  },
+  {
+   "q": "In ‘The Matrix’ (1999), which colour pill does Neo take?",
+   "options": [
+    "Blue",
+    "Green",
+    "Red",
+    "White"
+   ],
+   "correct": 2
+  },
+  {
+   "q": "In Pixar’s movie ‘Monsters, Inc.’, what was the main job of monsters Sulley and Mike?",
+   "options": [
+    "Cleaning doors",
+    "Collecting screams",
+    "Guarding the gates of Monster World",
+    "Driving the school bus"
+   ],
+   "correct": 1
+  },
+  {
+   "q": "Which romantic drama film starred Ryan Gosling and Rachel McAdams as young lovers?",
+   "options": [
+    "La La Land",
+    "A Walk to Remember",
+    "The Vow",
+    "The Notebook"
+   ],
+   "correct": 3
+  },
+  {
+   "q": "Which feminine hygiene product ad campaign featured the phrase “Have a happy period”?",
+   "options": [
+    "Tampax",
+    "Kotex",
+    "Always",
+    "Playtex"
+   ],
+   "correct": 2
+  },
+  {
+   "q": "Queen’s Freddie Mercury was born on which island?",
+   "options": [
+    "Madagascar",
+    "Zanzibar",
+    "Mauritius",
+    "Malta"
+   ],
+   "correct": 1
+  },
+  {
+   "q": "In the TV show ‘The Sopranos’, what is the name of the strip club Tony runs his business from?",
+   "options": [
+    "Satriale’s",
+    "Bada Bing!",
+    "Vesuvio",
+    "The Crazy Horse"
+   ],
+   "correct": 1
+  },
+  {
+   "q": "Who became the first human in space in 1961?",
+   "options": [
+    "Neil Armstrong",
+    "John Glenn",
+    "Alan Shepard",
+    "Yuri Gagarin"
+   ],
+   "correct": 3
+  },
+  {
+   "q": "In which year did Cyprus first compete in the Eurovision Song Contest?",
+   "options": [
+    "1974",
+    "1981",
+    "1986",
+    "1991"
+   ],
+   "correct": 1
+  },
+  {
+   "q": "Dolly the sheep, the first mammal cloned from an adult cell, was born in which country in 1996?",
+   "options": [
+    "Japan",
+    "Switzerland",
+    "Scotland",
+    "Cyprus"
+   ],
+   "correct": 2
+  }
+ ]
+}

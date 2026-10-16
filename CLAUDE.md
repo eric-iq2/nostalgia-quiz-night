@@ -19,7 +19,7 @@ Then open `http://localhost:8000` in Chrome. A local HTTP server is required to 
 This is a vanilla JavaScript slideshow application with three core files:
 
 - `index.html` - Static DOM structure with containers
-- `app.js` - All application logic (682 lines)
+- `app.js` - All application logic (~1020 lines)
 - `styles.css` - All styling
 - `quiz-config.json` - Quiz content (user creates from `quiz-config.example.json`)
 
@@ -44,8 +44,11 @@ The application uses a type-based renderer pattern:
 3. Routes to specific renderer based on `slide.type` via switch statement
 4. Each slide type has a dedicated renderer function (e.g., `renderQuestionMcq()`)
 
-**10 Slide Types**:
+**16 Slide Types**:
 - `welcome`, `round-intro`, `question-mcq`, `question-free-text`, `question-video`, `question-audio`, `answer`, `leaderboard`, `info`, `thank-you`
+- Media-round trio, used by Quizzes #6–#7 for pictures and videos: `picture-question` → `picture-fullscreen` → `picture-timer`, and `video-clip` → `video-fullscreen` → `video-clip-timer`. Answer slides for these point their `questionRefId` at the `*-timer` slide, which carries `correctAnswerText`.
+
+Line numbers quoted elsewhere in this file date from the 682-line version and are approximate. Search for the function name instead.
 
 ### Question Timer System
 
@@ -101,6 +104,10 @@ Question slides support optional `timerSeconds` override. MCQ options are always
 3. All answers grouped together (12 answer slides)
 4. "End of Round X" info slide
 5. Break slide (between rounds)
+
+## Building a quiz config
+
+`quiz-config.json` is generated, not hand-edited. See `tools/quiz-builder/README.md`: `python3 build_config.py` assembles the slides from `rounds.py` / `mc.json`, using the previous quiz's config as the template. Quiz #7's theme (green neon-brick) lives in the `THEME` dict plus a block at the end of `styles.css`: question slides stay black, while intro and reveal slides get `media/bg-green-brick.jpg`.
 
 ## Media Files
 
